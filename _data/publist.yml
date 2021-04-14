@@ -1,3 +1,38 @@
+
+- title: "SyncScatter: Enabling WiFi like synchronization and range for WiFi backscatter Communication"
+  image: syncscatter.png
+  description: "WiFi backscattering can enable direct connectivity of IoT devices with commodity WiFi hardware at low power. However, most existing work in this area has overlooked the importance of synchronization and have, as a result, accepted either limited range between the transmitter and the IoT device, reduced throughput via bit repetition, or both. In this paper, we present SyncScatter, which achieves accurate synchronization to incident signals at the IoT device level, while also achieving sensitivity commensurate with the maximum possible afforded by a backscattering link budget. SyncScatter creates a novel modeling framework, and derives the maximal optimal range and synchronization error that can be achieved without major performance compromises. Next, SyncScatter builds a novel hierarchical wake-up protocol, which together with a custom ASIC, achieves a range of 30+ meters at 2Mbps, with an average power consumption of 25.2µW."
+  authors: Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, and Dinesh Bharadia
+  link:
+    url: https://www.usenix.org/conference/nsdi21/presentation/dunna
+    display:  "[NSDI 2021]"
+  highlight: 1
+  tag1: backscatter
+  tag2: communication
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/syncscatter/
+    display: "[Webpage]"
+  paper: 
+    url: files/syncscatter.pdf
+    display: "[paper]"
+
+- title: "WiForce: Wireless Sensing and Localization of Contact Forces on a Space Continuum"
+  image: wiforce.png
+  description: "Contact force is a natural way for humans to interact with the physical world around us. However, most of our interactions with the digital world are largely based on a simple binary sense of touch (contact or no contact). Similarly, when interacting with robots to perform complex tasks, such as surgery, richer force information that includes both magnitude and contact location is important for task performance. To address these challenges, we present the design and fabrication of WiForce which is a ‘wireless’ sensor, sentient to contact force magnitude and location. WiForce achieves this by transducing force magnitude and location, to phase changes of an incident RF signal of a backscattering tag. The phase changes are thus modulated into the backscattered RF signal, which enables measurement of force magnitude and contact location by inferring the phases of the reflected RF signal. WiForce’s sensor is designed to support wide-band frequencies all the way up to 3 GHz. We evaluate the force sensing wirelessly in different environments, including through phantom tissue, and achieve force accuracy of 0.3 N and contact location accuracy of 0.6 mm."
+  authors: Agrim Gupta, Cédric Girerd, Manideep Dunna, Qiming Zhang, Raghav Subbaraman, Tania Morimoto, and Dinesh Bharadia
+  link:
+    url: https://www.usenix.org/conference/nsdi21/presentation/gupta
+    display:  "[NSDI 2021]"
+  highlight: 1
+  tag1: communication
+  tag2: backscatter
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/force_sensing/
+    display: "[Webpage]"
+ 
+
 - title: "DroneScale: Drone Load Estimation Via Remote Passive RF Sensing"
   image: dronescale.png
   description: "Drones have carried weapons, drugs, explosives and illegal packages in the recent past, raising strong concerns from public authorities. While existing drone monitoring systems only focus on detecting drone presence, localizing or fingerprinting the drone, there is a lack of a solution for estimating the additional load carried by a drone. In this paper, we present a novel passive RF system, namely DroneScale, to monitor the wireless signals transmitted by commercial drones and then confirm their models and loads. Our key technical contribution is a proposed technique to passively capture vibration at high resolution (i.e., 1Hz vibration) from afar, which was not possible before. We prototype DroneScale using COTS RF components and illustrate that it can monitor the body vibration of a drone at the targeted resolution. In addition, we develop learning algorithms to extract the physical vibration of the drone from the transmitted signal to infer the model of a drone and the load carried by it. We evaluate the DroneScale system using 5 different drone models, which carry external loads of up to 400g. The experimental results show that the system is able to estimate the external load of a drone with an average accuracy of 96.27%. We also analyze the sensitivity of the system with different load placements with respect to the drone’s body, flight modes, and distances up to 200 meters." 

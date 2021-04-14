@@ -14,7 +14,7 @@ Authors: Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, and
 ```
 
 
-#### <a href="{{ site.url }}{{ site.baseurl }}/files/syncscatter.pdf" style="background-color: white; color: orange;">[Paper]</a> [Slides] <a href="https://drive.google.com/file/d/1HLOmupRVde8Akssg3BT88-4PR7vTBsR5/view?usp=sharing">[Video]</a>
+#### <a href="{{ site.url }}{{ site.baseurl }}/files/syncscatter.pdf" style="background-color: white; color: orange;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/nsdi21_slides_dunna.pdf" style="background-color: white; color: purple;">[Slides]</a> <a href="https://drive.google.com/file/d/1HLOmupRVde8Akssg3BT88-4PR7vTBsR5/view?usp=sharing">[Video]</a>
 
 
 
