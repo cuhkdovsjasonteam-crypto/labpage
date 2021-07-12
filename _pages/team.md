@@ -317,6 +317,14 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 {% endif %}
 
 ### Alumni MS students
+* Gautham Reddy (MS 2021) (Radar)
+* Nitish Kulshrestha (MS 2021) (Backscatter)
+* Navin Adarsh (MS 2021) (Channel Prediction) 
+* Mila Tan (MS 2021) (Millimeter-wave testbed) (Now at maxlinear)
+* Weginbara (Michael) Youpele (MS 2021) (Millimeter-wave testbed) 
+* Xiangwei Shao (MS 2021) (Millimeter-wave testbed) (Co-authored mmNets'20) (Now at Huawei)
+* Hou-Wei Lin (MS 2021) (Millimeter-wave testbed) (Co-authored mmNets'20) (Now at Amazon, SJ)
+* Yeswanth Guntupalli (MS 2021) (Full Duplex Radios) (Now at Apple, SD)
 * Aman Goyal (MS 2020) (OTFS communication) (Now at Apple, SJ)
 * Rohit Kumar(MS 2020) (Full Duplex) (Now at Qualcomm, SD)
 * Shruti Jain (MS 2020) (Full Duplex) (Now at XCOM Labs, SD)
@@ -336,6 +344,10 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 * Kavya Potluri (MS 2019) (Now at Qualcomm, SD)
 * Vamsidhar Reddy (MS 2019) (Machine Learning) (Now at Cruise Automation, SJ)
 * Rohit Kulkarni (MS 2018) (Spectrum Sensing) (Now at Qualcomm, SD)
+
+### Alumni BS students
+* Scott Zhao (BS 2020) (Localization) (Now phD at Columbia, NY)
+* Siyuan Zhu (BS 2020) (Radar for autonomous vehicles) (Co-authored Sensys'20)
 
 
 ### UCSD Summer Research Internship Program (SRIP)
