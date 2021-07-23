@@ -1,0 +1,78 @@
+---
+title: "WCSNG - Research"
+layout: gridlay
+excerpt: "mmReliable"
+sitemap: false
+permalink: /mmreliable/
+---
+
+# Two beams are better than one: Towards Reliable and High Throughput mmWave Links
+---
+### Sigcomm 2021 (Aug 24 2021)
+```
+Authors: Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia
+```
+#### <a href="{{ site.url }}{{ site.baseurl }}/files/mmreliable.pdf" style="background-color: white; color: #BA4A00;">[mmReliable Paper]</a> 
+<!-- <a href="{{ site.url }}{{ site.baseurl }}/files/mmreliable_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://youtu.be/5vfE90wR03Q">[Video]</a> <a href="https://github.com/ucsdwcsng/mMobile" style="background-color: white; color: green;">[Datasets]</a> -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/5vfE90wR03Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+<div class="well">
+<h3> Artifact code available: </h3>
+<h5> July 2021: We release mmReliable artifacts (code and data). The data consists of channel (CSI) measurements data collected from our mMobile testbed to encourage development and verification of novel mobility management algorithms for 5G New radio \\
+<a href="https://github.com/ucsdwcsng/mMobile" style="color: green;">[Datasets]</a>
+<a href="https://github.com/ucsdwcsng/mmreliable" style=" color: green;">[Code]</a></h5>
+</div>
+
+
+### Abstract
+Millimeter-wave communication with high throughput and high reliability is poised to be a gamechanger for V2X and VR applications. However, mmWave links are notorious for low reliability since they suffer from frequent outages due to blockage and user mobility. We build mmReliable, a reliable mmWave system that implements multi-beamforming and user tracking to handle environmental vulnerabilities. It creates constructive multi-beam patterns and optimizes their angle, phase, and amplitude to maximize the signal strength at the receiver. Multi-beam links are reliable since they are resilient to occasional blockages of few constituent beams compared to a single-beam system. We implement mmReliable on a 28 GHz testbed with 400 MHz bandwidth, and a 64 element phased array supporting 5G NR waveforms. Rigorous indoor and outdoor experiments demonstrate that mmReliable achieves close to 100% reliability providing 2.3x improvement in the throughput-reliability product than single-beam systems.
+
+
+<div class="col-sm-9 clearfix">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable.png" width="40%" style="float: center" > </a>
+</div>
+<div class="col-sm-9 clearfix">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable_building_block.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable_building_block.png" width="50%" style="float: center" > </a>
+</div>
+<div class="col-sm-9 clearfix">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable_overview.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable_overview.png" width="50%" style="float: center" > </a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+### Cite the paper
+Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia. 2021. Two beamsare better than one: Towards Reliable and High Throughput mmWave Links.InACM SIGCOMM 2021 Conference (SIGCOMM ’21), August 23–27, 2021,Virtual Event, USA.ACM, New York, NY, USA, 15 pages.https://doi.org/10.1145/3452296.3472924
+
+
+
+

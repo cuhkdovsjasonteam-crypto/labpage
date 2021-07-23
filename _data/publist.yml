@@ -1,6 +1,6 @@
 - title: "Two beams are better than one: Towards Reliable and High Throughput mmWave Links"
   image: mmreliable.png
-  description: "WiFi backscattering can enable direct connectivity of IoT devices with commodity WiFi hardware at low power. However, most existing work in this area has overlooked the importance of synchronization and have, as a result, accepted either limited range between the transmitter and the IoT device, reduced throughput via bit repetition, or both. In this paper, we present SyncScatter, which achieves accurate synchronization to incident signals at the IoT device level, while also achieving sensitivity commensurate with the maximum possible afforded by a backscattering link budget. SyncScatter creates a novel modeling framework, and derives the maximal optimal range and synchronization error that can be achieved without major performance compromises. Next, SyncScatter builds a novel hierarchical wake-up protocol, which together with a custom ASIC, achieves a range of 30+ meters at 2Mbps, with an average power consumption of 25.2µW."
+  description: "Millimeter-wave communication with high throughput and high reliability is poised to be a gamechanger for V2X and VR applications. However, mmWave links are notorious for low reliability since they suffer from frequent outages due to blockage and user mobility. We build mmReliable, a reliable mmWave system that implements multi-beamforming and user tracking to handle environmental vulnerabilities. It creates constructive multi-beam patterns and optimizes their angle, phase, and amplitude to maximize the signal strength at the receiver. Multi-beam links are reliable since they are resilient to occasional blockages of few constituent beams compared to a single-beam system. We implement mmReliable on a 28 GHz testbed with 400 MHz bandwidth, and a 64 element phased array supporting 5G NR waveforms. Rigorous indoor and outdoor experiments demonstrate that mmReliable achieves close to 100% reliability providing 2.3x improvement in the throughput-reliability product than single-beam systems."
   authors: Ish Kumar Jain, Raghav Subbaraman, and Dinesh Bharadia
   link:
     url: https://conferences.sigcomm.org/sigcomm/2021/
@@ -10,7 +10,10 @@
   tag2: 
   news1: 
   website: 
-    url: https://arxiv.org/pdf/2101.04249.pdf
+    url: https://wcsng.ucsd.edu/mmreliable/
+    display: "[Webpage]"
+  paper: 
+    url: files/mmreliable.pdf
     display: "[paper]"
 
 
