@@ -12,7 +12,11 @@ permalink: /mmreliable/
 ```
 Authors: Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia
 ```
-#### <a href="{{ site.url }}{{ site.baseurl }}/files/mmreliable.pdf" style="background-color: white; color: #BA4A00;">[mmReliable Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/mmreliable_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/watch?v=w2ZUX00-p_A">[Video]</a> <a href="https://github.com/ucsdwcsng/mMobile" style="background-color: white; color: green;">[Datasets]</a> 
+#### <a href="{{ site.url }}{{ site.baseurl }}/files/mmreliable.pdf" style="background-color: white; color: #BA4A00;">[mmReliable Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/mmreliable_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/watch?v=w2ZUX00-p_A">[Video]</a> <a href="https://github.com/ucsdwcsng/mMobile" style="background-color: white; color: green;">[Datasets]</a> <a href="https://github.com/ucsdwcsng/mmReliable" style="background-color: white; color: green;">[Artifact Code]</a>
+
+
+##### A shorter 3 minute video <a href="https://youtu.be/E58bszwQmBE">is available here</a>.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w2ZUX00-p_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -74,6 +78,8 @@ Millimeter-wave communication with high throughput and high reliability is poise
 <h3> <font color="red">Press cover:</font>  </h3>
 <h4> 23/08/2021:  <a style="display: inline-block;" href="https://jacobsschool.ucsd.edu/news/release/3322">This technology could bring the fastest version of 5G to your home and workplace</a> </h4>
 News shared by <a href="https://www.newswise.com/articles/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace">Newswise</a>, <a href="https://techxplore.com/news/2021-08-technology-fastest-version-5g-home.html">TechXplore</a>, <a href="https://www.newsbreak.com/news/2349225572432/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace">Newsbreak</a>, <a href="https://thehackposts.com/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/">Thehackposts</a>, <a href="https://flipboard.com/topic/electricalengineering/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/a-HRq2uDvxR1uBeQW0U4LrSg%3Aa%3A24799410-9d9299c9ce%2Ftechxplore.com">Flibboard</a>, <a href="https://news8plus.com/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/">News8plus</a>, and more
+<h6> Interesting Engineering - <a style="display: inline-block;" href="https://interestingengineering.com/a-new-laser-like-system-could-put-5g-in-your-home">A New Laser-Like System Could Put 5G in Your Home</a> </h6>
+<h6> Daily Times - <a style="display: inline-block;" href="https://dailytimes.com.pk/808141/new-tech-provides-fast-reliable-5g-connections/">New tech provides fast, reliable 5G connections</a> </h6>
 </div>
 
 ### Cite the paper
