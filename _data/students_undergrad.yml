@@ -10,26 +10,26 @@
 
 
 
-- name: Scott Zhao  
-  photo: rock.jpg
-  info: Undergrad student since 2016 (joined WCSNG in 2019)
-  project: UWB Localization
-  number_educ: 0
-  education1:
+# - name: Scott Zhao  
+#   photo: rock.jpg
+#   info: Undergrad student since 2016 (joined WCSNG in 2019)
+#   project: UWB Localization
+#   number_educ: 0
+#   education1:
 
-- name: Karl Wang
-  photo: rock.jpg
-  info: Undergrad student since 2016 (joined WCSNG in 2019)
-  project: Wireless power transfer
-  number_educ: 0
-  education1:
+# - name: Karl Wang
+#   photo: rock.jpg
+#   info: Undergrad student since 2016 (joined WCSNG in 2019)
+#   project: Wireless power transfer
+#   number_educ: 0
+#   education1:
 
-- name: Siyuan Zhu
-  photo: rock.jpg
-  info: Undergrad student since 2016 (joined WCSNG in 2019)
-  project: Radar point clouds
-  number_educ: 1
-  education1: "Highlights: Coauthor [Sensys'20]"
+# - name: Siyuan Zhu
+#   photo: rock.jpg
+#   info: Undergrad student since 2016 (joined WCSNG in 2019)
+#   project: Radar point clouds
+#   number_educ: 1
+#   education1: "Highlights: Coauthor [Sensys'20]"
 
 - name: Raini Wu
   photo: rock.jpg
@@ -38,14 +38,27 @@
   number_educ: 0
   education1: "Highlights: Coauthor "
 
+- name: William Hunter 
+  photo: rock.jpg
+  info: Undergrad student since 2019 (joined WCSNG in 2021)
+  project: Localization
+  number_educ: 0
+  education1: "Highlights: Coauthor "
 
-#- name: Jason Ma
-#  photo: rock.jpg
-#  info: Undergrad student since 2017 (joined WCSNG in 2019)
-#  project: Drone Communications
-#  number_educ: 0
-#  education1:
 
+- name: Tyler Chang 
+  photo: rock.jpg
+  info: Undergrad student since 2018 (joined WCSNG in 2020)
+  project: Localization
+  number_educ: 0
+  education1: "Highlights: Coauthor "
+
+- name: Joel Bisarra
+  photo: rock.jpg
+  info: Undergrad student since 2018 (joined WCSNG in 2020)
+  project: Localization
+  number_educ: 0
+  education1: "Highlights: Coauthor "
 
 
 

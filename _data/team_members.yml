@@ -16,7 +16,7 @@
   email: roshana@eng.ucsd.edu
   number_educ: 2
   education1: Roshan’s current research interests are in using wireless and computer vision techniques bolstered with machine learning algorithms. He focuses on applications such as detection, localization, and tracking of objects with a vision of autonomous vehicles.
-  education2: "Highlights: Conext'19, Mobicom'20, NSDI'20"
+  education2: "Highlights: Conext'19, Mobicom'20, NSDI'20, ICASSP'21"
   education3: 
   education4: 
 
@@ -31,18 +31,18 @@
 - name: Manideep Dunna
   photo: manideep.jpg
   info: PhD Student, started 2018
-  email: mdunna@ucsd.edu
+  email: mdunna@eng.ucsd.edu
   number_educ: 2
   education1: Manideep's research focuses on using backscatter techniques for low power wireless relays and in-body communications. 
-  education2: "Highlights: Mobicom'20, JSSC'20, ISSCC'21"
+  education2: "Highlights: Mobicom'20, JSSC'20, ISSCC'21, NSDI'21, NSDI'21"
 
 - name: <a href='https://ishjain.github.io/'>Ish Kumar Jain</a>
   photo: ish.jpg
   info: PhD Student, started 2018
-  email: ikjain@ucsd.edu
+  email: ikjain@eng.ucsd.edu
   number_educ: 2
   education1: Ish is working on millimeter wave communications to provide high reliability and low latency for applications such as virtual reality and vehicular communications.
-  education2: "Highlights: NSDI'20, mmNets'20"
+  education2: "Highlights: NSDI'20, mmNets'20, Sigcomm'21"
   education3:
   education4:
 
@@ -72,7 +72,7 @@
   email: aarun@eng.ucsd.edu
   number_educ: 2
   education1:  Aditya's research currently focuses on realizing accurate indoor localization by introducing a new WiFi-based sensor modality using graph-based optimization techniques.
-  education2: "Highlights: NSDI'20, Mobicom'20"
+  education2: "Highlights: NSDI'20, Mobicom'20, Sensys'20 workshop"
   education3:
   education4:
 
@@ -82,7 +82,7 @@
   email: rsubbaraman@eng.ucsd.edu
   number_educ: 2
   education1:  Raghav's research areas span spectrum sensing and development of robust wireless testbed platforms. He is particularly interested in understanding how sensing can influence control and orchestration of communication systems.
-  education2: "Highlights: NSDI'19, mmNets'20"
+  education2: "Highlights: NSDI'19, Getmobile'20, mmNets'20, NSDI'21, Sigcomm'21"
   education3:
   education4:
 
@@ -90,11 +90,13 @@
   photo: agrim.png
   info: PhD Student, started 2019
   email: agg003@eng.ucsd.edu
-  number_educ: 1
+  number_educ: 2
   education1:  Agrim's research interest is solving analysis-intensive problems stemming in Wireless Communications, involving topics like MIMO, ML techniques in Wireless Communications, Indoor Positioning,  and Backscatter Communications.
-  education2:
+  education2: Sensys'20 Workshop, NSDI'21, IEEE Journal'21
   education3:
   education4:
+
+
 
 #- name: Nikhil Shinde
 #  photo: yeswanth.jpg
@@ -127,5 +129,13 @@
   education4:
 
 
-
+- name: <a href='https://www.linkedin.com/in/tian-qiu-b68a1b122/'>Tian Qiu</a>
+  photo: tian.jpeg
+  info: PhD Student, started 2021 (MS, since 2019)
+  email: tiq014@eng.ucsd.edu
+  number_educ: 2
+  education1:  Tian's research interest is in wireless VR and video compression.
+  education2: "Primary advisor: Prof. Pamela Cosman"
+  education3:
+  education4:
 
