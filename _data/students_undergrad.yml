@@ -50,15 +50,15 @@
   photo: rock.jpg
   info: Undergrad student since 2018 (joined WCSNG in 2020)
   project: Localization
-  number_educ: 0
-  education1: "Highlights: Coauthor "
+  number_educ: 1
+  education1: "Highlights: IMWUT 2021"
 
-- name: Joel Bisarra
-  photo: rock.jpg
-  info: Undergrad student since 2018 (joined WCSNG in 2020)
-  project: Localization
-  number_educ: 0
-  education1: "Highlights: Coauthor "
+# - name: Joel Bisarra
+#   photo: rock.jpg
+#   info: Undergrad student since 2018 (joined WCSNG in 2020)
+#   project: Localization
+#   number_educ: 0
+#   education1: "Highlights: Coauthor "
 
 
 

@@ -29,13 +29,13 @@ permalink: /uloc/
 
 
 
-# ULoc, a cm-accurate, low-latency and power-efficient UWB tag localization system  !
+# ULoc: a cm-accurate, low-latency and power-efficient UWB tag localization system
 <div class="row">
 <div class="col-sm-5 clearfix">
 <br>
 <p style="font-size:30px">Motivation</p>
 <p align="justify"> 
-	A myriad of IoT applications demand centimeter-accurate localization that is robust to blockages from hands, furniture, or other occlusions in the environment. To address these needs, we developed ULoc, a scalable, low-power, and cm-accurate UWB localization and tracking system. ULoc's builds a multi-antenna UWB anchor and develops a novel 3D tracking algorithm to deliver a stationary localization accuracy of less than 5 cm and a tracking accuracy of 10 cm in mobile conditions.
+	A myriad of IoT applications demand centimeter-accurate localization that is robust to blockages from hands, furniture, or other occlusions in the environment. To address these needs, we developed ULoc, a scalable, low-power, and cm-accurate UWB localization and tracking system. ULoc's builds a multi-antenna UWB anchor and develops a novel 3D tracking algorithm to deliver a stationary localization accuracy of less than 5 cm and a tracking accuracy of 10 cm in mobile conditions. Follow the demo links below to see ULoc in action. Furthermore, we have also open sourced our hardware design files and source code. 
 </p>
 </div>
 
@@ -81,6 +81,7 @@ For the first time, ULoc developed and tested a UWB Anchor with 8 antennas place
 <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/uloc.pdf">ULoc: Low-Power, Scalable and cm-Accurate UWB-Tag Localizationand Tracking for Indoor Applications</a> 
 <a style="background-color: white; color: blue;" href="https://youtu.be/-g2nTatJDQk">[Demo 1]</a>
 <a style="background-color: white; color: blue;" href="https://youtu.be/8EU1JmH-dto">[Demo 2]</a>
+<a style="background-color: white; color: blue;" href="https://github.com/ucsdwcsng/ULoc-public">[Source]</a>
 <br> Minghui Zhao, Tyler Chang, Aditya Arun, Roshan Ayyalasomayajula, Chi Zhang, Dinesh Bharadia
 <br>IMWUT 2021<br>
 </div>

@@ -346,7 +346,7 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 * Rohit Kulkarni (MS 2018) (Spectrum Sensing) (Now at Qualcomm, SD)
 
 ### Alumni BS students
-* Scott Zhao (BS 2020) (Localization) (Now phD at Columbia, NY)
+* Scott Zhao (BS 2020) (Localization) (Now M.S. at Columbia, NY) (IMWUT 2021)
 * Siyuan Zhu (BS 2020) (Radar for autonomous vehicles) (Co-authored Sensys'20)
 
 
