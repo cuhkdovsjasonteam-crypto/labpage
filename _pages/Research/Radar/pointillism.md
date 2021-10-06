@@ -12,7 +12,7 @@ permalink: /pointillism/
 ```
 Authors: Kshitiz Bansal, Keshav Rungta, Siyuan Zhu and Dinesh Bharadia
 ```
-#### <a href="https://dl.acm.org/doi/10.1145/3384419.3430783" style="background-color: white; color: orange;">[Paper]</a>[Slides] <a href="https://www.youtube.com/watch?v=jiAEwyHjPZs&amp;feature=youtu.be">[Video]</a> 
+#### <a href="https://dl.acm.org/doi/10.1145/3384419.3430783" style="background-color: white; color: orange;">[Paper]</a>[Slides] <a href="https://www.youtube.com/watch?v=jiAEwyHjPZs&amp;feature=youtu.be">[Video]</a> <a href="https://github.com/Kshitizbansal/pointillism-multi-radar-data">[Dataset]</a>
 
 <!--<a href="{{ site.url }}{{ site.baseurl }}/files/Pointillism_paper.pdf" style="background-color: white; color: orange;">[Paper]</a> <a href="https://github.com/ucsdwcsng/mMobile" style="background-color: white; color: green;">[Datasets]</a>-->
 
@@ -20,7 +20,7 @@ Authors: Kshitiz Bansal, Keshav Rungta, Siyuan Zhu and Dinesh Bharadia
 
 <div class="well">
 <h3> Datasets News: </h3>
-<h5> Nov 2020: Multi-radar dataset will be released soon</h5>
+<h5> Oct 2021: Multi-radar dataset has been released. Check it out at <a href="https://github.com/Kshitizbansal/pointillism-multi-radar-data">github</a>!</h5>
 </div>
 
 
