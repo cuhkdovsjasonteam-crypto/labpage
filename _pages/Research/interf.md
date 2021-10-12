@@ -80,17 +80,28 @@ Authors: Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, and
 
 <div class = "row">
 <div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Wiforce.pdf">Publication 1</a> <a style="background-color: white; color: blue;" href="{{ site.url }}{{ site.baseurl }}/files/WiforceSlides.pdf">[Slides]</a><br>
-    Author List<br>
-    Conference Journal<br>
+<a style="background-color: white; color: orange;" href="https://doi.org/10.1016/j.acha.2021.03.004"> Ranking recovery from limited pairwise comparisons using low-rank matrix completion</a> <br>
+    Levy, Tal and Vahid, Alireza and Giryes, Raja<br>
+    Harmonic Analysis Journal, 2021
 </div>
 </div>
 
 
 <div class = "row">
 <div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Wiforce.pdf">Publication 2</a> <a style="background-color: white; color: blue;" href="{{ site.url }}{{ site.baseurl }}/files/WiforceSlides.pdf">[Slides]</a><br>
-    Author List<br>
-    Conference Journal<br>
+<a style="background-color: white; color: orange;" href="https://ieeexplore.ieee.org/abstract/document/9518272"> Capacity of the Torn Paper Channel with Lost Pieces</a> <br>
+    Ravi, Aditya Narayan and Vahid, Alireza and Shomorony, Ilan <br>
+    ISIT 2021
 </div>
 </div>
+
+
+<div class = "row">
+<div class="container">
+<a style="background-color: white; color: orange;" href="https://ieeexplore.ieee.org/abstract/document/9348147"> Communicating over the Torn-Paper Channel</a> <br>
+    Shomorony, Ilan and Vahid, Alireza<br>
+    Globecom 2020
+</div>
+</div>
+
+
