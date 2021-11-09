@@ -1,7 +1,7 @@
 ---
 title: "WCSNG - Research"
 layout: projectnewslay
-excerpt: "LocAP"
+excerpt: "BLoc"
 sitemap: false
 permalink: /bloc/
 ---

@@ -1,0 +1,12 @@
+
+<div class="well">
+<h2>News</h2>
+
+{% for article in site.data.dlocnews limit:9 %}
+<i><font color="gray">{{ article.date }}</font></i>
+<p>{{ article.headline }}</p>
+{% endfor %}
+
+<!--<h4><a href="{{ site.url }}{{ site.baseurl }}/blocnews.html">... see all News</a></h4> -->
+
+    </div>

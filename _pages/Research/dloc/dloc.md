@@ -1,6 +1,6 @@
 ---
 title: "WCSNG - Research"
-layout: gridlay
+layout: dlocnewslay
 excerpt: "DLoc"
 sitemap: false
 permalink: /dloc/
@@ -12,11 +12,11 @@ permalink: /dloc/
 ```
 Authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Sanatan Sharma, Abhishek Sethi, Deepak Vasisht, Dinesh Bharadia
 ```
-#### <a href="{{ site.url }}{{ site.baseurl }}/files/dloc.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/DLoc-ppt.pdf" style="background-color: white; color: purple;">[Slides]</a> <a href="https://youtu.be/b19C7U9jNFs">[Video]</a> <a href= "https://wcsng.ucsd.edu/wild" style="color:green">[Datasets]</a>
+#### <a href="{{ site.url }}{{ site.baseurl }}/files/dloc.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/DLoc-ppt.pdf" style="background-color: white; color: purple;">[Slides]</a> <a href="https://youtu.be/b19C7U9jNFs">[Video]</a> <a href= "https://wcsng.ucsd.edu/wild" style="color:green">[Datasets]</a> <a href= "https://github.com/ucsdwcsng/DLoc_pt_code" style="color:blue">[Code]</a>
 
 <div class="well">
-<h3> WiFi Datasets News: </h3>
-<h4> 06/20/2020: We are releasing the largest location labelled WiFi CSI dataset, that can be accessed at <a href= "https://wcsng.ucsd.edu/wild">WILD</a> webpage.</h4>
+<h4> WiFi Datasets: </h4>
+<h5> 06/20/2020: We released the largest location labelled WiFi CSI dataset, that can be accessed at <a href= "https://wcsng.ucsd.edu/wild">WILD</a> webpage.</h5>
 </div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b19C7U9jNFs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -67,10 +67,7 @@ learn a model to accurately localize users in the generated map.
 ### DLoc deployment
 <div class="row">
 <div class="col-sm-3 clearfix">
-<br>
-<br>
-<br>
-<p align="justify">Once DLoc has been trained using the data collected from MapFind. Any new user entering the environment can use their smartphone to estimate their location with the help of the trained network.</p>
+<p align="left">Once DLoc has been trained using the data collected from MapFind. Any new user entering the environment can use their smartphone to estimate their location with the help of the trained network.</p>
 </div>
 
 <div class="col-sm-9 clearfix">
@@ -101,7 +98,7 @@ Simultaneously the server on board the bot collects the CSI information and conv
 ## DLoc code and data
 While being the first in in Deep Learning based Indoor Navigation with WiFi data, we want to build WiFi CSI dataset on par with [ImageNet](http://www.image-net.org/) to assist further research in WiFi based indoor localization and their applications.
 
-#### Download the <a href= "https://wcsng.ucsd.edu/wild">[Datasets]</a>
+#### Download the <a href= "https://wcsng.ucsd.edu/wild">[Datasets]</a> and the PyTorh implementation of DLoc <a href="https://github.com/ucsdwcsng/DLoc_pt_code">[Codes]</a>
 
 
 
