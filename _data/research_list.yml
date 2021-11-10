@@ -40,7 +40,7 @@
 
 - title: "Privacy"
   image: privacy.jpg
-  description: Enabling privacy for wireless communications, sensing and networks.
+  description: We investigate privacy and security vulnerabilities in wireless systems, and develop defense mechanisms to address such vulnerabilities.
   authors: 
   link:
     url: /privacy
@@ -77,15 +77,4 @@
     display:  Details and Publications
   highlight: 1
   news2:
-
-- title: "Privacy"
-  image: comm.jpg
-  description: We investigate privacy and security vulnerabilities in wireless systems, and develop defense mechanisms to address such vulnerabilities.
-  authors:
-  link:
-    url: /privacy
-    display:  Details and Publications
-  highlight: 1
-  news2:
-
 
