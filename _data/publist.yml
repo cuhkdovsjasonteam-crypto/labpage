@@ -1,3 +1,21 @@
+- title: "Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices"
+  image: privacy.png
+  description: "Mobile devices increasingly function as wireless tracking beacons. Using the Bluetooth Low Energy (BLE) protocol, mobile devices such as smartphones and smartwatches continuously transmit beacons to inform passive listeners about device locations for applications such as digital contact tracing for COVID-19, and even finding lost devices. These applications use cryptographic anonymity that limit an adversary’s ability to use these beacons to stalk a user. However, attackers can bypass these defenses by fingerprinting the unique physical-layer imperfections in the transmissions of specific devices. We empirically demonstrate that there are several key challenges that can limit an attacker’s ability to find a stable physical layer identifier to uniquely identify mobile devices using BLE, including variations in the hardware design of BLE chipsets, transmission power levels, differences in thermal conditions, and limitations of inexpensive radios that can be widely deployed to capture raw physical-layer signals. We evaluated how much each of these factors limits accurate fingerprinting in a large-scale field study of hundreds of uncontrolled BLE devices, revealing that physical-layer identification is a viable, although sometimes unreliable, way for an attacker to track mobile devices."
+  authors: Hadi Givehchian, Nishant Bhaskar, Eliana Rodriguez Herrera, Héctor Rodrigo López Soto, Christian Dameff, Dinesh Bharadia, and Aaron Schulman
+  link:
+    url: https://www.computer.org/csdl/proceedings-article/sp/2022/131600a507/1wKCeyVEZeo
+    display:  "[2022 IEEE Symposium on Security and Privacy (SP)]"
+  highlight: 1
+  tag1: privacy
+  tag2: 
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/privacy/
+    display: "[BLE Privacy-Webpage]"
+  paper: 
+    url: files/sp22_paper.pdf
+    display: "[paper]"
+
 - title: "ULoc: a cm-accurate, low-latency and power-efficient UWB tag localization system"
   image: uloc-overview.jpg
   description: "A myriad of IoT applications demand centimeter-accurate localization that is robust to blockages from hands, furniture, or other occlusions in the environment. To address these needs, we developed ULoc, a scalable, low-power, and cm-accurate UWB localization and tracking system. ULoc's builds a multi-antenna UWB anchor and develops a novel 3D tracking algorithm to deliver a stationary localization accuracy of less than 5 cm and a tracking accuracy of 10 cm in mobile conditions."

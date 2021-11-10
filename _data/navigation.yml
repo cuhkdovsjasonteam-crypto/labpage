@@ -13,12 +13,16 @@
       url: /fullduplex.html
     - title: Backscatter
       url: /backscatter.html
+    - title: Privacy
+      url: /privacy.html
     - title: Vehicular Sensing
       url: /vehicular.html
     - title: Virtual Reality
       url: /vr.html
     - title: Wireless Communication
       url: /communication.html
+    - title: Miscellaneous Research
+      url: /misc-research.html
 - title: Publications
   url: /publications/index.html
 - title: Opportunities

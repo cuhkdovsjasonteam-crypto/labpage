@@ -38,15 +38,15 @@
   highlight: 1
   news2:
 
-# - title: "Ubiquitous IoT"
-#   image: backscatter.jpg
-#   description: Harnessing wireless backscatter and low-power communication, for ubiquitous IoT sensing and wireless channel conditioning.
-#   authors: 
-#   link:
-#     url: /ubiquitousIoT/
-#     display:  Details and Publications
-#   highlight: 1
-#   news2:
+- title: "Privacy"
+  image: privacy.jpg
+  description: Enabling privacy for wireless communications, sensing and networks.
+  authors: 
+  link:
+    url: /privacy
+    display:  Details and Publications
+  highlight: 1
+  news2:
 
 - title: "Vehicular Sensing"
   image: v2x.jpg
