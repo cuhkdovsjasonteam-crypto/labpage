@@ -10,11 +10,12 @@
   tag2:
   news1:
   website:
-    url: https://wcsng.ucsd.edu/privacy/
+    url: https://wcsng.ucsd.edu/ble-privacy/
     display: "[Webpage]"
   paper:
     url: files/sp22_paper.pdf
     display: "[paper]"
+
 
 - title: "ULoc: a cm-accurate, low-latency and power-efficient UWB tag localization system"
   image: uloc-overview.jpg
