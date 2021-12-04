@@ -15,7 +15,7 @@ Authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia
 
 <div class="well">
  <center>
- <h4><A href="#env">Environment Description</A>&emsp;&emsp;<A href="#result">In-depth Results</A>&emsp;&emsp;<A href="#usage"> Dataset Usage </A>&emsp;&emsp;</h4>
+ <h4><A href="#env">Environment Description</A>&emsp;&emsp;<A href="#result">In-depth Results</A>&emsp;&emsp;<A href="#usage"> Dataset Usage </A>&emsp;&emsp;<a href="https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/ERBGyYIWBTtBhT_phoQzWf4BBoWPPAbpQN36DHhzCWy10Q?e=KMY3lO"> Download (size: 28GB) </a>&emsp;&emsp;</h4>
  </center>
 </div>
 
@@ -41,38 +41,64 @@ Here we describe the environments and the datasets collected in these environmen
 <h3 id="result">In-depth Results</h3>
 
 
-Next, we present in-depth analysis for the above three datasets. These datasets can be downloaded [here](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/aarun_ucsd_edu/Ehi2q7tR3ZlHhCamVxFX510ByrEl6aT7aA8n_61d9ToPWQ?e=1RRHLI). Further details to use this dataset is given below. 
+Next, we present in-depth analysis for the above three datasets. These datasets can be downloaded [here (size: 28GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/ERBGyYIWBTtBhT_phoQzWf4BBoWPPAbpQN36DHhzCWy10Q?e=KMY3lO)
+<!-- These datasets can be downloaded [here](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/aarun_ucsd_edu/Ehi2q7tR3ZlHhCamVxFX510ByrEl6aT7aA8n_61d9ToPWQ?e=1RRHLI).  -->
+Further details to use this dataset is given below. 
 
 <b> NOTE: RAL Reviewers, please use the password given in the review-responses document to access these files. The datasets will be open-sourced upon paper's acceptance. </b>
 
 
-1. <b> Env 1 - Dataset 1 </b> (easy): Simple robot movement where we traverse all the corridors, for a total path length of 330 m (approx) at 18 cm/s. AP's are placed in the locations marked by circles in the above figure. Download the dataset .mat file [here](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EZBHoXwnUGBBgx1X-2G0g-YBpJCzFOyaEhYuwL5SShRNJA?e=3oiN1A).
+1. <b> Env 1 - Dataset 1 </b> (easy): Simple robot movement where we traverse all the corridors, for a total path length of 330 m (approx) at 18 cm/s. AP's are placed in the locations marked by circles in the above figure. 
+<!-- Download the dataset .mat file [here](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EZBHoXwnUGBBgx1X-2G0g-YBpJCzFOyaEhYuwL5SShRNJA?e=3oiN1A). -->
 <a href="{{ site.url }}{{ site.baseurl }}/images/respic/results_ds1.jpg"> <center> <img src="{{ site.url }}{{ site.baseurl }}/images/respic/results_ds1.jpg" width="50%" style="float: center" > </center> </a>
 
-2. <b> Env 1 - Dataset 2 </b> (hard): Complex robot movement where the robot traverses different nooks in the environment. This path closely replicate one taken by a vacuume cleaner or package delivery robot. Total path-length travelled is 495 m (approx) at 28 cm/s. AP's are placed in the locations marked by cross in the above figure. Download the dataset .mat file [here](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/Ef1ETWRODuxEj4RSAV-wlK4BfirvThNOviIqoYJxQalmyg?e=PBCH50).
+2. <b> Env 1 - Dataset 2 </b> (hard): Complex robot movement where the robot traverses different nooks in the environment. This path closely replicate one taken by a vacuume cleaner or package delivery robot. Total path-length travelled is 495 m (approx) at 28 cm/s. AP's are placed in the locations marked by cross in the above figure. 
+<!-- Download the dataset .mat file [here](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/Ef1ETWRODuxEj4RSAV-wlK4BfirvThNOviIqoYJxQalmyg?e=PBCH50). -->
 <a href="{{ site.url }}{{ site.baseurl }}/images/respic/results_ds2.jpg"> <center> <img src="{{ site.url }}{{ site.baseurl }}/images/respic/results_ds2.jpg" width="50%" style="float: center" > </center> </a>
 
-3. <b> Env 2 - Dataset 3 </b>: Simple robot movement where mulitple corridors are traversed at 28 cm/s for a total path length of 400 m (approx). Download the dataset .mat file [here](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EVPUpb8DFuRBoKW8r7yS7nkBRWXWP9Z03eQcX7O4XydnEg?e=9j93j4).
+3. <b> Env 2 - Dataset 3 </b>: Simple robot movement where mulitple corridors are traversed at 28 cm/s for a total path length of 400 m (approx). 
+<!-- Download the dataset .mat file [here](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EVPUpb8DFuRBoKW8r7yS7nkBRWXWP9Z03eQcX7O4XydnEg?e=9j93j4). -->
 <a href="{{ site.url }}{{ site.baseurl }}/images/respic/results_ds3.jpg"> <center> <img src="{{ site.url }}{{ site.baseurl }}/images/respic/results_ds3.jpg" width="50%" style="float: center" > </center> </a>
 
 ---
 
-We provide the WiFi Channel state data for all the above setups. **All the corresponding links can be found above.**
-
 <h3 id="usage">Dataset Usage</h3>
 
 
-The CSI data is named as **DATASET_NAME.mat** as given above. These MATLAB files are stored using **HDF5** file structure and contain the following variables:
+The CSI data is named as **channels.mat** and the rosbag is named as **data.bag** in the resepctive dataset folders. All the datasets can be downloaded [here (size: 28GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/ERBGyYIWBTtBhT_phoQzWf4BBoWPPAbpQN36DHhzCWy10Q?e=KMY3lO):
 
+The MATLAB files are stored using **HDF5** file structure and contain the following variables:
 - **channels_cli**: *[ n_datapoints x n_frequency x n_ap x n_rx_ant X n_tx_ant]* 5D complex channel matrix recieved at the WiFi access points deployed in the environment.
 - **channels_ap**: *[ n_datapoints x n_frequency x num_aps x n_rx_ant X n_tx_ant]* 5D complex channel matrix recieved at the WiFi access point present on the robot.
-- **cli_rssi_synced**: *[ n_datapoints x n_rx_ant x n_ap ]* 2D recieved signal strength matrix at the environments' WiFi access point.
-- **ap_rssi_synced**: *[ n_datapoints x n_rx_ant x n_ap ]* 2D recieved signal strength matrix at the robot's WiFi access point.
+- **cli_rssi_synced**: *[ n_datapoints x n_rx_ant x n_ap ]* Recieved signal strength matrix at the environments' WiFi access point.
+- **ap_rssi_synced**: *[ n_datapoints x n_rx_ant x n_ap ]* Recieved signal strength matrix at the robot's WiFi access point.
+- **cli_hw_noise_synced**: *[ n_datapoints x n_ap ]* Hardware noise floor measured at the Environment's AP's when signal is received from the robot.
+- **ap_hw_noise_synced**: *[ n_datapoints x n_ap ]* Hardware noise floor measured at robot' WiFi AP with signal received from each of the environment's AP's.
 - **ap**: *[1 x n_ap]* cell matrix. Each element corresponding to *[ n_rx_ant x 2]* antenna positions in th global coordinates.  
 - **labels**: *[ n_datapoints x 3 ]* 2D best-estimate ground truth XY labels + heading of the robot -- computed using Cartographer using onboard Lidar and internal odometry.
 - **labels_noise**: *[ n_datapoints x 3 ]* 2D XY labels + heading of the robot computed using only robot's wheel encoder (highly erroneous measurements)
 - **labels_imu**: *[ n_datapoints x 3 ]* 2D  XY labels + heading of the robot computed using the robot's wheel encoder and internal gyroscope (less erroneous than only using wheel encoders)
 - **labels_vel**: *[ n_datapoints x 1 ]* Velocity of the robot in m/s.
+
+The rosbags contain the following topics:
+
+1. Camera Information from Intel Realsense D415:
+- /camera/rgb/camera_info
+- /camera/depth_registered/image_raw/compressedDepth
+- /camera/rgb/image_rect_color/compressed
+
+2. Odometry Information from Turtlebot base:
+- /mobile_base/sensors/core
+- /mobile_base/sensors/imu_data
+- /mobile_base/sensors/imu_data_raw
+- /odom
+/tf
+
+3. Hokuoyo Lidar scan information:
+- /scan
+
+
+
 
 
 <!-- ## Downloads ##
