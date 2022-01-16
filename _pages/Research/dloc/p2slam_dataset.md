@@ -6,7 +6,7 @@ sitemap: true
 permalink: /p2slam/
 ---
 
-# P2SLAM datasets
+# P2SLAM: Bearing based WiFi SLAM for Indoor Robots
 ```
 Authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia
 ```
@@ -33,10 +33,78 @@ Here we describe the environments and the datasets collected in these environmen
 <a href="{{ site.url }}{{ site.baseurl }}/images/respic/env2.jpg"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/env2.jpg" width="95%" style="float: center" > </a>
 
 <p> First, we summarize all our results in the following table. We show the median and 90th percentile translation and orientation errors in centimeters and degrees respectively. We show across three sensing modalities -- using odometry only, using odometry + Camera (RTABMap) and using odometry + WiFi (P2SLAM): </p>
-<a href="{{ site.url }}{{ site.baseurl }}/images/respic/p2slam_results_table.jpg"> <center> <img src="{{ site.url }}{{ site.baseurl }}/images/respic/p2slam_results_table.jpg" width="70%" style="float: center" > </center> </a>
+
+<!-- Results table -->
+<center>
+    <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+          overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+          font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg .tg-kwiq{border-color:inherit;color:#000000;text-align:left;vertical-align:top}
+        .tg .tg-vpkt{border-color:inherit;color:#000000;font-weight:bold;text-align:center;vertical-align:top}
+        .tg .tg-21f3{border-color:inherit;color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+        .tg .tg-ml2k{border-color:inherit;color:#000000;text-align:center;vertical-align:top}
+    </style>
+    <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-kwiq" rowspan="3"><br><br><br><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Sensors</span></th>
+            <th class="tg-vpkt" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Env 1 - Dataset 1</span></th>
+            <th class="tg-vpkt" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Env 1 - Dataset 2</span></th>
+            <th class="tg-vpkt" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Env 2 - Dataset 3</span></th>
+          </tr>
+          <tr>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Trans </span><br><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">(cm)</span></th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Orient </span><br><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">(deg)</span></th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Trans </span><br><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">(cm)</span></th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Orient </span><br><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">(deg)</span></th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Trans </span><br><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">(cm)</span></th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Orientation </span><br><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">( </span><span style="font-style:normal;text-decoration:none;background-color:transparent">deg</span><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">)</span></th>
+          </tr>
+          <tr>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Med</span><br>(90th)</th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none">Med</span><br>(90th)</th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none">Med</span><br>(90th)</th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none">Med</span><br>(90th)</th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none">Med</span><br>(90th)</th>
+            <th class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none">Med</span><br>(90th)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-21f3">Dead reckoning</td>
+            <td class="tg-ml2k"><span style="background-color:transparent">180.6</span><br>(<span style="text-decoration:none;background-color:transparent">513.9</span>)</td>
+            <td class="tg-ml2k"><span style="background-color:transparent">8.64</span><br>(<span style="text-decoration:none;background-color:transparent">18.1</span>)</td>
+            <td class="tg-ml2k"><span style="background-color:transparent">378.6</span><br>(<span style="text-decoration:none;background-color:transparent">1156</span>)</td>
+            <td class="tg-ml2k"><span style="background-color:transparent">23.35</span><br><span style="background-color:transparent">(</span><span style="text-decoration:none;background-color:transparent">37</span><span style="background-color:transparent">)</span></td>
+            <td class="tg-ml2k"><span style="background-color:transparent">422</span><br>(<span style="text-decoration:none;background-color:transparent">1098</span>)</td>
+            <td class="tg-ml2k"><span style="background-color:transparent">16</span><br>(<span style="text-decoration:none;background-color:transparent">30.5</span>)</td>
+          </tr>
+          <tr>
+            <td class="tg-21f3">RTABMap</td>
+            <td class="tg-ml2k"><span style="background-color:transparent">36.8</span><br>(<span style="text-decoration:none;background-color:transparent">165.7</span>)</td>
+            <td class="tg-ml2k"><span style="background-color:transparent">2.97</span><br>(<span style="text-decoration:none;background-color:transparent">10.83</span>)</td>
+            <td class="tg-ml2k"><span style="font-weight:bold">38.5</span><br><span style="font-weight:bold">(63.7)</span></td>
+            <td class="tg-ml2k"><span style="font-weight:bold">0.74</span><br><span style="font-weight:bold">(2.69)</span></td>
+            <td class="tg-ml2k"><span style="font-weight:bold">61.5</span><br>(256)</td>
+            <td class="tg-ml2k"><span style="background-color:transparent">2.2</span><br>(<span style="text-decoration:none;background-color:transparent">7.99</span>)</td>
+          </tr>
+          <tr>
+            <td class="tg-21f3"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">P</span>2<span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">SLAM</span></td>
+            <td class="tg-vpkt"><span style="font-style:normal;text-decoration:none;background-color:transparent">26.9</span><br>(<span style="font-style:normal;text-decoration:none;background-color:transparent">54.7</span>)</td>
+            <td class="tg-vpkt"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">1.28</span><br>(<span style="font-style:normal;text-decoration:none;background-color:transparent">3.16</span>)</td>
+            <td class="tg-ml2k">40.4<br>(76.9)<br></td>
+            <td class="tg-ml2k"><span style="font-style:normal;text-decoration:none;background-color:transparent">1.32</span><br>(3.7)</td>
+            <td class="tg-ml2k"><span style="font-style:normal;text-decoration:none;background-color:transparent">65.2</span><br><span style="font-weight:bold">(158)</span></td>
+            <td class="tg-ml2k"><span style="font-weight:bold;font-style:normal;text-decoration:none;background-color:transparent">1.65</span><br><span style="font-weight:bold">(</span><span style="font-weight:bold;font-style:normal;text-decoration:none;background-color:transparent">3.95</span><span style="font-weight:bold">)</span></td>
+          </tr>
+        </tbody>
+    </table>
+</center>
 
 ---
-
 
 <h3 id="result">In-depth Results</h3>
 
@@ -78,73 +146,81 @@ The Puck Lite weighs at 590 g. An ESP8266-based design would weight a meagre 9 g
 
 <h4> Power </h4>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-ce78{background-color:#c0c0c0;border-color:inherit;font-size:100%;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-f35e{background-color:#c0c0c0;border-color:inherit;font-size:100%;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-ce78">Device</th>
-    <th class="tg-ce78">Power Consumption</th>
-    <th class="tg-f35e">Notes</th>
-    <th class="tg-f35e">Sources</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">Hokoyo Lidar</td>
-    <td class="tg-c3ow">8.4 W</td>
-    <td class="tg-0pky">Single channel</td>
-    <td class="tg-0pky"><a href="https://autonomoustuff.com/-/media/Images/Hexagon/Hexagon%20Core/autonomousstuff/pdf/hokuyo-utm-30lx-datasheet.ashx?la=en&hash=E1F8A1F837A229BD9EB3FEC17DD3488F" target="_blank" rel="noopener noreferrer">Datasheet</a></td>
-  </tr>
-  <tr>
-    <td class="tg-7btt">Velodyne Puck</td>
-    <td class="tg-7btt">8 W</td>
-    <td class="tg-fymr">16 channel</td>
-    <td class="tg-fymr"><a href="https://www.mapix.com/wp-content/uploads/2018/07/63-9286_Rev-H_Puck-LITE_Datasheet_Web.pdf" target="_blank" rel="noopener noreferrer">Datasheet</a></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">ASUS RT-AC86U</td>
-    <td class="tg-c3ow">Measured @ 6.5 W in lab</td>
-    <td class="tg-0pky">802.11AC, 5 Ghz, 20/40/80 MHz, 4x4</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">Quantenna </td>
-    <td class="tg-c3ow">Measured @ 3.2 W in lab</td>
-    <td class="tg-0pky">802.11AC, 5 Ghz, 20/40/80 MHz,  4x4</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">Intel 5300</td>
-    <td class="tg-c3ow">1.6 W Rx, 2.1 W Tx</td>
-    <td class="tg-0pky">802.11n, 2.4 Ghz, 20 and 40 MHz, <br>3x3</td>
-    <td class="tg-0pky"><a href="https://www.usenix.org/legacy/events/hotpower/tech/full_papers/Halperin.pdf" target="_blank" rel="noopener noreferrer">Power measurements by Halperin et al.</a></td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">TP-Link TL-WDR4300<br>(Atheros CSI tool)</td>
-    <td class="tg-c3ow">4.6 W</td>
-    <td class="tg-0pky">IEEE 802.11n, 2.4 GHz, 20/40 MHz, 3x3 </td>
-    <td class="tg-0pky">Power consumption database</td>
-  </tr>
-  <tr>
-    <td class="tg-7btt">ESP 32, NodeMCU</td>
-    <td class="tg-7btt">240 mW x 4 ~ 1 W</td>
-    <td class="tg-fymr">802.11 b/g/n, 2.4 GHz, 20 MHz</td>
-    <td class="tg-fymr">Measurement by JeeLabs</td>
-  </tr>
-</tbody>
-</table>
+<!-- Power table -->
+<center>
+    <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-8efc{background-color:#c0c0c0;border-color:inherit;color:#000000;font-size:100%;font-weight:bold;text-align:center;
+      vertical-align:top}
+    .tg .tg-f35e{background-color:#c0c0c0;border-color:inherit;font-size:100%;font-weight:bold;text-align:left;vertical-align:top}
+    .tg .tg-kwiq{border-color:inherit;color:#000000;text-align:left;vertical-align:top}
+    .tg .tg-1pgq{background-color:#c0c0c0;border-color:inherit;color:#000000;font-size:100%;font-weight:bold;text-align:left;
+      vertical-align:top}
+    .tg .tg-ml2k{border-color:inherit;color:#000000;text-align:center;vertical-align:top}
+    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+    .tg .tg-vpkt{border-color:inherit;color:#000000;font-weight:bold;text-align:center;vertical-align:top}
+    .tg .tg-21f3{border-color:inherit;color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+    .tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+    </style>
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-8efc">Device</th>
+        <th class="tg-8efc">Power Consumption</th>
+        <th class="tg-1pgq">Notes</th>
+        <th class="tg-f35e"><span style="color:#000">Sources</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-ml2k">Hokoyo Lidar</td>
+        <td class="tg-ml2k">8.4 W</td>
+        <td class="tg-kwiq">Single channel</td>
+        <td class="tg-0pky"><a href="https://autonomoustuff.com/-/media/Images/Hexagon/Hexagon%20Core/autonomousstuff/pdf/hokuyo-utm-30lx-datasheet.ashx?la=en&hash=E1F8A1F837A229BD9EB3FEC17DD3488F" target="_blank" rel="noopener noreferrer">Datasheet</a></td>
+      </tr>
+      <tr>
+        <td class="tg-vpkt">Velodyne Puck</td>
+        <td class="tg-vpkt">8 W</td>
+        <td class="tg-21f3">16 channel</td>
+        <td class="tg-fymr"><a href="https://www.mapix.com/wp-content/uploads/2018/07/63-9286_Rev-H_Puck-LITE_Datasheet_Web.pdf" target="_blank" rel="noopener noreferrer">Datasheet</a></td>
+      </tr>
+      <tr>
+        <td class="tg-ml2k">ASUS RT-AC86U</td>
+        <td class="tg-ml2k">Measured @ 6.5 W in lab</td>
+        <td class="tg-kwiq">802.11AC, 5 Ghz, 20/40/80 MHz, 4x4</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-ml2k">Quantenna </td>
+        <td class="tg-ml2k">Measured @ 3.2 W in lab</td>
+        <td class="tg-kwiq">802.11AC, 5 Ghz, 20/40/80 MHz,  4x4</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-ml2k">Intel 5300</td>
+        <td class="tg-ml2k">1.6 W Rx, 2.1 W Tx</td>
+        <td class="tg-kwiq">802.11n, 2.4 Ghz, 20 and 40 MHz, <br>3x3</td>
+        <td class="tg-0pky"><a href="https://www.usenix.org/legacy/events/hotpower/tech/full_papers/Halperin.pdf" target="_blank" rel="noopener noreferrer">Power measurements by Halperin et al.</a></td>
+      </tr>
+      <tr>
+        <td class="tg-ml2k">TP-Link TL-WDR4300<br>(Atheros CSI tool)</td>
+        <td class="tg-ml2k">4.6 W</td>
+        <td class="tg-kwiq">IEEE 802.11n, 2.4 GHz, 20/40 MHz, 3x3 </td>
+        <td class="tg-kwiq"><a href="http://www.tpcdb.com/product.php?id=1729" target="_blank" rel="noopener noreferrer">Power consumption database</a></td>
+      </tr>
+      <tr>
+        <td class="tg-vpkt">ESP 32, NodeMCU</td>
+        <td class="tg-vpkt">240 mW x 4 ~ 1 W</td>
+        <td class="tg-21f3">802.11 b/g/n, 2.4 GHz, 20 MHz</td>
+        <td class="tg-21f3"><a href="https://jeelabs.org/book/1526f/" target="_blank" rel="noopener noreferrer">Measurement by JeeLabs</a></td>
+      </tr>
+    </tbody>
+    </table>
+</center>
 
 From the above table, we can see that taking a conservative power estimate of the NodeMCU, we find the power consumption to be close to 1 W, which is about 8 times lower than the Velodyne Puck Lite. 
 
