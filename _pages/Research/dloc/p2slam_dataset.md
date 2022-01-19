@@ -15,7 +15,7 @@ Authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia
 
 <div class="well">
  <center>
- <h4><A href="#env">Environment Description</A>&emsp;<A href="#result">In-depth Results</A>&emsp;<A href="#swapc">SWaP-C Analysis</A>&emsp;<A href="#usage"> Dataset Usage </A>&emsp;<a href="https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/ERBGyYIWBTtBhT_phoQzWf4BBoWPPAbpQN36DHhzCWy10Q?e=KMY3lO"> Download (size: 28GB) </a></h4>
+ <h4><A href="#env">Environment Description</A>&emsp;<A href="#result">In-depth Results</A>&emsp;<A href="#swapc">SWaP-C Analysis</A>&emsp;<A href="#usage"> Dataset Usage </A>&emsp;<a href="https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EYzw_0qqU8JEniqZl5RcR44BrBXL-9WXvwGLwkwJcyJZ5w?e=YLM4DY"> Download (size: 19.6GB) </a></h4>
  </center>
 </div>
 
@@ -233,9 +233,9 @@ Publicly available information about the Velodyne Puck prices the it at $8000. A
 <h3 id="usage">Dataset Usage</h3>
 
 
-The CSI data is named as **channels.mat** and the rosbag is named as **data.bag** in the resepctive dataset folders. All the datasets can be downloaded [here (size: 28GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/ERBGyYIWBTtBhT_phoQzWf4BBoWPPAbpQN36DHhzCWy10Q?e=KMY3lO):
+The CSI data is named as **channels.mat** and the rosbag is named as **data.bag** in the resepctive dataset folders. All the datasets can be downloaded [here (size: 19.6 GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EYzw_0qqU8JEniqZl5RcR44BrBXL-9WXvwGLwkwJcyJZ5w?e=YLM4DY):
 
-The MATLAB files are stored using **HDF5** file structure and contain the following variables:
+The MATLAB files (channels.mat) are stored using **HDF5** file structure and contain the following variables:
 - **channels_cli**: *[ n_datapoints x n_frequency x n_ap x n_rx_ant X n_tx_ant]* 5D complex channel matrix recieved at the WiFi access points deployed in the environment.
 - **channels_ap**: *[ n_datapoints x n_frequency x num_aps x n_rx_ant X n_tx_ant]* 5D complex channel matrix recieved at the WiFi access point present on the robot.
 - **cli_rssi_synced**: *[ n_datapoints x n_rx_ant x n_ap ]* Recieved signal strength matrix at the environments' WiFi access point.
@@ -248,21 +248,21 @@ The MATLAB files are stored using **HDF5** file structure and contain the follow
 - **labels_imu**: *[ n_datapoints x 3 ]* 2D  XY labels + heading of the robot computed using the robot's wheel encoder and internal gyroscope (less erroneous than only using wheel encoders)
 - **labels_vel**: *[ n_datapoints x 1 ]* Velocity of the robot in m/s.
 
-The rosbags contain the following topics:
+The rosbags (data.bag) contain the following topics:
 
-1. Camera Information from Intel Realsense D415:
-- /camera/rgb/camera_info
+1. **Camera Information from Intel Realsense D415. DS 1 uses the Orbbec Astra camera and its topics are in parantheses**:
+- /camera/color/image_raw/compressed (/camera/rgb/camera_info)
+- /camera/color/image_raw/compressed (/camera/rgb/image_rect_color/compressed)
 - /camera/depth_registered/image_raw/compressedDepth
-- /camera/rgb/image_rect_color/compressed
 
-2. Odometry Information from Turtlebot base:
+2. **Odometry Information from Turtlebot base**:
 - /mobile_base/sensors/core
 - /mobile_base/sensors/imu_data
 - /mobile_base/sensors/imu_data_raw
 - /odom
 /tf
 
-3. Hokuoyo Lidar scan information:
+3. **Hokuoyo Lidar scan information**:
 - /scan
 
 
