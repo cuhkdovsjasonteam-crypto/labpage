@@ -317,14 +317,22 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 {% endif %}
 
 ### Alumni MS students
-* Gautham Reddy (MS 2021) (Radar)
-* Nitish Kulshrestha (MS 2021) (Backscatter)
-* Navin Adarsh (MS 2021) (Channel Prediction) 
-* Mila Tan (MS 2021) (Millimeter-wave testbed) (Now at maxlinear)
-* Weginbara (Michael) Youpele (MS 2021) (Millimeter-wave testbed) 
+#### 2022
+* Howard Chi (MS 2022) (Full Duplex)
+* Sanjeev Anthia Ganesh (Backscatter)
+
+#### 2021
+* Gautham Reddy (MS 2021) (Radar) (Now at Broadcom, SJ)
+* Nitish Kulshrestha (MS 2021) (Backscatter) (Now at Qualcomm, SD)
+* Navin Adarsh (MS 2021) (Channel Prediction) (Now at Uhnder, Missouri)
+* Mila Tan (MS 2021) (Millimeter-wave testbed) (Now at maxlinear, SD)
+* Weginbara (Michael) Youpele (MS 2021) (Millimeter-wave testbed) (Now at Naval Surface Warfare Center, CA)
 * Xiangwei Shao (MS 2021) (Millimeter-wave testbed) (Co-authored mmNets'20) (Now at Huawei)
 * Hou-Wei Lin (MS 2021) (Millimeter-wave testbed) (Co-authored mmNets'20) (Now at Amazon, SJ)
 * Yeswanth Guntupalli (MS 2021) (Full Duplex Radios) (Now at Apple, SD)
+
+#### 2020
+* Yeswanth Reddy Guddeti (MS 2021) (Spectrum Sensing) 
 * Aman Goyal (MS 2020) (OTFS communication) (Now at Apple, SJ)
 * Rohit Kumar(MS 2020) (Full Duplex) (Now at Qualcomm, SD)
 * Shruti Jain (MS 2020) (Full Duplex) (Now at XCOM Labs, SD)
@@ -335,6 +343,8 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 * Sanatan Sharma (MS 2020) (Machine Learning) (Highlight: Mobicom'20) (Now at TuSimple, SD)
 * Shrinidhi Venkatakrishnan (MS 2020) (Virtual Reality) (Now at Qualcomm, SD)
 * Tejas Sadarhalli (MS 2020) (5G testbed) (Now at Qualcomm, SD)
+
+#### 2019
 * Shrivatsan Rajagopalan (MS 2019) (Localization) (Highlight: NSDI'20) (Now at Qualcomm, SD)
 * Aravind Seetharaman (MS 2019) (Localization) (Highlight: NSDI'20) (Now at Qualcomm, SJ)
 * Shreya Ganesaraman (MS 2019) (Localization) (Highlight: NSDI'20) (Now at Intel, SD)
@@ -343,11 +353,19 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 * Samuel Sunarjo (BS-MS 2019) (SigNet) (Highlight: CVPR'19) (Now at Qualcomm, SD)
 * Kavya Potluri (MS 2019) (Now at Qualcomm, SD)
 * Vamsidhar Reddy (MS 2019) (Machine Learning) (Now at Cruise Automation, SJ)
+
+#### 2018
 * Rohit Kulkarni (MS 2018) (Spectrum Sensing) (Now at Qualcomm, SD)
 
 ### Alumni BS students
-* Scott Zhao (BS 2020) (Localization) (Now M.S. at Columbia, NY) (IMWUT 2021)
-* Siyuan Zhu (BS 2020) (Radar for autonomous vehicles) (Co-authored Sensys'20)
+
+#### 2021
+* Keshav Rungta (BS'21, MS'22) (Robotics and radar) (Coauthor Sensys'20) (Now at Apple, Sunnyvale)
+
+#### 2020
+* Chenfeng Wu (BS'20, MS'21) (Localization) (Co-authored Mobicom'20, NSDI'20) (Now at Ford, Ann Arbor)
+* Scott Zhao (BS 2020) (Localization) (Now M.S. at Columbia, NY) (Lead-author IMWUT'21)
+* Siyuan Zhu (BS 2020, MS 2022) (Radar for autonomous vehicles) (Co-authored Sensys'20)
 
 
 ### UCSD Summer Research Internship Program (SRIP)

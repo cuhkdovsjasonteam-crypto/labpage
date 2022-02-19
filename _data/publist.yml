@@ -1,3 +1,21 @@
+- title: "P2SLAM: Bearing based WiFi SLAM for Indoor Robots"
+  image: p2slam.png
+  description: "A recent spur of interest in indoor robotics has increased the importance of robust simultaneous localization and mapping algorithms in indoor scenarios. This robustness is typically provided by the use of multiple sensors which can correct each others’ deficiencies. In this vein, exteroceptive sensors, like cameras and LiDAR’s, employed for fusion are capable of correcting the drifts accumulated by wheel odometry or inertial measurement units (IMU’s). However, these exteroceptive sensors are deficient in highly structured environments and dynamic lighting conditions. This letter will present WiFi as a robust and straightforward sensing modality capable of circumventing these issues. Specifically, we make three contributions. First, we will understand the necessary features to be extracted from WiFi signals. Second, we characterize the quality of these measurements. Third, we integrate these features with odometry into a state-of-art GraphSLAM backend. We present our results in a 25×30 m and 50×40 environment and robustly test the system by driving the robot a cumulative distance of over 1225 m in these two environments. We show an improvement of at least 6× compared odometry-only estimation and perform on par with one of the state-of-the-art Visual-based SLAM."
+  authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia 
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/9691786
+    display:  "[IEEE Robotics and Automation 2022]"
+  highlight: 1
+  tag1: localization
+  tag2:
+  news1:
+  website:
+    url: https://wcsng.ucsd.edu/p2slam/
+    display: "[Webpage]"
+  paper:
+    url: files/p2slam.pdf
+    display: "[paper]"
+
 - title: "Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices"
   image: BLE_attack.gif
   description: "Mobile devices increasingly function as wireless tracking beacons. Using the Bluetooth Low Energy (BLE) protocol, mobile devices such as smartphones and smartwatches continuously transmit beacons to inform passive listeners about device locations for applications such as digital contact tracing for COVID-19, and even finding lost devices. These applications use cryptographic anonymity that limit an adversary’s ability to use these beacons to stalk a user. However, attackers can bypass these defenses by fingerprinting the unique physical-layer imperfections in the transmissions of specific devices. We empirically demonstrate that there are several key challenges that can limit an attacker’s ability to find a stable physical layer identifier to uniquely identify mobile devices using BLE, including variations in the hardware design of BLE chipsets, transmission power levels, differences in thermal conditions, and limitations of inexpensive radios that can be widely deployed to capture raw physical-layer signals. We evaluated how much each of these factors limits accurate fingerprinting in a large-scale field study of hundreds of uncontrolled BLE devices, revealing that physical-layer identification is a viable, although sometimes unreliable, way for an attacker to track mobile devices."
