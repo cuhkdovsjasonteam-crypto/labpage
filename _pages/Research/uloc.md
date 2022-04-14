@@ -64,7 +64,7 @@ ULoc's core design principle is to enable localizing the simplest tag. We note t
 
 </div>
 
-<div class="col-sm-6" style="float: right;">
+<div class="col-sm-6" style="float: center;">
  <p style="font-size:30px">ULoc Anchors's 2D-antenna array capable of furnishing 3D-AoA</p>
 <a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/uloc/uloc-images-large.png"><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/uloc/uloc-images-large.png" width="100%" style="float: center" > </a>
 For the first time, ULoc developed and tested a UWB Anchor with 8 antennas placed in an L-shaped to measure both the azimuth and polar angle of arrival (3D-AoA) of a UWB pulse. Using trilateration, these 3D-AoA measurements are combined over at least 2 AP's to provide cm-accuarate tag localization.  

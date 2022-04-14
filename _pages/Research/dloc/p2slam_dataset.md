@@ -6,19 +6,36 @@ sitemap: true
 permalink: /p2slam/
 ---
 
-# P2SLAM: Bearing based WiFi SLAM for Indoor Robots
+### P2SLAM: Bearing based WiFi SLAM for Indoor Robots
 ```
 Authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia
 ```
 
----
 
 <div class="well">
  <center>
- <h4><A href="#env">Environment Description</A>&emsp;<A href="#result">In-depth Results</A>&emsp;<A href="#swapc">SWaP-C Analysis</A>&emsp;<A href="#usage"> Dataset Usage </A>&emsp;<a href="https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EYzw_0qqU8JEniqZl5RcR44BrBXL-9WXvwGLwkwJcyJZ5w?e=YLM4DY"> Download (size: 19.6GB) </a></h4>
+ <h4><A href="#env">Environment Description</A>&emsp;<A href="#result">In-depth Results</A>&emsp;<A href="#swapc">SWaP-C Analysis</A>&emsp;<A href="#cite">Citation</A> &emsp;<a href="{{ site.url }}{{ site.baseurl }}/files/p2slam.pdf" target="_blank"> Paper download [PDF] </a> </h4>
  </center>
 </div>
 
+---
+
+<div class="row">
+<div class="col-sm-6 clearfix">
+<br>
+<h3 id="abstract">Abstract</h3>
+<p align="justify">
+A recent spur of interest in indoor robotics has increased the importance of robust simultaneous localization and mapping algorithms in indoor scenarios. This robustness is typically provided by the use of multiple sensors which can correct each others’ deficiencies. In this vein, exteroceptive sensors, like cameras and LiDAR’s, employed for fusion are capable of correcting the drifts accumulated by wheel odometry or inertial measurement units (IMU’s). However, these exteroceptive sensors are deficient in highly structured environments and dynamic lighting conditions. This letter will present WiFi as a robust and straightforward sensing modality capable of circumventing these issues. Specifically, we make three contributions. First, we will understand the necessary features to be extracted from WiFi signals. Second, we characterize the quality of these measurements. Third, we integrate these features with odometry into a state-of-art GraphSLAM backend. We present our results in a 25×30 m and 50×40 environment and robustly test the system by driving the robot a cumulative distance of over 1225 m in these two environments. We show an improvement of at least 6× compared odometry-only estimation and perform on par with one of the state-of-the-art Visual-based SLAM.
+</p>
+</div>
+
+<div class="col-sm-6 clearfix">
+<h3 id="idea">High-level idea</h3>
+<a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png"><center><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png" width="70%" style="float:center" ></center> </a>
+<a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png"><center><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam-graph.png" width="65%" style="float:center" ></center> </a> <br>
+The robots movement over three timestamp are shown. Relative odometry is measured between two consecutive robot poses. At each timestamp, the robot ping’s an AP (orange arrow) and receives a pong reply (green arrow). For each ping and pon transmission the AP-sided and Robot-sided bearing of the signal is computed respectively. These measurements can then be fed into GTSAM for accurate drift correction and to recover the robot's trajectory.
+</div>
+</div>
 
 ---
 
@@ -109,12 +126,7 @@ Here we describe the environments and the datasets collected in these environmen
 <h3 id="result">In-depth Results</h3>
 
 
-Next, we present in-depth analysis for the above three datasets. These datasets can be downloaded [here (size: 28GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/ERBGyYIWBTtBhT_phoQzWf4BBoWPPAbpQN36DHhzCWy10Q?e=KMY3lO)
-<!-- These datasets can be downloaded [here](https://ucsdcloud-my.sharepoint.com/:f:/g/personal/aarun_ucsd_edu/Ehi2q7tR3ZlHhCamVxFX510ByrEl6aT7aA8n_61d9ToPWQ?e=1RRHLI).  -->
-Further details to use this dataset is given below. 
-
-<b> NOTE: RAL Reviewers, please use the password given in the review-responses document to access these files. The datasets will be open-sourced upon paper's acceptance. </b>
-
+Next, we present in-depth analysis for the above three datasets. Further details to use this dataset is given below. 
 
 1. <b> Env 1 - Dataset 1 </b> (easy): Simple robot movement where we traverse all the corridors, for a total path length of 330 m (approx) at 18 cm/s. AP's are placed in the locations marked by circles in the above figure. 
 <!-- Download the dataset .mat file [here](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EZBHoXwnUGBBgx1X-2G0g-YBpJCzFOyaEhYuwL5SShRNJA?e=3oiN1A). -->
@@ -233,7 +245,7 @@ Publicly available information about the Velodyne Puck prices the it at $8000. A
 <h3 id="usage">Dataset Usage</h3>
 
 
-The CSI data is named as **channels.mat** and the rosbag is named as **data.bag** in the resepctive dataset folders. All the datasets can be downloaded [here (size: 19.6 GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EYzw_0qqU8JEniqZl5RcR44BrBXL-9WXvwGLwkwJcyJZ5w?e=YLM4DY):
+The CSI data is named as **channels.mat** and the rosbag is named as **data.bag** in the resepctive dataset folders. All the datasets can be downloaded [here (size: 19.6 GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EYzw_0qqU8JEniqZl5RcR44BXWwMgKO7K0Zbmd1KxNZ9HQ?e=KgeEsd). To access the dataset, you will need to fill out a brief <a href="https://forms.gle/UgUQ5XkhVLqE9FEj6" target="_blank">Google Form</a> to agree to the terms of usage. Upon form completion an email will be sent out with the download instructions. 
 
 The MATLAB files (channels.mat) are stored using **HDF5** file structure and contain the following variables:
 - **channels_cli**: *[ n_datapoints x n_frequency x n_ap x n_rx_ant X n_tx_ant]* 5D complex channel matrix recieved at the WiFi access points deployed in the environment.
@@ -251,23 +263,34 @@ The MATLAB files (channels.mat) are stored using **HDF5** file structure and con
 The rosbags (data.bag) contain the following topics:
 
 1. **Camera Information from Intel Realsense D415. DS 1 uses the Orbbec Astra camera and its topics are in parantheses**:
-- /camera/color/image_raw/compressed (/camera/rgb/camera_info)
+- /camera/color/camera_info (/camera/rgb/camera_info)
 - /camera/color/image_raw/compressed (/camera/rgb/image_rect_color/compressed)
-- /camera/depth_registered/image_raw/compressedDepth
+- /camera/depth_registered/image_raw/compressedDepth (/camera/depth_registered/image_raw/compressedDepth)
 
 2. **Odometry Information from Turtlebot base**:
 - /mobile_base/sensors/core
 - /mobile_base/sensors/imu_data
 - /mobile_base/sensors/imu_data_raw
 - /odom
-/tf
+- /tf
 
 3. **Hokuoyo Lidar scan information**:
 - /scan
 
+---
 
+<h3 id="cite">Citation</h3>
+If you found our work useful, please cite the project as :
 
-
+@ARTICLE{9691786,
+  author={Arun, Aditya and Ayyalasomayajula, Roshan and Hunter, William and Bharadia, Dinesh}, <br>
+  journal={IEEE Robotics and Automation Letters},  <br>
+  title={P2SLAM: Bearing Based WiFi SLAM for Indoor Robots}, <br>
+  year={2022}, <br>
+  volume={7}, <br>
+  number={2}, <br>
+  pages={3326-3333}, <br>
+  doi={10.1109/LRA.2022.3144796}} <br>
 
 <!-- ## Downloads ##
  -->
