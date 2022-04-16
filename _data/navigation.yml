@@ -29,6 +29,8 @@
   url: /vacancies.html
 - title: BluBLE
   url: /bluble/
+- title: WAIP
+  url: /waip/
 - title: Life@WCSNG
   sublinks:
     - title: Pics!
