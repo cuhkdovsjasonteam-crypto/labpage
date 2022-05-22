@@ -1,10 +1,13 @@
 
+- date: June 2022
+  headline: 1st International Workshop on AI Perception at CVPR 2022 is live. See more details <a href="https://wcsng.ucsd.edu/waip">here</a>.
 
 - date: May 2022
   headline: BLE security paper is out. See more details <a href="https://wcsng.ucsd.edu/ble-privacy/">here</a>. Congrats Hadi!
 
 - date: Apr 2022
-  headline: WiFi localization and mapping paper <a href="https://wcsng.ucsd.edu/p2slam/">P2SLAM</a> accepted at IEEE Robotics and Automation'22. P2SLAM dataset is also released. Congrats Aditya Arun! 
+  headline: WiFi localization and mapping paper <a href="https://wcsng.ucsd.edu/p2slam/">P2SLAM</a> accepted at IEEE Robotics and Automation'22. P2SLAM dataset is also released. Congrats Aditya Arun!
+
 - date: Dec 2021
   headline: Agrim got an invite from GetMobile'22 on his NSDI'21 paper on <a href="https://dl.acm.org/doi/abs/10.1145/3511285.3511296">Sensing and localizing contact forces with signal reflections</a>. Congrats Agrim!
 
