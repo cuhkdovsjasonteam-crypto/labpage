@@ -12,7 +12,7 @@ permalink: /dloc/
 ```
 Authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Sanatan Sharma, Abhishek Sethi, Deepak Vasisht, Dinesh Bharadia
 ```
-#### <a href="{{ site.url }}{{ site.baseurl }}/files/dloc.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/DLoc-ppt.pdf" style="background-color: white; color: purple;">[Slides]</a> <a href="https://youtu.be/b19C7U9jNFs">[Video]</a> <a href= "https://wcsng.ucsd.edu/wild" style="color:green">[Datasets]</a> <a href= "https://github.com/ucsdwcsng/DLoc_pt_code" style="color:blue">[Code]</a>
+#### <a href="{{ site.url }}{{ site.baseurl }}/files/dloc.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/DLoc-ppt.pdf" style="background-color: white; color: purple;">[Slides]</a> <a href="https://youtu.be/b19C7U9jNFs">[Video]</a> <a href= "https://wcsng.ucsd.edu/wild" style="color:green">[Datasets]</a> <a href= "https://github.com/ucsdwcsng/DLoc_pt_code" style="color:blue">[Code]</a><a href="https://www.kaggle.com/competitions/wild-v2/data"> [Compeititon] </a>
 
 <div class="well">
 <h4> WiFi Datasets: </h4>
