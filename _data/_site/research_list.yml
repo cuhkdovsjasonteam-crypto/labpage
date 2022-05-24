@@ -1,0 +1,80 @@
+- title: "Localization"
+  image: localization.jpg
+  description: We develop state-of-the-art methods [BLoc, SpotFi, WiDeo, Spoton] for locating WiFi devices and BLE (Bluetooth Low Energy) tags. 
+  authors: 
+  link:
+    url: /localization
+    display:  Details and Publications
+  highlight: 1
+  news2:
+
+- title: "Spectrum Sensing"
+  image: sweepsense.png
+  description: Developing spectrum sensing entities that scale to requirements of next-generation wireless networks.
+  authors: 
+  link:
+    url: /spectrum_sensing
+    display:  Details and Publications
+  highlight: 1
+  news2:
+
+- title: "Full Duplex"
+  image: fullDuplex.jpg
+  description: Full Duplex from theory to practice. Managing self interference cancellation, and various applications.
+  authors: 
+  link:
+    url: /fullduplex
+    display:  Details and Publications
+  highlight: 1
+  news1: 
+
+- title: "Backscatter"
+  image: backscatter.jpg
+  description: Harnessing wireless backscatter for low-power communication, sensing and wireless channel conditioning.
+  authors: 
+  link:
+    url: /backscatter
+    display:  Details and Publications
+  highlight: 1
+  news2:
+
+- title: "Privacy"
+  image: privacy.jpg
+  description: We investigate privacy and security vulnerabilities in wireless systems, and develop defense mechanisms to address such vulnerabilities.
+  authors: 
+  link:
+    url: /privacy
+    display:  Details and Publications
+  highlight: 1
+  news2:
+
+- title: "Vehicular Sensing"
+  image: v2x.jpg
+  description: Sensing for autonomous vehicles, toward multi-sensor fusion and robust radar imaging. 
+  authors: 
+  link:
+    url: /vehicular
+    display:  Details and Publications
+  highlight: 1
+  news2:
+
+- title: "Virtual Reality"
+  image: vr.jpg
+  description: We develop untethered VR with a robust, high-quality wireless communication link. Infrastructure-free VR enabled by wireless tracking of VR headset.
+  authors: 
+  link:
+    url: /vr
+    display:  Details and Publications
+  highlight: 1
+  news2:
+
+- title: "Wireless Communication"
+  image: comm.jpg
+  description: We are improving the communication rate, efficiency, low latency, and robustness using commodity WiFi and millimeter-wave radios.
+  authors: 
+  link:
+    url: /communication
+    display:  Details and Publications
+  highlight: 1
+  news2:
+
