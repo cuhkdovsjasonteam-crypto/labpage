@@ -55,7 +55,7 @@ p {
 .sidebar-wrapper {
   background: #C04242;
   position: absolute;
-  right: 0;
+  right: 67%;
   width: 33%;
   height: 100%;
   min-height: 800px;
@@ -67,7 +67,7 @@ p {
 }
 
 .sidebar-wrapper .profile-container {
-  padding: 5px;
+  padding: 5%;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
@@ -181,7 +181,8 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 5%;
-  padding-right: 35%;
+  padding-right: 5%;
+  padding-left: 35%;
 }
 
 .main-wrapper .section-title {
