@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"> -->
+    <link rel="shortcut icon" href="images/icml.png">
+    <link href='http://fonts.googleapis.com/css?family=Lobster|Pacifico' rel='stylesheet' type='text/css'>
+
+    <title>WAIP</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="styletest.css" rel="stylesheet">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'> -->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div id="wrap">
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img id="navlogo" src ="images/icml.jpeg"></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav ddmenu">
+            <li class="active"><a href="index.html">Home</a></li>
+                        <li ><a href="#speakers">Speakers</a></li>
+                        <!---<li ><a href="#call_for_paper">Call for Papers</a></li>--->
+                        <li ><a href="#key_dates">Key Dates</a></li>
+                        <li ><a href="#program">Program</a></li>
+                        <li ><a href="#organizers">Organizers</a></li>
+                        <li ><a href="#sponsors">Sponsors</a></li>
+
+			
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+        <div class="container">
+			<h1 align="center">WAIP: Wireless AI Perception</h1>
+			<h2 align="center">Workshop in Conjunction with CVPR 2022</h2>
+                        <h2 align="center">June 2022</h2>
+
+       <div class="content" id="date">
+      </div>
+</div>
+<!---			
+    <div id="maininfo">
+      <img src="images/CVPR_NewOrleansLogo.png"  width="300" height="80"   alt="banner-dataconnect">
+    </div>
+--->
+    <div class="container">
+      <div class="content" id="date">
+      </div>
+      <div class="content" id="about">
+ 
+        <div>
+        
+      <p>
+       Perception is the capability of a system to organize and interpret sensory data to represent and understand the underlying information. Much of the perception relies on multi-modal sensing, while the building principles of perception, such as learning and identifying patterns, apply across the visual spectrum, text, audio, and more recently, wireless signals.
+      </p>
+      <p>
+       As the field of computer vision becomes increasingly more refined and practical, the scope of research efforts is also growing to undertake more challenging problems, often those that would benefit from the incorporation of additional modalities to have a crucial impact on our daily lives. Applications such as monitoring people and spaces are now within reach of visual perception methods that can effectively extend beyond photons of the visible spectrum to wireless signals of the electromagnetic waves traveling through the air. Hence, there is an increasing interest in the computer vision community establishing interdisciplinary research lines to analyze and leverage wireless sensory data in a growing number of ways.
+      </p>
+      <p>
+       In stark contrast to existing sensing modalities such as color or infrared images, wireless data based upon <font class="important">5G, WiFi, millimeter waves</font>, and <font class="important">radar</font> allow for the perception of the environment, changes, and 3D structure of static or dynamic scenes through absolute darkness, through occluders, walls and around corners. Even subtle and distant motions invisible to cameras, such as heart rate and respiration, can be perceived through the electromagnetic field. Wireless systems are already an integral part of mobile devices and network access points in many households and offices. Using radio frequencies as a new type of camera allows improving existing algorithms developed in computer vision and machine learning for photometric images and facilitates inventing an entirely new generation of solutions that use wireless signals to their full potential for widespread applications.
+       </p>
+       <p>
+        The objective of this workshop is to highlight cutting-edge approaches and recent progress in the growing field of joint wireless perception using machine learning and possibly also other modalities such as images. It will allow researchers and companies in wireless perception to present their progress and discuss novel ideas that will shape the future of this area.
+      </p>
+
+
+        
+		</div>
+        <br>
+
+
+	
+    <div id ="speakers" class="content-section-b">
+
+        <div class="container">
+			
+	  <div class="row">
+	    <div class="container">
+	      <div class="row wow fadeInRightBig"  data-animation-delay="200">
+		<h3 class="section-heading">Invited Speakers</h3>
+	      </div>
+	    </div>		  
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h4 class="section-heading"><center><a href="https://sites.google.com/site/beibeibbwang/" target="blank">Beibei Wang </a></center></h4>
+		<center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="images/Beibei.jpg" alt=""></center>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<p>Beibei Wang received the B.S. degree in electrical engineering from the University of Science and Technology of China in July 2004 (with the highest honor), and the M.S. and Ph.D. degrees in electrical engineering from the University of Maryland, College Park in 2008 and 2009, respectively.
+In 2009-2010 she was a postdoctoral research associate with the University of Maryland, College Park. In 2010-2012, she was with Qualcomm Research and Development, San Diego, working on system design and 3GPP RAN2 aspects of HSPA heterogeneous networks. In 2012-2014, she was with Qualcomm Research Center at New Jersey, working on system design and 3GPP RAN1 aspects of LTE-Direct. Since 2015, she has been with Origin Wireless Inc., where she is Vice President of Research and Director of Intellectual Properties. She is also affiliated with the Department of Electrical and Computer Engineering, University of Maryland, College Park.
+Her research interests include Internet of Things, mobile computing, wireless sensing and positioning, and communications and networking. She has over 60  technical papers in top IEEE journals/conferences with over 5800 citations and h-index of 31, and co-invented over 50 patent applications with 20 granted. She is a co-author of “Wireless AI: Wireless Sensing, Positioning, IoT, and Communications,” Cambridge University Press, 2019 and “Cognitive Radio Networking and Security: A Game Theoretic View,” Cambridge University Press, 2011.
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h4 class="section-heading"><center><a href="https://www.cs.cmu.edu/~kkitani/" target="blank">Kris Kitani </a></center></h4>
+		<center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="images/Kris_Kitani.jpg" alt=""></center>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<p>Kris M. Kitani is an associate research professor and director of the MS in Computer Vision program of the Robotics Institute at Carnegie Mellon University. He received his BS at the University of Southern California and his MS and PhD at the University of Tokyo. His research projects span the areas of computer vision, machine learning and human computer interaction. In particular, his research interests lie at the intersection of first-person vision, human activity modeling and inverse reinforcement learning. His work has been awarded the Marr Prize honorable mention at ICCV 2017, best paper honorable mention at CHI 2017 and CHI 2020, best paper at W4A 2017 and 2019, best application paper ACCV 2014 and best paper honorable mention ECCV 2012.
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h4 class="section-heading"><center><a href="https://haitham.ece.illinois.edu" target="blank">Haitham Hassanieh </a></center></h4>
+		<center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="images/Haitham.png" alt=""></center>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<p>Haitham Hassanieh is an Assistant Professor in the ECE and CS Departments at UIUC. He is interested in wireless networking, IoT and mobile systems, wireless imaging and sensing, and sparse recovery algorithms and applications. He leads the Systems and Networking Research Group at UIUC. 
+Before coming to UIUC, He received the PhD in EECS from MIT. His PhD thesis on the Sparse Fourier Transform won the ACM Doctoral Dissertation Award, 2016, the Sprowls best thesis award at MIT, and TR10 Award for top ten breakthrough technologies in 2012.
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h4 class="section-heading"><center><a href="https://www.cs.ox.ac.uk/people/niki.trigoni/" target="blank">Niki Trigoni </a></center></h4>
+		<center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="images/Niki_Trigoni.png" alt=""></center>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<p>Niki Trigoni is a Professor at the Oxford University Department of Computer Science and a fellow of Kellogg College. She obtained her DPhil at the University of Cambridge (2001), became a postdoctoral researcher at Cornell University (2002-2004), and a Lecturer at Birkbeck College (2004-2007). At Oxford, she is currently Director of the EPSRC Centre for Doctoral Training on Autonomous Intelligent Machines and Systems, a program that combines machine learning, robotics, sensor systems and verification/control. She also leads the Cyber Physical Systems Group, which is focusing on intelligent and autonomous sensor systems with applications in positioning, healthcare, environmental monitoring and smart cities. The group’s research ranges from novel sensor modalities and low level signal processing to high level inference and learning. 
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h4 class="section-heading"><center><a href="http://cwc.ucsd.edu/people/dinesh-bharadia" target="blank">Dinesh Bharadia </a></center></h4>
+		<center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="images/Dinesh.png" alt=""></center>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<p>Dinesh Bharadia is faculty in ECE at University of California San Diego. Dinesh Bharadia received his PhD from Stanford University in 2016 and was a Postdoctoral Associate at MIT. Specifically, in his dissertation, he built prototype of a radio, that invalidated a long held assumption in wireless is that radios cannot transmit and receive at the same time on the same frequency. In recognition of his work, Dinesh was named to Forbes 30 under 30 for the science category worldwide list. Dinesh was also named a Marconi Young Scholar for outstanding wireless research and awarded the Michael Dukakis Leadership award. He was also named as one of the top 35 Innovators under 35 in the world by MIT Technology Review in 2016. Dinesh is also recipient of the Sarah and Thomas Kailath Stanford Graduate Fellowship. From 2013 to 2015, he was a Principal Scientist for Kumu Networks, where he worked to commercialize his research on full-duplex radios, building a product that underwent successful field trials at Tier 1 network providers worldwide like Deutsche Telekom and SK Telecom. This product is currently under deployment. His research interests include advancing the theory and design of modern wireless communication systems, wireless imaging, sensor networks and data-center networks.
+Dinesh received his bachelor's degree in Electrical Engineering from the Indian Institute of Technology, Kanpur in 2010, where he received the gold medal for graduating at the top of his class. His research has been published at top conferences such as SIGCOMM, NSDI, MobiCom and has been cited over 2000 times. He would offer core courses in wireless communication, IoT networks, and networked systems building.
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h4 class="section-heading"><center><a href="" target="blank">Simone Merlin </a></center></h4>
+		<center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="images/Simone_Merlin.png" alt=""></center>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<p>
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h4 class="section-heading"><center><a href="http://tns.thss.tsinghua.edu.cn/~yangzheng/" target="blank">Zheng Yang </a></center></h4>
+		<center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="images/Zheng_Yang.jpg" alt=""></center>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<p>Zheng Yang is an associate professor in School of Software and BNRist, Tsinghua University, Beijing, China. He received his B.E. degree in the Department of Computer Science from Tsinghua University, and his Ph.D. degree in the Department of Computer Science and Engineering of Hong Kong University of Science and Technology. Zheng received China National Natural Science Award (2011). Zheng was selected into the Youth Top Talent Support Program (a.k.a. "Thousands-of-Talents Scheme", 2015), Beijing Nova Program (2015), and Natural Science Fund for Excellent Young Scientist (2016).
+His research interests include Internet of Things, Industrial Internet, sensing and positioning, smart city, blockchain, etc. He is an author and co-author of 4 books and over 60 research papers in premier journals and conferences. He received 4 best paper (candidates) awards and has over 10,000 citations with H-index 54.
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h4 class="section-heading"><center><a href="https://cse.msu.edu/~caozc/" target="blank">Zhichao Cao </a></center></h4>
+		<center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="images/Zhichao_2.jpg" alt=""></center>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<p>Zhichao Cao is an assistant professor at Department of Computer Science and Engineering, Michigan State University. As an assistant professor, he worked in School of Software, Tsinghua University. He received the Ph.D. degree in the Department of Computer Science and Engineering of Hong Kong University of Scienc and Technology and the B.E. degree in the Department of Computer Science and Technology of Tsinghua University. His research interests lie broadly in IoT systems, edge computing and mobile computing. He serves as Associate Editor for ACM Transactions on Sensor Networks (TOSN), which is the flag journal related to computational intelligence in IoT networks.
+		</p>
+	      </div>
+	    </div>
+
+
+<!---	    
+      <hr>
+    <a id="speakers"> <h3>Speakers</h3></a>
+      <hr>
+
+
+      <ul>
+      <li><a href="https://www.linkedin.com/in/beibei-wang-0aa00a12"> Beibei Wang, Origin Wireless AI </a> </li>
+      <li><a href="http://www.cs.cmu.edu/~kkitani/"> Kris Kitani, Carnegie Mellon University </a> </li>
+      <li><a href="https://haitham.ece.illinois.edu"> Haitham Hassanieh, University of Illinois at Urbana-Champaign</a></li>
+      <li><a href="https://www.cs.ox.ac.uk/people/niki.trigoni/">Niki Trigoni, University of Oxford</a></li>
+      <li><a href="http://cwc.ucsd.edu/people/dinesh-bharadia"> Dinesh Bharadia, UC San Diego</a>  </li>
+      <li><a href="https://www.linkedin.com/in/simone-merlin-a096a33"> Simone Merlin, Qualcomm Technologies, Inc.</a></li>
+      <li><a href="https://cswu.me"> Chenshu Wu, The University of Hong Kong and Origin Wireless, Inc.</a> </li>
+      <li><a href="https://cse.msu.edu/~caozc/"> Zhichao Cao, Michigan State University</a> </li>
+      </ul>
+--->
+<!---
+      <hr>
+    <a id="call_for_paper"> <h3>Call for Papers</h3></a>
+      <hr>
+
+<p>
+We will advertise a call for papers that solicits novel, unpublished research results on topics relevant to theworkshop.  We will hold a dedicated spotlight session for individual presentations of a handful of spotlight accepted papers, as well as two poster sessions in order to cover the rest of the accepted submissions.  In addition to the invited talks and spotlight/poster sessions, we will hold a panel discussion with panelists drawnfrom the invited talks.  The panel session will be moderated by Prof. Monisha Ghosh from the University of Notre Dame.
+--->
+
+    <div id ="key_dates" class="content-section-b">
+
+        <div class="container">
+			
+	  <div class="row">
+	    <div class="container">
+	      <div class="row wow fadeInRightBig"  data-animation-delay="200">
+		<h3 class="section-heading">Key Date</h3>
+	      </div>
+	    </div>		  
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><center>June 20, 2022, afternoon session</center></h5>
+	      </div>
+	    </div>
+	    
+	  </div>
+	</div>
+    </div>
+
+<!---
+<hr>
+    <a id="key_dates"> <h3>Key Date</h3></a>
+      <hr>
+<ul>
+--->
+      <!--    <li><span class="label label-danger">IMPORTANT and URGENT</span> </li>
+        <li><span class="label label-success">App</span> </li> -->
+
+
+  <!---
+  <li>Paper submission deadline: TBD </li>
+    <li>Acceptance notification: TBD </li>
+    <li>Workshop presentations: TBD </li>
+    --->
+    <!---
+  <li>June 20, 2022, afternoon session</li>
+</ul>
+--->
+
+<!---
+        <hr>
+    <a id="program"> <h3>Program</h3></a>
+      <hr>
+      <p> 
+        <br>
+          tba
+        <br>
+      </p>
+--->
+
+    <div id="program" class="content-section-b">
+
+        <div class="container">
+			
+	  <div class="row">
+	    <div class="container">
+	      <div class="row wow fadeInRightBig"  data-animation-delay="200">
+		<h3 class="section-heading">Program</h3>
+	      </div>
+	    </div>		  
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>13:30-14:00 Hanno Ackermann</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left>Opening and Introduction</left></h5>
+		<p>
+		</p>
+	      </div>
+	    </div>
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>14:00-14:30 Haitham Hassanieh</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left>Seeing Through Fog: High-Resolution Millimeter-Wave Imaging and Detection for Self-Driving Cars</left></h5>
+		<p>This paper demonstrates high-resolution imaging using millimeter wave (mmWave) radars that can function even in dense fog. We leverage the fact that mmWave signals have favorable propagation characteristics in low visibil- ity conditions, unlike optical sensors like cameras and Li- DARs which cannot penetrate through dense fog. Millime- ter wave radars, however, suffer from very low resolution, specularity, and noise artifacts. We introduce HawkEye, a system that leverages a cGAN architecture to recover high-frequency shapes from raw low-resolution mmWave heatmaps. We propose a novel design that addresses chal- lenges specific to the structure and nature of the radar sig- nals involved. We also develop a data synthesizer to aid with large-scale dataset generation for training. We implement our system on a custom-built mmWave radar platform and demonstrate performance improvement over both standard mmWave radars and other competitive baselines.
+		</p>
+	      </div>
+	    </div>
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>14:30-15:00 Niki Trigoni</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left>Mobile autonomy in challenging environments</left></h5>
+		<p>Mobile autonomous systems have gained significant momentum in recent years due to their growing impact on a variety of smart city applications, such as autonomous vehicles, digital twins, smart manufacturing processes, warehousing and logistics, to name a few. However, such systems have been successfully demonstrated mostly in benign and controlled environments. In this talk I will focus on the next generation of autonomous mobile systems designed to handle adverse and dynamically changing conditions, such as darkness, smoke and bad weather. I will discuss key research challenges motivating the development of novel robust localisation and mapping techniques, and will explore emerging approaches to human robot interaction.
+		</p>
+	      </div>
+	    </div>
+
+	    
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>15:00-15:30 Beibei Wang</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left>Wi-Fi Can Do More: Towards Ubiquitous Wireless Sensing</left></h5>
+		<p>The next big deal for Wi-Fi is not about communication and networking, but sensing. Wireless Sensing technology is turning a Wi-Fi device into a ubiquitous sensor, which not only adds a brand new dimension to the functions, capabilities, and applications of all Wi-Fi systems, but also revolutionizes how sensing, especially human-centric sensing, is practiced. Wi-Fi Sensing utilizes ambient Wi-Fi signals to analyze and interpret human and object movements, underpinning many sensing applications such as motion sensing, sleep monitoring, fall detection,
+etc. These new sensing functionalities can benefit the global Wi-Fi ecosystem including integrated circuit manufacturers, device manufacturers, system integrators, application developers, and ultimately end users. In this talk, we introduce the concepts, principles of Wi-Fi Sensing, and share our unique technologies that have been deployed for real-world applications. We foresee that Wi-Fi Sensing will enter billions of devices and millions of homes, creating a smarter space for a smarter life. 
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>15:30-16:00 Kris Kitani</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left>Perception and Human Activity Understanding without RGB sensing</left></h5>
+		<p>In this talk, we will cover a range of methods for sensing people and their behaviors using non-visual spectrum sensors such as Inertial Motion Units (IMU), BLE (Bluetooth Low-Energy) Beacons, RADAR and LIDAR. In particular, I will present methods for localization, assistive navigation, 3D object detection and 3D human pose estimation without the use of visual-spectrum cameras.
+		</p>
+	      </div>
+	    </div>
+
+	    
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>16:00-16:30 Coffee Break</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left></left></h5>
+		<p>
+		</p>
+	      </div>
+	    </div>
+	    
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>16:30-16:50 Simone Merlin</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left></left></h5>
+		<p>
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>16:50-17:10 Dinesh Bharadia</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left>Wi-Fi Indoor Localization Dataset (WILD-v2)</left></h5>
+		<p>Wi-Fi devices are all around us, not just in smartphones but other IoT devices like smart-watches, smart-home appliances or smart sensors. With these Wi-Fi-connected devices increasing by the day, it becomes cumbersome to keep a tab on all of them manually, and GPS is not accurate enough to keep track of these devices indoors. Due to this widespread deployment of Wi-Fi and lack of GPS indoors, Wi-Fi-based localization for Indoor appliances becomes a necessity and requirement.
+Current localization algorithms are tested on either too sparse data or use large datasets to fingerprint most of the locations. Furthermore, each algorithm is tested against its own data which makes coming up with a baseline really hard. This has further led to minimal to no deployment of about two decades of Wi-Fi localization into real-world systems. On the other hand, your smartphones are already using high-end computer vision algorithms that have been developed only in the last decade, all due to open-source competitions like ImageNet. 
+To that extent, we are open-sourcing our datasets and are present our Kaggle competition.
+		</p>
+	      </div>
+	    </div>
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>17:10-17:30 Zhichao Cao</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left>Wi-Fi See It All: A Dataset Introduction for Versatile Wi-Fi Imaging</left></h5>
+		<p>Wi-Fi imaging has attracted significant interest due to the ubiquitous availability of Wi-Fi devices today. In this talk, I will introduce Wi-Fi See It All (WiSIA), a versatile Wi-Fi imaging system built upon commercial off-the-shelf (COTS) Wi-Fi devices. Based on a dataset, I will explain how WiSIA constructs the image plane with two pairs of transceivers and 2D-IFFT and how WiSIA extracts the specific physical signature of the signals reflected from multiple objects to segment their boundaries. In addition, I will demonstrate some evaluation results of object segmentation by using such a Wi-Fi imaging technique.
+		</p>
+	      </div>
+	    </div>
+	    
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>17:30-17:50 Zheng Yang</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left>Widar3: WiFi-based Activity Recognition Dataset</left></h5>
+		<p>Open datasets are essential to provide comprehensive knowledge for model training and a unified benchmark for model comparison. Open datasets are even more necessary in the wireless sensing field because RF signals are more sensitive to devices and deployment environments. However, the absence of high-quality and large-scale datasets has become the bottleneck that hindered the progress of wireless sensing technology. Existing wireless sensing datasets suffer from small scales and limited scenarios in 2019 when we started to build the Widar3 dataset. Widar3 is a wireless sensing dataset for human activity recognition. It is collected from commodity Wi-Fi NICs in the form of RSSI and CSI. It consists of 258,000 instances of hand gestures with a duration of 8,620 minutes and from 75 domains. Widar3 is so far the largest and most comprehensive dataset in this field and receives widespread attention from researchers all over the world. Widar3 dataset is publicly available at IEEE DataPort (official data repository) and continues evolving to contain more types of activities. This talk will introduce Widar3 dataset and provide a tutorial for starting wireless AI research with it.
+		</p>
+	      </div>
+	    </div>
+
+
+	    <div class="container">
+	      <div class="col-sm-3 wow"  data-animation-delay="200">   
+		<h5 class="section-heading"><left>17:50-18:00 Closing</left></h5>
+	      </div>
+	      <div class="col-sm-8 col-md-offset-1 wow" style="text-align:justify" data-animation-delay="200">   
+		<h5 class="section-heading"><left></left></h5>
+		<p>
+		</p>
+	      </div>
+	    </div>
+
+
+	    
+	  </div>
+	</div>
+    </div>
+      
+
+
+
+
+
+    <div id="organizers" class="content-section-a"> 
+
+      <div class="container">
+	<div class="row wow fadeInRightBig"  data-animation-delay="200">
+	  <h3 class="section-heading">Organizers</h3>
+	</div>
+      
+                <div>
+                  <div class="content">
+                    <div class="row uniform">
+
+                      <div class="2u 12u$(small)">
+                        <a href="http://cwc.ucsd.edu/people/dinesh-bharadia" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/Dinesh.png" img height="140px" alt="">
+                          </span>
+                          <h5>Dinesh Bharadia<br><font size="2">UC San Diego</font></h5>
+                        </a>
+                      </div>
+                      <div class="2u 12u$(small)">
+                        <a href="http://www.porikli.com" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/Fatih_2.jpg" img height="140px" alt="">
+                          </span>
+                          <h5>Fatih Porikli<br><font size="2">Qualcomm AI Research</font></h5>
+                        </a>
+                      </div>
+                      <div class="2u 12u$(small)">
+                        <a href="https://cswu.me" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/Chenshu.png" img height="140px" alt="">
+                          </span>
+                          <h5>Chenshu Wu<br><font size="2">The University of Hong Kong</font></h5>
+                        </a>
+                      </div>
+                      <div class="2u 12u$(small)">
+                        <a href="https://cse.msu.edu/~caozc/" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/Zhichao.png" img height="140px" alt="">
+                          </span>
+                          <h5>Zhichao Cao<br><font size="2">Michigan State University</font></h5>
+                        </a>
+                      </div>
+                      <div class="2u 12u$(small)">
+                        <a href="https://www.mind2machine.nl" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/Farhad.png" img height="140px" alt="">
+                          </span>
+                          <h5>Farhad Zanjani<br><font size="2">Qualcomm AI Research</font></h5>
+                        </a>
+                      </div>
+                      <div class="2u 12u$(small)">
+                        <a href="https://scholar.google.com/citations?user=UK3TEWUAAAAJ&hl=en" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/Hanno.png" img height="140px" alt="">
+                          </span>
+                          <h5>Hanno Ackermann<br><font size="2">Qualcomm AI Research</font></h5>
+                        </a>
+                      </div>
+ 
+                   </div>
+                  </div>
+                </div>
+<!---      
+      <div class="container">
+	<div class="row wow fadeInRightBig"  data-animation-delay="200">
+	  <h3 class="section-heading">Organizers</h3>
+	</div>
+
+	
+	<div class="col-sm-3 wow fadeInRightBig"  data-animation-delay="200">   
+	  <h5 class="section-heading"><center>Dinesh Bharadia</center></h5>
+	  <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="200" width="200" src="images/Dinesh.png" alt=""></center>
+	  <h5 class="section-heading"><center><i>UC San Diego</i></center></h5>
+	</div>
+
+
+	<div class="col-sm-3 wow fadeInRightBig"  data-animation-delay="200">   
+	  <h5 class="section-heading"><center>Fatih Porikli</center></h5>
+	  <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="200" width="200" src="images/Fatih_2.jpg" alt=""></center>
+	  <h5 class="section-heading"><center><i>Qualcomm AI Research</i></center></h5>
+	</div>
+
+				
+	<div class="col-sm-3 wow fadeInRightBig"  data-animation-delay="200">   
+	  <h5 class="section-heading"><center>Chenshu Wu</center></h5>
+	  <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="200" width="200" src="images/Chenshu.png" alt=""></center>
+	  <h5 class="section-heading"><center><i>The University of Hong Kong</i></center></h5>
+	</div>
+
+
+	<div class="col-sm-3 wow fadeInRightBig"  data-animation-delay="200">   
+	  <h5 class="section-heading"><center>Zhichao Cao</center></h5>
+	  <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="200" width="200" src="images/Zhichao_2.jpg" alt=""></center>
+	  <h5 class="section-heading"><center><i>Michigan State University</i></center></h5>
+	</div>
+
+
+	<div class="col-sm-3 wow fadeInRightBig"  data-animation-delay="200">   
+	  <h5 class="section-heading"><center>Farhad Zanjani</center></h5>
+	  <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="200" width="200" src="images/Farhad.png" alt=""></center>
+	  <h5 class="section-heading"><center><i>Qualcomm AI Research</i></center></h5>
+	</div>
+
+	
+	<div class="col-sm-3 wow fadeInRightBig"  data-animation-delay="200">   
+	  <h5 class="section-heading"><center>Hanno Ackermann</center></h5>
+	  <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="200" width="200" src="images/Hanno.png" alt=""></center>
+	  <h5 class="section-heading"><center><i>Qualcomm AI Research</i></center></h5>
+	</div>
+
+      </div>
+    </div>
+
+--->	
+	
+    <div id="program_committee" class="content-section-a"> 
+		
+      <div class="container">
+	<div class="row wow fadeInRightBig"  data-animation-delay="200">
+	  <h3 class="section-heading">Program Committee</h3>
+	</div>
+
+	<div id="centerDiv">
+	  <ul>
+            <li>Philip Orlik, MERL</li>
+	    <li>Mehdi Bennis, University of Oulu </li>
+	    <li>Thierry Peynot, Queensland University of Technology </li>
+	    <li>Haitham Hassanieh, University of Illinois at Urbana-Champaign </li>
+	    <li>Felix Heide, Princeton </li>
+	    <li>Wen Hu, UNSW </li>
+	    <li>Geoffrey Ye Li, Imperial College London </li>
+	    <li>Zhaoming Lu, Beijing University of Posts and Telecommunications </li>
+	    <li>Jun Luo, Nanyang Technological University </li>
+	    <li>Arash Behboodi, Qualcomm AI Research </li>
+	    <li>Daniel Dijkman, Qualcomm AI Research </li>
+	    <li>Tony Q. S. Quek, Singapore University of Technology and Design </li>
+	    <li>Lu Su, SUNY Buffalo </li>
+	    <li>Fredrik Tufvesson, Lund University </li>
+	    <li>Deepak Vasisht, University of Illinois at Urbana-Champaign </li>
+	    <li>Beibei Wang, Origin Wireless AI </li>
+	    <li>Taesang Yoo, Qualcomm Technologies, Inc. </li>
+	    <li>Caijun Zhong, Zhejiang University </li>
+	    <li>Xinju Zhang, Zhejiang University</li>
+	    <li>Sanping Zhou, Xi’an Jiatong University </li>
+	  </ul>
+	</div>
+
+      </div>
+    </div>
+
+<!---
+    <div id="Sponsors" class="content-section-a"> 
+		
+      <div class="container">
+	<div class="row wow fadeInRightBig"  data-animation-delay="200">
+	  <h3 class="section-heading">Sponsors</h3>
+	</div>
+--->
+	
+<!---
+        <Sponsors>
+        <div id="logos">
+          <a target="_blank" href="https://www.ti.rwth-aachen.de/index.shtml"><img height="120px" src="tilogo.png" class="sponsor"></a>
+        </div>
+--->
+<br>
+
+<br>
+<br>
+
+<div id="logos">
+  <h4>Qualcomm AI Research is an initiative of Qualcomm Technologies, Inc.
+    <!---<img height="120px" src=".png" class="sponsor"></a>--->
+</div>
+
+		
+      </div-->
+        </div>
+</div>
+
+    </div><!-- /.container -->
+  </div>
+ 
+
+
+
+    <!-- Bootstrap core JavaScript     ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

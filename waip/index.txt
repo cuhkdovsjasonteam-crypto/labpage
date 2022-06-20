@@ -1,0 +1,104 @@
+
+		Home 
+		Speakers 
+		Key Dates 
+		Program 
+		Organizers 
+WAIP: Wireless AI Perception
+Workshop at CVPR 2022
+June 2022
+
+
+Perception is the capability of a system to organize and interpret sensory data to represent and understand the underlying information. Much of the perception relies on multi-modal sensing, while the building principles of perception, such as learning and identifying patterns, apply across the visual spectrum, text, audio, and more recently, wireless signals. 
+As the field of computer vision becomes increasingly more refined and practical, the scope of research efforts is also growing to undertake more challenging problems, often those that would benefit from the incorporation of additional modalities to have a crucial impact on our daily lives. Applications such as monitoring people and spaces are now within reach of visual perception methods that can effectively extend beyond photons of the visible spectrum to wireless signals of the electromagnetic waves traveling through the air. Hence, there is an increasing interest in the computer vision community establishing interdisciplinary research lines to analyze and leverage wireless sensory data in a growing number of ways. 
+In stark contrast to existing sensing modalities such as color or infrared images, wireless data based upon 5G, WiFi, millimeter waves, and radar allow for the perception of the environment, changes, and 3D structure of static or dynamic scenes through absolute darkness, through occluders, walls and around corners. Even subtle and distant motions invisible to cameras, such as heart rate and respiration, can be perceived through the electromagnetic field. Wireless systems are already an integral part of mobile devices and network access points in many households and offices. Using radio frequencies as a new type of camera allows improving existing algorithms developed in computer vision and machine learning for photometric images and facilitates inventing an entirely new generation of solutions that use wireless signals to their full potential for widespread applications. 
+The objective of this workshop is to highlight cutting-edge approaches and recent progress in the growing field of joint wireless perception using machine learning and possibly also other modalities such as images. It will allow researchers and companies in wireless perception to present their progress and discuss novel ideas that will shape the future of this area. 
+
+Invited Speakers
+Beibei Wang 
+
+Beibei Wang received the B.S. degree in electrical engineering from the University of Science and Technology of China in July 2004 (with the highest honor), and the M.S. and Ph.D. degrees in electrical engineering from the University of Maryland, College Park in 2008 and 2009, respectively. In 2009-2010 she was a postdoctoral research associate with the University of Maryland, College Park. In 2010-2012, she was with Qualcomm Research and Development, San Diego, working on system design and 3GPP RAN2 aspects of HSPA heterogeneous networks. In 2012-2014, she was with Qualcomm Research Center at New Jersey, working on system design and 3GPP RAN1 aspects of LTE-Direct. Since 2015, she has been with Origin Wireless Inc., where she is Vice President of Research and Director of Intellectual Properties. She is also affiliated with the Department of Electrical and Computer Engineering, University of Maryland, College Park. Her research interests include Internet of Things, mobile computing, wireless sensing and positioning, and communications and networking. She has over 60 technical papers in top IEEE journals/conferences with over 5800 citations and h-index of 31, and co-invented over 50 patent applications with 20 granted. She is a co-author of “Wireless AI: Wireless Sensing, Positioning, IoT, and Communications,” Cambridge University Press, 2019 and “Cognitive Radio Networking and Security: A Game Theoretic View,” Cambridge University Press, 2011. 
+Kris Kitani 
+
+Kris M. Kitani is an associate research professor and director of the MS in Computer Vision program of the Robotics Institute at Carnegie Mellon University. He received his BS at the University of Southern California and his MS and PhD at the University of Tokyo. His research projects span the areas of computer vision, machine learning and human computer interaction. In particular, his research interests lie at the intersection of first-person vision, human activity modeling and inverse reinforcement learning. His work has been awarded the Marr Prize honorable mention at ICCV 2017, best paper honorable mention at CHI 2017 and CHI 2020, best paper at W4A 2017 and 2019, best application paper ACCV 2014 and best paper honorable mention ECCV 2012. 
+Haitham Hassanieh 
+
+Haitham Hassanieh is an Assistant Professor in the ECE and CS Departments at UIUC. He is interested in wireless networking, IoT and mobile systems, wireless imaging and sensing, and sparse recovery algorithms and applications. He leads the Systems and Networking Research Group at UIUC. Before coming to UIUC, he received his PhD in EECS from MIT. His PhD thesis on the Sparse Fourier Transform won the ACM Doctoral Dissertation Award, 2016, the Sprowls best thesis award at MIT, and TR10 Award for top ten breakthrough technologies in 2012. 
+Niki Trigoni 
+
+Niki Trigoni is a Professor at the Oxford University Department of Computer Science and a fellow of Kellogg College. She obtained her DPhil at the University of Cambridge (2001), became a postdoctoral researcher at Cornell University (2002-2004), and a Lecturer at Birkbeck College (2004-2007). At Oxford, she is currently Director of the EPSRC Centre for Doctoral Training on Autonomous Intelligent Machines and Systems, a program that combines machine learning, robotics, sensor systems and verification/control. She also leads the Cyber Physical Systems Group, which is focusing on intelligent and autonomous sensor systems with applications in positioning, healthcare, environmental monitoring and smart cities. The group’s research ranges from novel sensor modalities and low level signal processing to high level inference and learning. 
+Dinesh Bharadia 
+
+Dinesh Bharadia is faculty in ECE at University of California San Diego. Dinesh Bharadia received his PhD from Stanford University in 2016 and was a Postdoctoral Associate at MIT. Specifically, in his dissertation, he built prototype of a radio, that invalidated a long held assumption in wireless is that radios cannot transmit and receive at the same time on the same frequency. In recognition of his work, Dinesh was named to Forbes 30 under 30 for the science category worldwide list. Dinesh was also named a Marconi Young Scholar for outstanding wireless research and awarded the Michael Dukakis Leadership award. He was also named as one of the top 35 Innovators under 35 in the world by MIT Technology Review in 2016. Dinesh is also recipient of the Sarah and Thomas Kailath Stanford Graduate Fellowship. From 2013 to 2015, he was a Principal Scientist for Kumu Networks, where he worked to commercialize his research on full-duplex radios, building a product that underwent successful field trials at Tier 1 network providers worldwide like Deutsche Telekom and SK Telecom. This product is currently under deployment. His research interests include advancing the theory and design of modern wireless communication systems, wireless imaging, sensor networks and data-center networks. Dinesh received his bachelor's degree in Electrical Engineering from the Indian Institute of Technology, Kanpur in 2010, where he received the gold medal for graduating at the top of his class. His research has been published at top conferences such as SIGCOMM, NSDI, MobiCom and has been cited over 2000 times. He would offer core courses in wireless communication, IoT networks, and networked systems building. 
+Zheng Yang 
+
+Zheng Yang is an associate professor in School of Software and BNRist, Tsinghua University, Beijing, China. He received his B.E. degree in the Department of Computer Science from Tsinghua University, and his Ph.D. degree in the Department of Computer Science and Engineering of Hong Kong University of Science and Technology. Zheng received China National Natural Science Award (2011). Zheng was selected into the Youth Top Talent Support Program (a.k.a. "Thousands-of-Talents Scheme", 2015), Beijing Nova Program (2015), and Natural Science Fund for Excellent Young Scientist (2016). His research interests include Internet of Things, Industrial Internet, sensing and positioning, smart city, blockchain, etc. He is an author and co-author of 4 books and over 60 research papers in premier journals and conferences. He received 4 best paper (candidates) awards and has over 10,000 citations with H-index 54. 
+Simone Merlin 
+
+
+Zhichao Cao 
+
+Zhichao Cao is an assistant professor at Department of Computer Science and Engineering, Michigan State University. He received his Ph.D. degree in the Department of Computer Science and Engineering of Hong Kong University of Scienc and Technology and his B.E. degree in the Department of Computer Science and Technology of Tsinghua University. His research interests lie in IoT systems, edge computing and mobile computing. He serves as Associate Editor for ACM Transactions on Sensor Networks (TOSN), which is the flag journal related to computational intelligence in IoT networks. 
+
+Key Date
+
+	•	June 20, 2022, afternoon session
+
+Program
+
+ 
+	•	Beibei Wang, Origin Wireless AI 
+	•	Kris Kitani, Carnegie Mellon University 
+	•	Haitham Hassanieh, University of Illinois at Urbana-Champaign
+	•	Niki Trigoni, University of Oxford
+	•	Dinesh Bharadia, UC San Diego 
+	•	Simone Merlin, Qualcomm Technologies, Inc.
+	•	Chenshu Wu, The University of Hong Kong and Origin Wireless, Inc. 
+	•	Zhichao Cao, Michigan State University 
+
+
+
+Test
+
+
+Organizers
+
+
+Dinesh Bharadia UC San Diego
+
+Fatih Porikli Qualcomm AI Research
+
+Chenshu Wu The University of Hong Kong
+
+Zhichao Cao Michigan State University
+
+Farhad Zanjani Qualcomm AI Research
+
+Hanno Ackermann Qualcomm AI Research
+
+Program Committee
+
+	•	Philip Orlik, MERL
+	•	Mehdi Bennis, University of Oulu 
+	•	Thierry Peynot, Queensland University of Technology 
+	•	Haitham Hassanieh, University of Illinois at Urbana-Champaign 
+	•	Felix Heide, Princeton 
+	•	Wen Hu, UNSW 
+	•	Geoffrey Ye Li, Imperial College London 
+	•	Zhaoming Lu, Beijing University of Posts and Telecommunications 
+	•	Jun Luo, Nanyang Technological University 
+	•	Arash Behboodi, Qualcomm AI Research 
+	•	Daniel Dijkman, Qualcomm AI Research 
+	•	Tony Q. S. Quek, Singapore University of Technology and Design 
+	•	Lu Su, SUNY Buffalo 
+	•	Fredrik Tufvesson, Lund University 
+	•	Deepak Vasisht, University of Illinois at Urbana-Champaign 
+	•	Beibei Wang, Origin Wireless AI 
+	•	Taesang Yoo, Qualcomm Technologies, Inc. 
+	•	Caijun Zhong, Zhejiang University 
+	•	Xinju Zhang, Zhejiang University
+	•	Sanping Zhou, Xi’an Jiatong University 
+
+
+
+Qualcomm AI Research is an initiative by Qualcomm Technologies, Inc. 

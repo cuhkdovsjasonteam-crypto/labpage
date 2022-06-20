@@ -1,0 +1,19 @@
+html,body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+body{
+	font-size: 1.6em;
+}
+
+#maininfo{
+	background: transparent url('./resources/hongkong.jpg') no-repeat scroll top center;
+	background-size: auto 100%;
+}
+#maininfo img{
+	max-width: 100%;
+}
+
+
+
