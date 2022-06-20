@@ -21,27 +21,51 @@ Authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia
 ---
 
 <div class="row">
-<div class="col-sm-6 clearfix">
+<div class="col-sm-5 clearfix">
 <br>
+<div class="well">
 <h3 id="abstract">Abstract</h3>
 <p align="justify">
 A recent spur of interest in indoor robotics has increased the importance of robust simultaneous localization and mapping algorithms in indoor scenarios. This robustness is typically provided by the use of multiple sensors which can correct each others’ deficiencies. In this vein, exteroceptive sensors, like cameras and LiDAR’s, employed for fusion are capable of correcting the drifts accumulated by wheel odometry or inertial measurement units (IMU’s). However, these exteroceptive sensors are deficient in highly structured environments and dynamic lighting conditions. This letter will present WiFi as a robust and straightforward sensing modality capable of circumventing these issues. Specifically, we make three contributions. First, we will understand the necessary features to be extracted from WiFi signals. Second, we characterize the quality of these measurements. Third, we integrate these features with odometry into a state-of-art GraphSLAM backend. We present our results in a 25×30 m and 50×40 environment and robustly test the system by driving the robot a cumulative distance of over 1225 m in these two environments. We show an improvement of at least 6× compared odometry-only estimation and perform on par with one of the state-of-the-art Visual-based SLAM.
 </p>
 </div>
+<br>
+</div>
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-7 clearfix">
 <h3 id="idea">High-level idea</h3>
-<a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png"><center><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png" width="70%" style="float:center" ></center> </a>
-<a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png"><center><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam-graph.png" width="65%" style="float:center" ></center> </a> <br>
+The folowing video gives a high-level idea on how the Wi-Fi bearing measurements are made. It also shows when the measurements are dropped to have robust measurements.
+<iframe width="100%" height="267" src="https://www.youtube.com/embed/0is2C4l_QfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 The robots movement over three timestamp are shown. Relative odometry is measured between two consecutive robot poses. At each timestamp, the robot ping’s an AP (orange arrow) and receives a pong reply (green arrow). For each ping and pon transmission the AP-sided and Robot-sided bearing of the signal is computed respectively. These measurements can then be fed into GTSAM for accurate drift correction and to recover the robot's trajectory.
+<div class="row">
+<div class="col-sm-6 clearfix">
+<a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png"><center><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png" width="100%" style="float:center" ></center> </a>
+</div>
+<div class="col-sm-6 clearfix">
+<a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam.png"><center><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/p2slam-graph.png" width="100%" style="float:center" ></center> </a> <br>
+</div>
+</div>
 </div>
 </div>
 
 ---
-
 <h3 id="env">Envrionment Description</h3>
 
-Here we describe the environments and the datasets collected in these environments. We further showcase P2SLAM results as compared to camera-based baseline RTABMap. We find that in all datasets inclusion of WiFi-based sensing for localization performs on par with RTABMap and makes a strong case for the inclusion of these simple sensors within SLAM systems. 
+<div class="row">
+<div class="col-sm-6 clearfix">
+<br>
+<p align="justify"> 
+  Here we describe the environments and the datasets collected in these environments. We further showcase P2SLAM results as compared to camera-based baseline RTABMap. We find that in all datasets inclusion of WiFi-based sensing for localization performs on par with RTABMap and makes a strong case for the inclusion of these simple sensors within SLAM systems. 
+</p>
+</div>
+<br>
+<div class="col-sm-6 clearfix">
+<div class="videoWrapper">
+<iframe width="100%" height="230" src="https://www.youtube.com/embed/SJ4I1VJ0gFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
 
 1.  <b> Env-1: Atkinson Hall 4th Floor </b> -- 20 x 30 m (65 x 100 feet) standard office environment with complex mulitpath and mulitple Non-line of sight conditions. A total of 5 AP's were deployed in this environment and two paths (<i> Dataset 1 </i> and <i> Dataset 2 </i>) were taken as described below.
 <a href="{{ site.url }}{{ site.baseurl }}/images/respic/env1.jpg"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/env1.jpg" width="100%" style="float: center" > </a>

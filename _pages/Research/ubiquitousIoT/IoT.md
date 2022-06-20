@@ -56,6 +56,14 @@ Hitchhike's hardware prototype consumes ~30uW of power. At this level of power c
 
 <div class = "row">
 <div class="container">
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/WiFi_BLE_combo_ISSCC2022.pdf">A WiFi and Bluetooth Backscattering Combo Chip Featuring Beam Steering via a Fully-Reflective Phased-Controlled Multi-Antenna Termination Technique Enabling Operation Over 56 Meters</a> <a style="background-color: white; color: blue;" href="{{ site.url }}{{ site.baseurl }}/files/ISSCC2022_slides.pdf">[Slides]</a><br>
+    Shihkai Kuo, Manideep Dunna, Patrick Mercier, Dinesh Bharadia<br>
+    ISSCC 2022 
+</div>
+</div>
+
+<div class = "row">
+<div class="container">
 <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/syncscatter.pdf">SyncScatter: Enabling WiFi like synchronization and range for WiFi backscatter Communication</a> <a style="background-color: white; color: blue;" href="{{ site.url }}{{ site.baseurl }}/files/nsdi21_slides_dunna.pdf">[Slides]</a><br>
     Manideep Dunna, Miao Meng, Pohan Peter Wang, Chi Zhang, Patrick Mercier, Dinesh Bharadia<br>
     NSDI 2021 
@@ -67,6 +75,14 @@ Hitchhike's hardware prototype consumes ~30uW of power. At this level of power c
 <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/ISSCC_2021.pdf">Improving the Range of WiFi Backscatter Via a Passive Retro-Reflective Single-Side-Band-Modulating MIMO Array and Non-Absorbing Termination</a> <a style="background-color: white; color: blue;" href="{{ site.url }}{{ site.baseurl }}/files/Meng_Backscatter_ISSCC2021.pdf">[Slides]</a><br>
     Miao Meng, Manideep Dunna, Hans Yu, Shikhai Kuo, Pohan Peter Wang, Dinesh Bharadia, Patrick Mercier<br>
     ISSCC 2021 
+</div>
+</div>
+
+<div class = "row">
+<div class="container">
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/JSSC_2020.pdf">A Low-Power Backscatter Modulation System Communicating Across Tens of Meters With Standards-Compliant Wi-Fi Transceivers</a>
+<br>Po-Han Peter Wang, Chi Zhang, Hongsen Yang, Manideep Dunna, Dinesh Bharadia, Patrick Mercier<br>
+    JSSC 2020 
 </div>
 </div>
 
