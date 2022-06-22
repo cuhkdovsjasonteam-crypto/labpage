@@ -76,6 +76,12 @@ Authors: Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, and
 ### Publications
 
 
+<div class = "row">
+<div class="container">
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/TIMO.pdf"> TIMO: Time Interleaved Multiple Outputs for enabling multiplexing gainswith a single RF Chain</a> <br>
+    Under submission
+</div>
+</div>
 
 
 <div class = "row">
