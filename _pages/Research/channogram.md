@@ -3,7 +3,7 @@ title: "WCSNG - Research"
 layout: gridlay
 excerpt: "WCSNG -- Research"
 sitemap: false
-permalink: /uloc/
+permalink: /channogram/
 ---
 
 # High-Resolution Spectral Analysis and Signal Segregation Using the Polyphase Channelizer
