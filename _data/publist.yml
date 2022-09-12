@@ -1,3 +1,24 @@
+- title: "High-Resolution Spectral Analysis and Signal Segregation Using the Polyphase Channelizer"
+  image: 
+  description: "Replace your FFTs with the polyphase channelizer for spetral estimation. This will improve your frequency resolution and dynamic range when signals or signal features are not separated widely in frequency."
+  authors: 	Richad Bell, Radhika Mathuria, fred harris, Peter Gerstoft, and Dinesh Bharadia
+  link:
+    url: 
+    display: "[Assilomar 2022]"
+  highlight: 1
+  tag1: spectrum_sensing
+  tag2: 
+  news2:
+  paper: 
+    url: 
+    display: 
+  presentation: 
+    url: 
+    display: 
+  website:
+    url: https://wcsng.ucsd.edu/channogram/
+    display: "[Channogram Webpage]""
+
 - title: "P2SLAM: Bearing based WiFi SLAM for Indoor Robots"
   image: p2slam.png
   description: "A recent spur of interest in indoor robotics has increased the importance of robust simultaneous localization and mapping algorithms in indoor scenarios. This robustness is typically provided by the use of multiple sensors which can correct each others’ deficiencies. In this vein, exteroceptive sensors, like cameras and LiDAR’s, employed for fusion are capable of correcting the drifts accumulated by wheel odometry or inertial measurement units (IMU’s). However, these exteroceptive sensors are deficient in highly structured environments and dynamic lighting conditions. This letter will present WiFi as a robust and straightforward sensing modality capable of circumventing these issues. Specifically, we make three contributions. First, we will understand the necessary features to be extracted from WiFi signals. Second, we characterize the quality of these measurements. Third, we integrate these features with odometry into a state-of-art GraphSLAM backend. We present our results in a 25×30 m and 50×40 environment and robustly test the system by driving the robot a cumulative distance of over 1225 m in these two environments. We show an improvement of at least 6× compared odometry-only estimation and perform on par with one of the state-of-the-art Visual-based SLAM."
