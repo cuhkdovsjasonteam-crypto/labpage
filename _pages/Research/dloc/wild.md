@@ -129,7 +129,7 @@ Individual Downloads:
 
 <div class="col-sm-12 clearfix">
 
-### Feature Downloads:
+### Data Split:
 
 Dataset Split IDs to replicate results from [DLoc](https://wcsng.ucsd.edu/dloc/) using the open-sourced [code](https://github.com/ucsdwcsng/DLoc_pt_code) can be downloaded at [split_ids](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/sayyalas_ucsd_edu/EUHy8MzAmkJAtV5K9CdmpzUBGUs8zU6vl-FQNCmtyNv2Fg?download=1).
 	
