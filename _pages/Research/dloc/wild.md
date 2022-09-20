@@ -148,9 +148,9 @@ data_split_idx
 
 └───data_split_ids_<dataset_name>_space_gen.mat
 
-    └───   test_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_test_<dataset_name>.mat*. Usually test_idx = \[fov_test_idx;non_fov_test_idx\]
+	└───   test_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_test_<dataset_name>.mat*. Usually test_idx = \[fov_test_idx;non_fov_test_idx\]
     
-    └───   train_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_test_<dataset_name>.mat*. Usually train_idx = \[fov_train_idx;non_fov_train_idx\]
+	└───   train_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_test_<dataset_name>.mat*. Usually train_idx = \[fov_train_idx;non_fov_train_idx\]
 
 </div>
 	
