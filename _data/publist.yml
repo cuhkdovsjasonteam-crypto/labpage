@@ -7,8 +7,8 @@
     display: "[Asilomar 2022]"
   highlight: 1
   tag1: spectrum_sensing
-  tag2: 
-  news2:
+  tag2:
+  news1:
   paper: 
     url: 
     display: 
@@ -17,7 +17,7 @@
     display: 
   website:
     url: https://wcsng.ucsd.edu/channogram/
-    display: "[Channogram Webpage]""
+    display: "[Channogram Webpage]"
 
 - title: "P2SLAM: Bearing based WiFi SLAM for Indoor Robots"
   image: p2slam.png
