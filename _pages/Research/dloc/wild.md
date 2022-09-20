@@ -127,6 +127,27 @@ Individual Downloads:
 
 </div>
 
+<div class="col-sm-12 clearfix">
+
+### Feature Downloads:
+
+Dataset Split IDs to replicate results from [DLoc](https://wcsng.ucsd.edu/dloc/) using the open-sourced [code](https://github.com/ucsdwcsng/DLoc_pt_code) can be downloaded at [split_ids](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/sayyalas_ucsd_edu/EUHy8MzAmkJAtV5K9CdmpzUBGUs8zU6vl-FQNCmtyNv2Fg?download=1).
+	
+Folder Metadata:
+data_split_idx
+└───data_split_ids_<dataset_name>.mat
+│   └───   fov_test_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_fov_test_<dataset_name>.mat*
+│   └───   fov_train_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_fov_train_<dataset_name>.mat*
+│   └───   non_fov_test_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_non_fov_test_<dataset_name>.mat*
+│   └───   non_fov_train_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_non_fov_train_<dataset_name>.mat*
+└───data_split_ids_<dataset_name>_space_gen.mat
+    └───   test_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_test_<dataset_name>.mat*. Usually test_idx = \[fov_test_idx;non_fov_test_idx\]
+    └───   train_idx: MATLAB indices of the points that are selected in *dataset_<dataset_name>.mat* to generate *dataset_test_<dataset_name>.mat*. Usually train_idx = \[fov_train_idx;non_fov_train_idx\]
+
+</div>
+	
+	
+	
 </div>
 
 #### All the dataset downloads are **PASSWORD** protected. To get the password, please read and agree to the [terms and conditions](https://forms.gle/WWGymUFxhPWRc4zu7). You can then proceed to download datasets from the links above.
