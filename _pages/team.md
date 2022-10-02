@@ -25,7 +25,7 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
   University of California, San Diego
 <ul style="margin: 0; padding: 0; list-style-type:none; overflow: hidden">
 <li>Email: <b>dineshb [at] eng.ucsd.edu</b></li>
-<li>Office: 4308, Atkinson Hall</li>
+<li>Office: FAH 2303, Franklin Antonio Hall</li>
 <li><a href="https://web.eng.ucsd.edu/~dineshb/"> Personal Website </a> | <a href="https://scholar.google.com/citations?user=5SjaXJsAAAAJ&hl=en"> Google Scholar </a></li>
 </ul>
 
@@ -47,7 +47,7 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>{{ member.info }}</i><br>{{ member.email }}
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -96,11 +96,71 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 </div>
 {% endif %}
 
-> “The strength of the team is each individual member. The strength of each member is the team.” –Phil Jackson
 
-## Collaborations
 
+## Collaborations/ Post Doctoral Researchers
 {% assign number_printed = 0 %}
+{% for member in site.data.collaborations %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}<br></i>{{ member.email }}
+  <ul style="overflow: hidden">
+
+  {% if member.number_educ == 1 %}
+  <li> {{ member.education1 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 2 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 3 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 4 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 5 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  <li> {{ member.education5 }} </li>
+  {% endif %}
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<!-- {% assign number_printed = 0 %}
 {% for member in site.data.collaborations %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -150,8 +210,9 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %}
+{% endif %} -->
 
+> “The strength of the team is each individual member. The strength of each member is the team.” –Phil Jackson
 
 ## Master's Students
 
@@ -277,7 +338,7 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>{{ member.duration }} <br>{{ member.email }}</i> <br> Role: {{ member.info }}
   <ul style="overflow: hidden">
 {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
@@ -359,6 +420,13 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 
 ### Alumni BS students
 
+#### 2022
+* Raini Wu (BS'22) (VR, spectrum sensing project) (Now PhD at UCSD)
+* Wen Tian (BS'22) (Backscatter) (Now PhD at UMich)
+* Joel Bisarra (BS'22) (Robotics) 
+* Tyler Chang (BS'22) (Robotics) (Coauthor - ULoc at IMWUT'21) 
+* Zijia Guo (BS'22) (PCB design project)
+
 #### 2021
 * Keshav Rungta (BS'21, MS'22) (Robotics and radar) (Coauthor Sensys'20) (Now at Apple, Sunnyvale)
 
@@ -368,7 +436,8 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 * Siyuan Zhu (BS 2020, MS 2022) (Radar for autonomous vehicles) (Co-authored Sensys'20)
 
 
-### UCSD Summer Research Internship Program (SRIP)
+### UC San Diego Summer Research Internship Program (SRIP)
+Undergraduate/ Masters students - <a href='https://www.ece.ucsd.edu/undergraduate/SRIP'>apply to SRIP program here</a>.
 #### Summer 2020
 * Keshav Rungta (BS)
 * Minghui (Scott) Zhao (BS)

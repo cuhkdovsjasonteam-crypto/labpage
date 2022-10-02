@@ -1,5 +1,5 @@
 - title: "High-Resolution Spectral Analysis and Signal Segregation Using the Polyphase Channelizer"
-  image: 
+  image: asilomar.png
   description: "Replace your FFTs with the polyphase channelizer for spetral estimation. This will improve your frequency resolution and dynamic range when signals or signal features are not separated widely in frequency."
   authors: 	Richad Bell, Radhika Mathuria, fred harris, Peter Gerstoft, and Dinesh Bharadia
   link:
@@ -85,7 +85,7 @@
   highlight: 1
   tag1: communication
   tag2: 
-  news1: 
+  news1: This work won the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2022-north-america">Qualcomm Innovation Fellowship 2022</a>
   website: 
     url: https://wcsng.ucsd.edu/mmreliable/
     display: "[Webpage]"

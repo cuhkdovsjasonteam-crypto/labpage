@@ -31,27 +31,27 @@
 #   number_educ: 1
 #   education1: "Highlights: Coauthor [Sensys'20]"
 
-- name: Raini Wu
-  photo: rock.jpg
-  info: Undergrad student since 2019 (joined WCSNG in 2019)
-  project: Virtual Reality, 5G testbed
-  number_educ: 0
-  education1: "Highlights: Coauthor "
+# - name: Raini Wu
+#   photo: rock.jpg
+#   info: Undergrad student since 2019 (joined WCSNG in 2019)
+#   project: Virtual Reality, 5G testbed
+#   number_educ: 0
+#   education1: "Highlights: Coauthor "
 
 - name: <a href="https://acsweb.ucsd.edu/~wshunter/"> William Hunter </a> 
   photo: rock.jpg
   info: Undergrad student since 2019 (joined WCSNG in 2021)
   project: Localization
-  number_educ: 0
-  education1: "Highlights: Coauthor "
-
-
-- name: Tyler Chang 
-  photo: rock.jpg
-  info: Undergrad student since 2018 (joined WCSNG in 2020)
-  project: Localization
   number_educ: 1
-  education1: "Highlights: IMWUT 2021"
+  education1: "Highlights: Coauthor RAL'22"
+
+
+# - name: Tyler Chang 
+#   photo: rock.jpg
+#   info: Undergrad student since 2018 (joined WCSNG in 2020)
+#   project: Localization
+#   number_educ: 1
+#   education1: "Highlights: IMWUT 2021"
 
 # - name: Joel Bisarra
 #   photo: rock.jpg
@@ -81,30 +81,47 @@
   number_educ: 0
   education1: "Highlights:"
 
-- name: Jiawen Xu
+- name: Wenshuo Zang
   photo: rock.jpg
-  info: Undergrad student since 2020 (joined WCSNG in 2021)
-  project: 5G NR
+  info: Undergrad student 
+  project: Robotics
   number_educ: 0
   education1: "Highlights:"
 
-- name: Shasta Subramanian
+- name: Yizheng Yu
   photo: rock.jpg
-  info: Undergrad student since 2020 (joined WCSNG in 2021)
-  project: 5G NR
+  info: Undergrad student 
+  project: Robotics
   number_educ: 0
   education1: "Highlights:"
 
-- name: Wen Tian
+- name: Yucheng Huang 
   photo: rock.jpg
-  info: Undergrad student since 2020 (joined WCSNG in 2021)
-  project: Backscatter
+  info: Undergrad student 
+  project: Radar
   number_educ: 0
   education1: "Highlights:"
 
-- name: Zijia Guo
+- name: Ameya Mandale
   photo: rock.jpg
-  info: Undergrad student since 2018 (joined WCSNG in 2020)
-  project: PCB design
+  info: Undergrad student 
+  project: Radar
   number_educ: 0
   education1: "Highlights:"
+
+# - name: Jiawen Xu
+#   photo: rock.jpg
+#   info: Undergrad student since 2020 (joined WCSNG in 2021)
+#   project: 5G NR
+#   number_educ: 0
+#   education1: "Highlights:"
+
+# - name: Shasta Subramanian
+#   photo: rock.jpg
+#   info: Undergrad student since 2020 (joined WCSNG in 2021)
+#   project: 5G NR
+#   number_educ: 0
+#   education1: "Highlights:"
+
+
+

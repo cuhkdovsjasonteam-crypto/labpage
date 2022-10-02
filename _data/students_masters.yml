@@ -8,91 +8,16 @@
 #  education3:
 #  education4:
 
-#- name: Rohit Kumar
-#  photo: rock.jpg
-#  info: Master student since 2018
-#  project: Full Duplex
-#  number_educ: 0
-#  education1:
-
-#- name: Shruti Jain
-#  photo: rock.jpg
-#  info: Master student since 2018
-#  project: Full Duplex
-#  number_educ: 0
-#  education1:
-
-#- name: Inderjot Singh
-#  photo: rock.jpg
-#  info: Master student since 2018
-#  project: Machine Learning
-#  number_educ: 0
-#  education1:
 
 
-# - name: Tian Qiu
+
+
+# - name: Sanjeev Anthia Ganesh
 #   photo: rock.jpg
-#   info: Master student since 2019
-#   project: Wireless VR
-#   number_educ: 0
-#   education1: 
-
-# - name: Yeswanth Guntupalli
-#   photo: rock.jpg
-#   info: Master student since 2019
-#   project: Full Duplex Radios
-#   number_educ: 0
-#   education1: 
-
-# - name: <a href="https://www.linkedin.com/in/chenfengw/">Chenfeng Wu</a>
-#   photo: rock.jpg
-#   info: UG since 2016, MS since 2020 (joined WCSNG in 2019)
-#   project: Robotics and Indoor Navigation
-#   number_educ: 1
-#   education1: "Highlight: Coauthor [Mobicom'20], [NSDI'20]"
-
-# - name: <a href="https://www.linkedin.com/in/keshav-rungta/">Keshav Rungta</a>
-#   photo: rock.jpg
-#   info: UG since 2016, MS since 2020 (joined WCSNG in 2019)
-#   project: Robotics and Radars
-#   number_educ: 1
-#   education1:  "Highlights: Coauthor [Sensys'20]"
-#   education2: 
-
-# - name: Hou-Wei Lin
-#   photo: rock.jpg
-#   info: Master student since 2019
-#   project: Millimeter wave
-#   number_educ: 1
-#   education1: "Highlights: Coauthor [MMNets'20]"
-
-# - name: Navin Adarsh
-#   photo: rock.jpg
-#   info: Master student since 2019
-#   project: Virtual Reality
-#   number_educ: 0
-#   education1: 
-
-# - name: Xiangwei Shao
-#   photo: rock.jpg
-#   info: Master student since 2019
-#   project: Millimeter wave 
-#   number_educ: 1
-#   education1: "Highlights: Coauthor [MMNets'20]"
-
-# - name: Nitish Kulshrestha
-#   photo: rock.jpg
-#   info: Master student since 2019
+#   info: Master student since 2020
 #   project: Backscatter
 #   number_educ: 0
 #   education1: 
-
-- name: Sanjeev Anthia Ganesh
-  photo: rock.jpg
-  info: Master student since 2020
-  project: Backscatter
-  number_educ: 0
-  education1: 
 
 # - name: <a href="https://www.linkedin.com/in/kuan-hau-chi/">Howard Chi</a>
 #   photo: rock.jpg
@@ -115,12 +40,6 @@
   number_educ: 0
   education1: 
 
-- name: Nagarjun Bhat
-  photo: rock.jpg
-  info: Collaborator
-  project: WCSNG lab
-  number_educ: 0
-  education1: 
 
 - name: Pratik Ratadiya
   photo: rock.jpg
@@ -143,12 +62,80 @@
   number_educ: 0
   education1: 
 
-# - name: Abhishek Khare
-#   photo: rock.jpg
-#   info: Master student since 2021
-#   project: WCSNG lab
-#   number_educ: 0
-#   education1: 
+- name: Gaurav Singh
+  photo: rock.jpg
+  info: Master student since 2021
+  project: Software Defined Radios
+  number_educ: 0
+  education1: 
 
 
+- name: Hari Prasad
+  photo: rock.jpg
+  info: Master student since 2021
+  project: Radar
+  number_educ: 0
+  education1: 
 
+- name: Joshua Orozco
+  photo: rock.jpg
+  info: Master student since 2021
+  project: Radar, Security and Privacy
+  number_educ: 0
+  education1: 
+
+- name: Puja Shukla
+  photo: rock.jpg
+  info: Master student since 2021
+  project: Radar, Security and Privacy
+  number_educ: 0
+  education1: 
+
+- name: Radhika Mathuria
+  photo: rock.jpg
+  info: Master student since 2021
+  project: Software Defined Radios
+  number_educ: 0
+  education1: 
+
+- name: Sureel Shah
+  photo: rock.jpg
+  info: Master student since 2021
+  project: WCSNG lab
+  number_educ: 0
+  education1: 
+
+- name: Kamalakannan
+  photo: rock.jpg
+  info: Master student since 2021
+  project: Smart surface project
+  number_educ: 0
+  education1: 
+
+- name: Ajay Kanchiraju
+  photo: rock.jpg
+  info: Master student since 2021
+  project: Wireless force sensor project
+  number_educ: 0
+  education1: 
+
+- name: Rushabha Balaji
+  photo: rock.jpg
+  info: Master student since 2022
+  project: Digital Twin Project
+  number_educ: 0
+  education1: 
+
+- name: Suriyaa
+  photo: rock.jpg
+  info: Master student since 2022
+  project: MmWave testbed development
+  number_educ: 0
+  education1: 
+
+- name: Madhimitha Venkatesh 
+  photo: rock.jpg
+  info: Master student since 2022
+  project: Smart Surface Project
+  number_educ: 0
+  education1: 

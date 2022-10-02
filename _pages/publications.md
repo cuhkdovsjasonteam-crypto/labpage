@@ -35,10 +35,11 @@ Please go to [Research]({{ site.url }}{{ site.baseurl }}/research) section for c
   <a href="{{ site.url }}{{ site.baseurl }}/{{ publi.paper.url }}"><span style="color:#D35400;">{{ publi.paper.display }}</span></a>
   <a href="{{ site.url }}{{ site.baseurl }}/{{ publi.presentation.url }}"><span style="color:#7D3C98;">{{ publi.presentation.display }}</span></a> 
   </strong></p>
+  <p><em>{{ publi.authors }}</em></p>
+  
   <meta name="publi.keywords.name" content="{{ publi.keywords.content }}">
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" hspace="20" />
   <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
  </div>

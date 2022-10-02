@@ -1,16 +1,35 @@
 
 
-- name: Patrick Ling 
-  photo: rock.jpg
-  info: Research and Development Engineer, ECE, UCSD
-  project: PHY Layer Design for Software Defined Radios
-  number_educ: 0
-  education1:
+# - name: Patrick Ling 
+#   photo: rock.jpg
+#   info: Research and Development Engineer, ECE, UCSD
+#   project: PHY Layer Design for Software Defined Radios
+#   number_educ: 0
+#   education1:
 
-- name: Sravya Alluri
-  photo: rock.jpg
-  info: Research and Development Engineer, ECE, UCSD
-  project:  Power Amplifiers for 5G applications, circuit simulations and design optimization (ADS), design layout and verification.
-  number_educ: 0
-  education1:
+# - name: Sravya Alluri
+#   photo: rock.jpg
+#   info: Research and Development Engineer, ECE, UCSD
+#   project:  Power Amplifiers for 5G applications, circuit simulations and design optimization (ADS), design layout and verification.
+#   number_educ: 0
+#   education1:
 
+- name: <a href='https://www.linkedin.com/in/srivatsan-rajagopal-5458b621b/'>Srivatsan Rajagopal</a>
+  photo: srivatsan.jpg
+  info: Post Doc, started Apr 2022
+  email: 
+  number_educ: 1
+  education1:  Cyclostationarity, Statistical Signal Processing, Machine Learning
+  education2: "Highlights: "
+  education3:
+  education4:
+
+- name: <a href='https://sunwit.github.io/'>Wei Sun</a>
+  photo: wei.jpg
+  info: Post Doc, started Sep 2022
+  email: 
+  number_educ: 1
+  education1:  Wei’s research focuses on human-centered wireless sensing for health, safety and privacy.
+  education2: "Highlights: "
+  education3:
+  education4:

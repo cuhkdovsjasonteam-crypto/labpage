@@ -7,6 +7,8 @@ permalink: /pictures/
 
 # Group Pictures
 
+We organize many group events with WCSNG family on special ocassions such as summer graduation party, christmas party, diwali celebrations, and birthday celebrations. We ocassionally go for sports (soccer, ultimate frisbee) and hiking trails.
+
 <!--
 Jump to: [Leiden](#leiden), [ETHZ](#ethz), [Cornell](#cornell), [St Andrews](#st-andrews)
 
@@ -23,14 +25,16 @@ Jump to: [Leiden](#leiden), [ETHZ](#ethz), [Cornell](#cornell), [St Andrews](#st
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures %}
 
-{% assign even_odd = number_printed | modulo: 4 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
 
-<div class="col-sm-3 clearfix">
+<div class="col-sm-6 clearfix">
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
+
+<!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> -->
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
