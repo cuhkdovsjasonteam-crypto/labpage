@@ -33,3 +33,13 @@
   education2: "Highlights: "
   education3:
   education4:
+
+- name: <a href='https://www-int.ist.osaka-u.ac.jp/user/saru/en/'>Shunsuke Saruwatari (saru)</a>
+  photo: saru.jpg
+  info: Visiting Scholar, started Jul 2022
+  email: ssaruwatari [at] ucsd.edu
+  number_educ: 1
+  education1:  Saru's research interests include wireless localization, wireless sensing, wireless power transfer, wireless networks, IoT systems, and system software. He is particularly interested in making everything programmable through radio spectrum.
+  education2: "Highlights: "
+  education3:
+  education4:
