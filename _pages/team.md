@@ -20,7 +20,7 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
   <!-- <div class="col-sm-7 clearfix"> -->
   <h3>Dinesh Bharadia</h3>
   Principal Investigator, WCSNG<br>
-  Assistant Professor<br>
+  Associate Professor<br>
   Department of Electrical and Computer Engineering <br>
   University of California, San Diego
 <ul style="margin: 0; padding: 0; list-style-type:none; overflow: hidden">
