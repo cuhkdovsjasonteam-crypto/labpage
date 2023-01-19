@@ -1,3 +1,40 @@
+- title: "mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks"
+  image: dpa.png
+  description: "Modern mmWave systems have limited scalability due to inflexibility in performing frequency multiplexing. All the frequency components in the signal are beamformed to one direction via pencil beams and cannot be streamed to other user directions. We present a new flexible mmWave system called mmFlexible that enables flexible directional frequency multiplexing, where different frequency components of the mmWave signal are beamformed in multiple arbitrary directions with the same pencil beam. Our system makes two key contributions: (1) We propose a novel mmWave front-end architecture called a delay-phased array that uses a variable delay and variable phase element to create the desired frequency-direction response. (2) We propose a novel algorithm called FSDA (Frequency-space to delay-antenna) to estimate delay and phase values for the real-time operation of the delay-phased array. Through evaluations with mmWave channel traces, we show that mmFlexible provides a 60-150% reduction in worst-case latency compared to baselines."
+  authors: Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, and Dinesh Bharadia
+  link:
+    url: https://infocom2023.ieee-infocom.org/program
+    display:  "[Infocom 2023]"
+  highlight: 1
+  tag1: communication
+  tag2: 
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/dpa/
+    display: "[Webpage]"
+  paper: 
+    url: files/mmflexible.pdf
+    display: "[paper]"
+
+- title: "mmSpoof: Spoofing Attacks on Automotive FMCW Radars using Millimeter-wave Reflect Array"
+  image: mmspoof.png
+  description: "FMCW radars are integral to automotive driving for robust and weather-proof sensing of surrounding objects. At the same time, these radars are vulnerable to spoofing attacks that may cause sensor malfunction leading to fatal accidents. Many past works tried spoofing attacks on FMCW radars using an attacker device that generates spoofing signals, but they are not very effective as they require tight synchronization between the attacker and victim. We present a novel spoofing mechanism mmSpoof that is based on the reflection of radar signal with appropriate modulation to spoof the victim's radar. Our spoofing with a mmWave reflect array eliminates the need for synchronization and is robust to various security features and countermeasures of the victim's radar. We provide insights and mechanisms to flexibly spoof any distance and velocity on the victim's radar using a unique frequency shift at the mmSpoof's reflect array. mmSpoof designs a novel algorithm for estimating this frequency shift without assuming any prior information about the victim's radar. We develop a compact and mobile setup for mmSpoof using commercial-off-the-shelf components and show the effectiveness of spoofing in realistic automotive driving scenarios with commercial radars."
+  authors: R. Vennam, I. Jain, K. Bansal, J. Orozco, P. Shukla, A. Ranganathan, D. Bharadia
+  link:
+    url: https://www.ieee-security.org/TC/SP2023/program-papers.html
+    display:  "[IEEE SnP 2023]"
+  highlight: 1
+  tag1: communication
+  tag2: 
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/mmspoof/
+    display: "[Webpage]"
+  paper: 
+    url: files/mmspoof.pdf
+    display: "[paper]"
+
+
 - title: "High-Resolution Spectral Analysis and Signal Segregation Using the Polyphase Channelizer"
   image: asilomar.png
   description: "Replace your FFTs with the polyphase channelizer for spetral estimation. This will improve your frequency resolution and dynamic range when signals or signal features are not separated widely in frequency."

@@ -16,7 +16,7 @@
   email: roshana [at] eng.ucsd.edu
   number_educ: 2
   education1: Roshan’s current research interests are in using wireless and computer vision techniques bolstered with machine learning algorithms. He focuses on applications such as detection, localization, and tracking of objects with a vision of autonomous vehicles.
-  education2: "Highlights: Conext'19, Mobicom'20, NSDI'20, ICASSP'21, IMWUT '21, IEEE RAL'22"
+  education2: "Highlights: Conext'19, Mobicom'20, NSDI'20, ICASSP'21, IMWUT '21, IEEE RAL'22, Hotmobile'23"
   education3: 
   education4: 
 
@@ -42,7 +42,7 @@
   email: ikjain [at] eng.ucsd.edu
   number_educ: 2
   education1: Ish is working on millimeter wave communications to provide high reliability and low latency for applications such as virtual reality and vehicular communications.
-  education2: "Highlights: NSDI'20, mmNets'20, Sigcomm'21, Hotcarbon'22, IEEE WPMC'22"
+  education2: "Highlights: NSDI'20, mmNets'20, Sigcomm'21, Hotcarbon'22, IEEE WPMC'22, Infocom'23, IEEE S&P'23"
   education3:
   education4:
 
@@ -52,7 +52,7 @@
   email: ksbansal [at] eng.ucsd.edu
   number_educ: 2
   education1:  Kshitiz's research interests include ML algorithms and their applications in communication networks, wireless systems and sensors. His current work involves the fusion of radar sensing and computer vision with primary focus on autonomous driving systems.
-  education2: "Highlights: Sensys'20"
+  education2: "Highlights: Sensys'20, IEEE S&P'23"
   education3:
   education4:
 
@@ -63,7 +63,7 @@
   number_educ: 3
   education1:  Hadi’s research interests include developing machine learning and data-driven algorithms to enhance networked systems (e.g. wireless communication and sensing, resource sharing and scheduling)
   education2: Primary advisor - Prof. Aaron Schulman
-  education3: "Highlights: IEEE SP'21"
+  education3: "Highlights: IEEE S&P'22"
   education4:
 
 - name: <a href="/aarun"> Aditya Arun </a>
@@ -72,7 +72,7 @@
   email: aarun [at] eng.ucsd.edu
   number_educ: 2
   education1:  Aditya's research currently focuses on realizing accurate indoor localization by introducing a new WiFi-based sensor modality using graph-based optimization techniques.
-  education2: "Highlights: NSDI'20, Mobicom'20, Sensys'20 workshop, IMWUT '21, IEEE RAL'22, ICRA '22"
+  education2: "Highlights: NSDI'20, Mobicom'20, Sensys'20 workshop, IMWUT '21, IEEE RAL'22, ICRA'22, Hotmobile'23"
   education3:
   education4:
 
@@ -82,7 +82,7 @@
   email: rsubbaraman [at] eng.ucsd.edu
   number_educ: 2
   education1:  Raghav's research areas span spectrum sensing and development of robust wireless testbed platforms. He is particularly interested in understanding how sensing can influence control and orchestration of communication systems.
-  education2: "Highlights: NSDI'19, Getmobile'20, mmNets'20, NSDI'21, Sigcomm'21, JSSC'22, Mobicom'22"
+  education2: "Highlights: NSDI'19, Getmobile'20, mmNets'20, NSDI'21, Sigcomm'21, JSSC'22, Mobicom'22, Infocom'23"
   education3:
   education4:
 
@@ -92,7 +92,7 @@
   email: agg003 [at] eng.ucsd.edu
   number_educ: 2
   education1:  Agrim's research interest is solving analysis-intensive problems stemming in Wireless Communications, involving topics like MIMO, ML techniques in Wireless Communications, Indoor Positioning,  and Backscatter Communications.
-  education2: "Highlights: Sensys'20 Workshop, NSDI'21, IEEE Journal'21, Hotcarbon'22"
+  education2: "Highlights: Sensys'20 Workshop, NSDI'21, IEEE Journal'21, Hotcarbon'22, Mobicom'23, IMWUT'23"
   education3:
   education4:
 
@@ -109,23 +109,23 @@
 #  education3:
 #  education4:
 
-- name: Byungjun Kim
-  photo: byungjun.jpeg
-  info: PhD Student, started 2019
-  email: byk004 [at] eng.ucsd.edu
-  number_educ: 2
-  education1: Byungjun's research interests include communication networks and wireless systems, involving spectrum sensing, machine learning and vehicular communications.
-  education2: Primary advisor- Prof. Peter Gerstoft 
-  education3:
-  education4:
+# - name: Byungjun Kim
+#   photo: byungjun.jpeg
+#   info: PhD Student, started 2019
+#   email: byk004 [at] eng.ucsd.edu
+#   number_educ: 2
+#   education1: Byungjun's research interests include communication networks and wireless systems, involving spectrum sensing, machine learning and vehicular communications.
+#   education2: Primary advisor- Prof. Peter Gerstoft 
+#   education3:
+#   education4:
 
 - name: Richard Bell
   photo: richard.png
   info: PhD Student, started 2019
   email: rcbell [at] eng.ucsd.edu
-  number_educ: 1
+  number_educ: 2
   education1:  Richard's research interests are in localization of RF emitters and applications of machine learning in wireless communications. Richard would like to achieve the true vision of a cognitive radio.
-  education2:
+  education2: "Highlights: Asilomar'22"
   education3:
   education4:
 
@@ -144,9 +144,9 @@
   photo: rohith.jpg
   info: PhD Student, started 2021
   email: rvennam [at] ucsd.edu
-  number_educ: 1
+  number_educ: 2
   education1:  Research interests include millimeter-wave communications, multi-user MIMO, wireless sensing, ML in wireless communications, and building end-to-end systems.
-  education2: "Highlights: "
+  education2: "Highlights: Infocom'23, IEEE S&P'23"
   education3:
   education4:
 
@@ -186,8 +186,8 @@
   photo: raini.jpg
   info: PhD Student, started 2022 
   email: rainiwu [at] ucsd.edu
-  number_educ: 1
+  number_educ: 2
   education1:  Raini is working on scalable distributed systems, particularly in heterogeneous computing environments, for applications such as spectrum sensing, wireless communications, and virtual reality.
-  education2: "Highlights: "
+  education2: "Highlights: Mobisys'23 Poster"
   education3:
   education4:
