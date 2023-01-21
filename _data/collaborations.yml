@@ -27,7 +27,7 @@
 - name: <a href='https://sunwit.github.io/'>Wei Sun</a>
   photo: wei.jpg
   info: Post Doc, started Sep 2022
-  email: 
+  email: w5sun [at] ucsd.edu
   number_educ: 2
   education1:  Wei’s research focuses on human-centered wireless sensing for health, safety and privacy.
   education2: "Highlights: Hotmobile'23"
@@ -44,10 +44,10 @@
   education3:
   education4:
 
-- name: <a https://www.linkedin.com/in/frederik-zumegen-428ba11b5/?originalSubdomain=de'>Frederik Zumegen</a>
+- name: <a href = 'https://www.linkedin.com/in/frederik-zumegen-428ba11b5/?originalSubdomain=de'>Frederik Zumegen</a>
   photo: frederik.jpg
-  info: Visiting Scholar from TU Munich, Germany, started Sep 2022
-  email: ssaruwatari [at] ucsd.edu
+  info: Visiting Scholar from TU Munich, Germany, started Oct 2022
+  email: fzumegen [at] ucsd.edu
   number_educ: 1
   education1:  Frederik's research focuses on the Next Generation cellular networks control. He works with open-source cellular stacks such as srsRAN and deploys them with Open-RAN standards.
   education2: "Highlights: "
