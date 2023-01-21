@@ -50,8 +50,8 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 </div>
 </div>
 
-<hr/>
-> In union there is strength - Aesop
+<!-- <hr/> -->
+> "In union there is strength" - Aesop
 
 ## PhD Students
 {% assign number_printed = 0 %}
