@@ -15,6 +15,8 @@
   info: PhD Student, started 2017
   email: roshana [at] eng.ucsd.edu
   number_educ: 2
+  research1: wireless-sensing
+  research2:
   education1: Roshan’s current research interests are in using wireless and computer vision techniques bolstered with machine learning algorithms. He focuses on applications such as detection, localization, and tracking of objects with a vision of autonomous vehicles.
   education2: "Highlights: Conext'19, Mobicom'20, NSDI'20, ICASSP'21, IMWUT '21, IEEE RAL'22, Hotmobile'23"
   education3: 
@@ -33,6 +35,8 @@
   info: PhD Student, started 2018
   email: mdunna [at] eng.ucsd.edu
   number_educ: 2
+  research1: backscatter
+  research2:
   education1: Manideep's research focuses on using backscatter techniques for low power wireless relays and in-body communications. 
   education2: "Highlights: Mobicom'20, JSSC'20, ISSCC'21, NSDI'21, NSDI'21, ISSCC'22"
 
@@ -41,6 +45,8 @@
   info: PhD Student, started 2018
   email: ikjain [at] eng.ucsd.edu
   number_educ: 2
+  research1: communication
+  research2:
   education1: Ish is working on millimeter wave communications to provide high reliability and low latency for applications such as virtual reality and vehicular communications.
   education2: "Highlights: NSDI'20, mmNets'20, Sigcomm'21, Hotcarbon'22, IEEE WPMC'22, Infocom'23, IEEE S&P'23"
   education3:
@@ -51,6 +57,8 @@
   info: PhD Student, started 2018
   email: ksbansal [at] eng.ucsd.edu
   number_educ: 2
+  research1: vehicular
+  research2: 
   education1:  Kshitiz's research interests include ML algorithms and their applications in communication networks, wireless systems and sensors. His current work involves the fusion of radar sensing and computer vision with primary focus on autonomous driving systems.
   education2: "Highlights: Sensys'20, IEEE S&P'23"
   education3:
@@ -61,6 +69,8 @@
   info: PhD Student, started 2018
   email: hgivehch [at] eng.ucsd.edu 
   number_educ: 3
+  research1: privacy
+  research2:
   education1:  Hadi’s research interests include developing machine learning and data-driven algorithms to enhance networked systems (e.g. wireless communication and sensing, resource sharing and scheduling)
   education2: Primary advisor - Prof. Aaron Schulman
   education3: "Highlights: IEEE S&P'22"
@@ -71,6 +81,8 @@
   info: PhD Student, started 2019
   email: aarun [at] eng.ucsd.edu
   number_educ: 2
+  research1: wireless-sensing
+  research2:
   education1:  Aditya's research currently focuses on realizing accurate indoor localization by introducing a new WiFi-based sensor modality using graph-based optimization techniques.
   education2: "Highlights: NSDI'20, Mobicom'20, Sensys'20 workshop, IMWUT '21, IEEE RAL'22, ICRA'22, Hotmobile'23"
   education3:
@@ -81,6 +93,8 @@
   info: PhD Student, started 2019
   email: rsubbaraman [at] eng.ucsd.edu
   number_educ: 2
+  research1: communication
+  research2: spectrum_sensing
   education1:  Raghav's research areas span spectrum sensing and development of robust wireless testbed platforms. He is particularly interested in understanding how sensing can influence control and orchestration of communication systems.
   education2: "Highlights: NSDI'19, Getmobile'20, mmNets'20, NSDI'21, Sigcomm'21, JSSC'22, Mobicom'22, Infocom'23"
   education3:
@@ -91,6 +105,8 @@
   info: PhD Student, started 2019
   email: agg003 [at] eng.ucsd.edu
   number_educ: 2
+  research1: backscatter
+  research2:
   education1:  Agrim's research interest is solving analysis-intensive problems stemming in Wireless Communications, involving topics like MIMO, ML techniques in Wireless Communications, Indoor Positioning,  and Backscatter Communications.
   education2: "Highlights: Sensys'20 Workshop, NSDI'21, IEEE Journal'21, Hotcarbon'22, Mobicom'23, IMWUT'23"
   education3:
@@ -124,6 +140,8 @@
   info: PhD Student, started 2019
   email: rcbell [at] eng.ucsd.edu
   number_educ: 2
+  research1: spectrum_sensing
+  research2:
   education1:  Richard's research interests are in localization of RF emitters and applications of machine learning in wireless communications. Richard would like to achieve the true vision of a cognitive radio.
   education2: "Highlights: Asilomar'22"
   education3:
@@ -135,6 +153,8 @@
   info: PhD Student, started 2021 (MS, since 2019)
   email: tiq014 [at] eng.ucsd.edu
   number_educ: 3
+  research1: vr
+  research2:
   education1:  Tian's research interest is in wireless VR and video compression.
   education2: "Primary advisor: Prof. Pamela Cosman"
   education3: "Highlights: WPMC'22"
@@ -145,6 +165,8 @@
   info: PhD Student, started 2021
   email: rvennam [at] ucsd.edu
   number_educ: 2
+  research1: communication
+  research2:
   education1:  Research interests include millimeter-wave communications, multi-user MIMO, wireless sensing, ML in wireless communications, and building end-to-end systems.
   education2: "Highlights: Infocom'23, IEEE S&P'23"
   education3:
@@ -155,6 +177,8 @@
   info: PhD Student, started 2021
   email: kmmills [at] ucsd.edu
   number_educ: 1
+  research1: spectrum_sensing
+  research2:
   education1:  Developing a wideband sensor capable of high dynamic range for the potential purpose of enforcing  spectrum regulations. His current research involves how to effectively leverage 5G wireless technology for defense applications.
   education2: "Highlights: "
   education3:
@@ -165,6 +189,8 @@
   info: PhD Student, started 2022
   email: nbhat [at] ucsd.edu
   number_educ: 1
+  research1: backscatter
+  research2:
   education1: Research interests include mmwave backscatter communication, wireless sensing, and communication, radar and navigation for autonomous platforms.
   education2: "Highlights: "
   education3:
@@ -174,6 +200,8 @@
   photo: ushasi.JPG
   info: PhD Student, started 2022
   email: ughosh [at] ucsd.edu
+  research1: communication
+  research2:
   number_educ: 1
   education1:  Design and development of end-to-end systems for the next generation cellular networks to support low latency applications like AR/ VR.
   education2: "Highlights: "
@@ -187,6 +215,8 @@
   info: PhD Student, started 2022 
   email: rainiwu [at] ucsd.edu
   number_educ: 2
+  research1: spectrum_sensing
+  research2:
   education1:  Raini is working on scalable distributed systems, particularly in heterogeneous computing environments, for applications such as spectrum sensing, wireless communications, and virtual reality.
   education2: "Highlights: Mobisys'23 Poster"
   education3:

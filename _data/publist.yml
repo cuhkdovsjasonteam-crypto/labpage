@@ -1,3 +1,40 @@
+- title: "Users are Closer than they Appear: Protecting User's Location from WiFi APs"
+  image: mirage.png
+  description: "Wi-Fi-based indoor localization has now matured for over a decade. Most of the current localization algorithms rely on the Wi-Fi access points (APs) in the enterprise network to localize the Wi-Fi user accurately. Thus, the Wi-Fi user's location information could be easily snooped by an attacker listening through a compromised Wi-Fi AP. With indoor localization and navigation being the next step towards automation, it is important to give users the capability to defend against such attacks. In this paper, we present MIRAGE, a system that can utilize the downlink physical layer information to create a defense against an attacker snooping on a Wi-Fi user's location information. MIRAGE achieves this by utilizing the  beamforming capability of the transmitter that is already part of the Wi-Fi standard protocols. With this initial idea, we have demonstrated that the user can obfuscate his/her location from the Wi-Fi AP always with no compromise to the throughput of the existing Wi-Fi communication system through the real-world prototype, and reduce the user location accuracy of the attacker from 2.3m to more than 10m through simulation."
+  authors: Roshan Ayyalasomayajula, Wei Sun, Aditya Arun, Dinesh Bharadia
+  link:
+    url: https://hotmobile.org/2023/index.php?id=program
+    display:  "[HotMobile'23]"
+  highlight: 1
+  tag1: wireless-sensing
+  tag2: privacy
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/mirage/
+    display: "[Webpage]"
+  paper: 
+    url: https://arxiv.org/pdf/2211.10014.pdf
+    display: "[paper]"
+
+- title: "ViWiD: Leveraging WiFi for Robust and Resource-Efficient SLAM"
+  image: viwid.png
+  description: "Recent interest towards autonomous navigation and exploration robots for indoor applications has spurred research into indoor Simultaneous Localization and Mapping (SLAM) robot systems. While most of these SLAM systems use Visual and LiDAR sensors in tandem with an odometry sensor, these odometry sensors drift over time. To combat this drift, Visual SLAM systems deploy compute and memory intensive search algorithms to detect `Loop Closures', which make the trajectory estimate globally consistent. To circumvent these resource (compute and memory) intensive algorithms, we present ViWiD, which integrates WiFi and Visual sensors in a dual-layered system. This dual-layered approach separates the tasks of local and global trajectory estimation making ViWiD resource efficient while achieving on-par or better performance to state-of-the-art Visual SLAM. We demonstrate ViWiD's performance on four datasets, covering over 1500 m of traversed path and show 4.3x and 4x reduction in compute and memory consumption respectively compared to state-of-the-art Visual and Lidar SLAM systems with on par SLAM performance."
+  authors: Aditya Arun, William Hunter, Roshan Ayyalasomayajula, Dinesh Bharadia
+  link:
+    url: https://arxiv.org/abs/2209.08091
+    display:  "[Arxiv 2022]"
+  highlight: 1
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/viwid/
+    display: "[Webpage]"
+  paper: 
+    url: https://arxiv.org/pdf/2209.08091.pdf
+    display: "[paper]"
+
+
 - title: "mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks"
   image: dpa.png
   description: "Modern mmWave systems have limited scalability due to inflexibility in performing frequency multiplexing. All the frequency components in the signal are beamformed to one direction via pencil beams and cannot be streamed to other user directions. We present a new flexible mmWave system called mmFlexible that enables flexible directional frequency multiplexing, where different frequency components of the mmWave signal are beamformed in multiple arbitrary directions with the same pencil beam. Our system makes two key contributions: (1) We propose a novel mmWave front-end architecture called a delay-phased array that uses a variable delay and variable phase element to create the desired frequency-direction response. (2) We propose a novel algorithm called FSDA (Frequency-space to delay-antenna) to estimate delay and phase values for the real-time operation of the delay-phased array. Through evaluations with mmWave channel traces, we show that mmFlexible provides a 60-150% reduction in worst-case latency compared to baselines."
@@ -64,7 +101,7 @@
     url: https://ieeexplore.ieee.org/abstract/document/9691786
     display:  "[IEEE Robotics and Automation 2022]"
   highlight: 1
-  tag1: localization
+  tag1: wireless-sensing
   tag2:
   news1:
   website:
@@ -101,8 +138,8 @@
     url: https://dl.acm.org/doi/10.1145/3478124
     display:  "[IMWUT 2021]"
   highlight: 1
-  tag1: localization
-  tag2: 
+  tag1: wireless-sensing
+  tag2: vr
   news1: 
   website: 
     url: https://wcsng.ucsd.edu/uloc/
@@ -318,13 +355,13 @@ throughput improvement of 2x over the active AP alone."
 
 - title: "Deep Learning based Wireless Localization for Indoor Navigation"
   image: dloc.png
-  description: Location services, fundamentally, rely on two components- a mapping system and a positioning system. The mapping system provides the physical map of the space, and the positioning system identifies the position within the map. Outdoor location services have thrived over the last couple of decades because of well-establishedplatforms for both these components (e.g. Google Maps for mapping, and GPS for positioning). In contrast, indoor location services haven’t caught up because of the lack of reliable mapping and positioning frameworks, as GPS is known not to work indoors. WiFi positioning lacks maps and is also prone to environmental errors. In this paper, we present DLoc, a Deep Learning based wireless localization algorithm that can overcome traditional limitations of RF-based localization approaches (like multipath, occlusions, etc.). DLoc uses data from the mapping platform we developed, MapFind, that can construct location-tagged maps of the environment. Together, they allow off-the-shelf WiFi devices like smartphones toaccess a map of the environment and to estimate their position withrespect to that map. During our evaluation, MapFind has collected location estimates of over 120 thousand points under 10 different scenarios across two different spaces covering 2000 sq. Ft. DLoc outperforms state-of-the-art methods in WiFi-based localizationby 80% (median and 90th percentile) across the 2000 sq. ft. spanningtwo different spaces.
+  description: "Location services, fundamentally, rely on two components- a mapping system and a positioning system. The mapping system provides the physical map of the space, and the positioning system identifies the position within the map. Outdoor location services have thrived over the last couple of decades because of well-establishedplatforms for both these components (e.g. Google Maps for mapping, and GPS for positioning). In contrast, indoor location services haven’t caught up because of the lack of reliable mapping and positioning frameworks, as GPS is known not to work indoors. WiFi positioning lacks maps and is also prone to environmental errors. In this paper, we present DLoc, a Deep Learning based wireless localization algorithm that can overcome traditional limitations of RF-based localization approaches (like multipath, occlusions, etc.). DLoc uses data from the mapping platform we developed, MapFind, that can construct location-tagged maps of the environment. Together, they allow off-the-shelf WiFi devices like smartphones toaccess a map of the environment and to estimate their position withrespect to that map. During our evaluation, MapFind has collected location estimates of over 120 thousand points under 10 different scenarios across two different spaces covering 2000 sq. Ft. DLoc outperforms state-of-the-art methods in WiFi-based localizationby 80% (median and 90th percentile) across the 2000 sq. ft. spanningtwo different spaces."
   authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Sanatan Sharma, Abhishek Sethi,  Deepak Vasisht, and Dinesh Bharadia
   link:
     url: https://sigmobile.org/mobicom/2020/accepted.php
     display:  "[Mobicom 2020]"
   highlight: 1
-  tag1: localization
+  tag1: wireless-sensing
   tag2: 
   news2: 
   website: 
@@ -341,13 +378,13 @@ throughput improvement of 2x over the active AP alone."
 
 - title: "LocAP: Accurate Localization of Existing WiFi Infrastructure"
   image: loc_ap.png
-  description: Indoor localization has been studied for nearly two decades fueled by wide interest in indoor navigation, achieving the necessary decimeter-level accuracy. However, there are no real-world deployments of WiFi-based user localization algorithms, primarily because these algorithms are triangulation based and therefore assume the location of the Access Points, their antenna geometries, and deployment orientations in the physical map. In the real world, such detailed knowledge of the location attributes of the Access Point is seldom available, thereby making WiFi localization hard to deploy. In this paper, for the first time, we establish the accuracy requirements for the location attributes of access points to achieve decimeter level user localization accuracy. Surprisingly, these requirements for antenna geometries and deployment orientation are very stringent, requiring millimeter level and sub-10 degree of accuracy respectively, which is hard to achieve with manual effort. To ease the deployment of real-world WiFi localization, we present LocAP, which is an autonomous system to physically map the environment and accurately locate the attributes of existing infrastructure AP in the physical space down to the required stringent accuracy of 3 mm antenna separation and 3degree deployment orientation median errors, whereas state-of-the-art report 150 mm and 25degrees respectively.
+  description: "Indoor localization has been studied for nearly two decades fueled by wide interest in indoor navigation, achieving the necessary decimeter-level accuracy. However, there are no real-world deployments of WiFi-based user localization algorithms, primarily because these algorithms are triangulation based and therefore assume the location of the Access Points, their antenna geometries, and deployment orientations in the physical map. In the real world, such detailed knowledge of the location attributes of the Access Point is seldom available, thereby making WiFi localization hard to deploy. In this paper, for the first time, we establish the accuracy requirements for the location attributes of access points to achieve decimeter level user localization accuracy. Surprisingly, these requirements for antenna geometries and deployment orientation are very stringent, requiring millimeter level and sub-10 degree of accuracy respectively, which is hard to achieve with manual effort. To ease the deployment of real-world WiFi localization, we present LocAP, which is an autonomous system to physically map the environment and accurately locate the attributes of existing infrastructure AP in the physical space down to the required stringent accuracy of 3 mm antenna separation and 3degree deployment orientation median errors, whereas state-of-the-art report 150 mm and 25degrees respectively."
   authors: Shrivatsan Rajagopalan, Shreya Ganesaraman, Aravind Seetharaman, Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, and Dinesh Bharadia
   link:
     url: https://www.usenix.org/conference/nsdi20/presentation/rajagopalan
     display:  "[NSDI 2020]"
   highlight: 1
-  tag1: localization
+  tag1: wireless-sensing
   tag2: 
   news2:
   website: 
@@ -428,7 +465,7 @@ throughput improvement of 2x over the active AP alone."
     display: "[CoNext 2018]"
   highlight: 1
   tag1: backscatter
-  tag2: localization
+  tag2: wireless-sensing
   news2:
   paper: 
     url: files/bloc_paper.pdf
@@ -595,7 +632,7 @@ that SpotFi achieves a median accuracy of 40 cm and is robust to indoor hindranc
     display: "[Sigcomm 2015]"
   highlight: 0
   news2: 
-  tag1: localization
+  tag1: wireless-sensing
   tag2: 
   paper: 
     url: files/sigcomm15-spotfi.pdf
@@ -641,7 +678,7 @@ the traced path of less than 7cm."
     display: "[NSDI 2015]"
   highlight: 0
   tag1: backscatter
-  tag2: localization
+  tag2: wireless-sensing
   news2: 
 
 - title: "Spoton: Indoor localization using commercial off-the-shelf wifi nics"
@@ -670,7 +707,7 @@ test runs, SpotOn achieves localization accuracy of 1.5 m"
     url: https://www.microsoft.com/en-us/research/wp-content/uploads/2014/10/ipsn_kotaru.pdf
     display: "[IPSN 2015]"
   highlight: 0
-  tag1: localization
+  tag1: wireless-sensing
   tag2: 
   news2: 
 

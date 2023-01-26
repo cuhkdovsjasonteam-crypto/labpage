@@ -1,9 +1,9 @@
-- title: "Localization"
+- title: "Wireless Sensing"
   image: localization.jpg
-  description: We develop state-of-the-art methods [BLoc, SpotFi, WiDeo, Spoton] for locating WiFi devices and BLE (Bluetooth Low Energy) tags. 
+  description: We develop state-of-the-art methods [P2SLAM, DLoc, BLoc, SpotFi] for sensing and locating WiFi devices and BLE (Bluetooth Low Energy) tags. 
   authors: 
   link:
-    url: /localization
+    url: /wireless-sensing
     display:  Details and Publications
   highlight: 1
   news2:

@@ -19,6 +19,8 @@
   info: Post Doc, started Apr 2022
   email: 
   number_educ: 1
+  research1:
+  research2:
   education1:  Cyclostationarity, Statistical Signal Processing, Machine Learning
   education2: "Highlights: "
   education3:
@@ -29,6 +31,8 @@
   info: Post Doc, started Sep 2022
   email: w5sun [at] ucsd.edu
   number_educ: 2
+  research1: wireless-sensing
+  research2:
   education1:  Wei’s research focuses on human-centered wireless sensing for health, safety and privacy.
   education2: "Highlights: Hotmobile'23"
   education3:
@@ -39,6 +43,8 @@
   info: Visiting Scholar from Osaka University, Japan, started Jul 2022
   email: ssaruwatari [at] ucsd.edu
   number_educ: 1
+  research1: wireless-sensing
+  research2:
   education1:  Saru's research interests include wireless localization, wireless sensing, wireless power transfer, wireless networks, IoT systems, and system software. He is particularly interested in making everything programmable through radio spectrum.
   education2: "Highlights: "
   education3:
@@ -49,6 +55,8 @@
   info: Visiting Scholar from TU Munich, Germany, started Oct 2022
   email: fzumegen [at] ucsd.edu
   number_educ: 1
+  research1:
+  research2:
   education1:  Frederik's research focuses on the Next Generation cellular networks control. He works with open-source cellular stacks such as srsRAN and deploys them with Open-RAN standards.
   education2: "Highlights: "
   education3:
