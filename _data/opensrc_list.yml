@@ -1,6 +1,6 @@
 - title: "Wireless Indoor Localization Dataset"
   image: dloc.png
-  description: "Wi-Fi-based indoor localization has now matured for over a decade. Most of the current localization algorithms rely on the Wi-Fi access points (APs) in the enterprise network to localize the Wi-Fi user accurately. Thus, the Wi-Fi user's location information could be easily snooped by an attacker listening through a compromised Wi-Fi AP. With indoor localization and navigation being the next step towards automation, it is important to give users the capability to defend against such attacks. In this paper, we present MIRAGE, a system that can utilize the downlink physical layer information to create a defense against an attacker snooping on a Wi-Fi user's location information. MIRAGE achieves this by utilizing the  beamforming capability of the transmitter that is already part of the Wi-Fi standard protocols. With this initial idea, we have demonstrated that the user can obfuscate his/her location from the Wi-Fi AP always with no compromise to the throughput of the existing Wi-Fi communication system through the real-world prototype, and reduce the user location accuracy of the attacker from 2.3m to more than 10m through simulation."
+  description: ""
   authors: Roshan Ayyalasomayajula, Wei Sun, Aditya Arun, Dinesh Bharadia
   link:
     url: https://hotmobile.org/2023/index.php?id=program
@@ -8,7 +8,7 @@
   highlight: 1
   format: dataset
   tag1: wireless-sensing
-  tag2: privacy
+  tag2:
   news1: 
   website: 
     url: https://wcsng.ucsd.edu/mirage/
@@ -19,7 +19,7 @@
 
 - title: "ViWiD: Leveraging WiFi for Robust and Resource-Efficient SLAM"
   image: viwid.png
-  description: "Recent interest towards autonomous navigation and exploration robots for indoor applications has spurred research into indoor Simultaneous Localization and Mapping (SLAM) robot systems. While most of these SLAM systems use Visual and LiDAR sensors in tandem with an odometry sensor, these odometry sensors drift over time. To combat this drift, Visual SLAM systems deploy compute and memory intensive search algorithms to detect `Loop Closures', which make the trajectory estimate globally consistent. To circumvent these resource (compute and memory) intensive algorithms, we present ViWiD, which integrates WiFi and Visual sensors in a dual-layered system. This dual-layered approach separates the tasks of local and global trajectory estimation making ViWiD resource efficient while achieving on-par or better performance to state-of-the-art Visual SLAM. We demonstrate ViWiD's performance on four datasets, covering over 1500 m of traversed path and show 4.3x and 4x reduction in compute and memory consumption respectively compared to state-of-the-art Visual and Lidar SLAM systems with on par SLAM performance."
+  description: ""
   authors: Aditya Arun, William Hunter, Roshan Ayyalasomayajula, Dinesh Bharadia
   link:
     url: https://arxiv.org/abs/2209.08091

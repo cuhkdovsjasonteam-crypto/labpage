@@ -1,6 +1,7 @@
 - title: "Users are Closer than they Appear: Protecting User's Location from WiFi APs"
   image: mirage.png
   description: "Wi-Fi-based indoor localization has now matured for over a decade. Most of the current localization algorithms rely on the Wi-Fi access points (APs) in the enterprise network to localize the Wi-Fi user accurately. Thus, the Wi-Fi user's location information could be easily snooped by an attacker listening through a compromised Wi-Fi AP. With indoor localization and navigation being the next step towards automation, it is important to give users the capability to defend against such attacks. In this paper, we present MIRAGE, a system that can utilize the downlink physical layer information to create a defense against an attacker snooping on a Wi-Fi user's location information. MIRAGE achieves this by utilizing the  beamforming capability of the transmitter that is already part of the Wi-Fi standard protocols. With this initial idea, we have demonstrated that the user can obfuscate his/her location from the Wi-Fi AP always with no compromise to the throughput of the existing Wi-Fi communication system through the real-world prototype, and reduce the user location accuracy of the attacker from 2.3m to more than 10m through simulation."
+  short-desc: "First RF-privacy system to maintain user location privacy."
   authors: Roshan Ayyalasomayajula, Wei Sun, Aditya Arun, Dinesh Bharadia
   link:
     url: https://hotmobile.org/2023/index.php?id=program
@@ -19,6 +20,7 @@
 - title: "ViWiD: Leveraging WiFi for Robust and Resource-Efficient SLAM"
   image: viwid.png
   description: "Recent interest towards autonomous navigation and exploration robots for indoor applications has spurred research into indoor Simultaneous Localization and Mapping (SLAM) robot systems. While most of these SLAM systems use Visual and LiDAR sensors in tandem with an odometry sensor, these odometry sensors drift over time. To combat this drift, Visual SLAM systems deploy compute and memory intensive search algorithms to detect `Loop Closures', which make the trajectory estimate globally consistent. To circumvent these resource (compute and memory) intensive algorithms, we present ViWiD, which integrates WiFi and Visual sensors in a dual-layered system. This dual-layered approach separates the tasks of local and global trajectory estimation making ViWiD resource efficient while achieving on-par or better performance to state-of-the-art Visual SLAM. We demonstrate ViWiD's performance on four datasets, covering over 1500 m of traversed path and show 4.3x and 4x reduction in compute and memory consumption respectively compared to state-of-the-art Visual and Lidar SLAM systems with on par SLAM performance."
+  short-desc: "ViWiD uses Wi-Fi to improve the computational and memory efficiency of existing SLAM systems, enabling real-time execution."
   authors: Aditya Arun, William Hunter, Roshan Ayyalasomayajula, Dinesh Bharadia
   link:
     url: https://arxiv.org/abs/2209.08091
@@ -38,6 +40,7 @@
 - title: "mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks"
   image: dpa.png
   description: "Modern mmWave systems have limited scalability due to inflexibility in performing frequency multiplexing. All the frequency components in the signal are beamformed to one direction via pencil beams and cannot be streamed to other user directions. We present a new flexible mmWave system called mmFlexible that enables flexible directional frequency multiplexing, where different frequency components of the mmWave signal are beamformed in multiple arbitrary directions with the same pencil beam. Our system makes two key contributions: (1) We propose a novel mmWave front-end architecture called a delay-phased array that uses a variable delay and variable phase element to create the desired frequency-direction response. (2) We propose a novel algorithm called FSDA (Frequency-space to delay-antenna) to estimate delay and phase values for the real-time operation of the delay-phased array. Through evaluations with mmWave channel traces, we show that mmFlexible provides a 60-150% reduction in worst-case latency compared to baselines."
+  short-desc: ""
   authors: Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, and Dinesh Bharadia
   link:
     url: https://infocom2023.ieee-infocom.org/program
@@ -56,6 +59,7 @@
 - title: "mmSpoof: Spoofing Attacks on Automotive FMCW Radars using Millimeter-wave Reflect Array"
   image: mmspoof.png
   description: "FMCW radars are integral to automotive driving for robust and weather-proof sensing of surrounding objects. At the same time, these radars are vulnerable to spoofing attacks that may cause sensor malfunction leading to fatal accidents. Many past works tried spoofing attacks on FMCW radars using an attacker device that generates spoofing signals, but they are not very effective as they require tight synchronization between the attacker and victim. We present a novel spoofing mechanism mmSpoof that is based on the reflection of radar signal with appropriate modulation to spoof the victim's radar. Our spoofing with a mmWave reflect array eliminates the need for synchronization and is robust to various security features and countermeasures of the victim's radar. We provide insights and mechanisms to flexibly spoof any distance and velocity on the victim's radar using a unique frequency shift at the mmSpoof's reflect array. mmSpoof designs a novel algorithm for estimating this frequency shift without assuming any prior information about the victim's radar. We develop a compact and mobile setup for mmSpoof using commercial-off-the-shelf components and show the effectiveness of spoofing in realistic automotive driving scenarios with commercial radars."
+  short-desc: ""
   authors: R. Vennam, I. Jain, K. Bansal, J. Orozco, P. Shukla, A. Ranganathan, D. Bharadia
   link:
     url: https://www.ieee-security.org/TC/SP2023/program-papers.html
@@ -75,6 +79,7 @@
 - title: "High-Resolution Spectral Analysis and Signal Segregation Using the Polyphase Channelizer"
   image: asilomar.png
   description: "Replace your FFTs with the polyphase channelizer for spetral estimation. This will improve your frequency resolution and dynamic range when signals or signal features are not separated widely in frequency."
+  short-desc: ""
   authors: 	Richad Bell, Radhika Mathuria, fred harris, Peter Gerstoft, and Dinesh Bharadia
   link:
     url: 
@@ -96,6 +101,7 @@
 - title: "P2SLAM: Bearing based WiFi SLAM for Indoor Robots"
   image: p2slam.png
   description: "A recent spur of interest in indoor robotics has increased the importance of robust simultaneous localization and mapping algorithms in indoor scenarios. This robustness is typically provided by the use of multiple sensors which can correct each others’ deficiencies. In this vein, exteroceptive sensors, like cameras and LiDAR’s, employed for fusion are capable of correcting the drifts accumulated by wheel odometry or inertial measurement units (IMU’s). However, these exteroceptive sensors are deficient in highly structured environments and dynamic lighting conditions. This letter will present WiFi as a robust and straightforward sensing modality capable of circumventing these issues. Specifically, we make three contributions. First, we will understand the necessary features to be extracted from WiFi signals. Second, we characterize the quality of these measurements. Third, we integrate these features with odometry into a state-of-art GraphSLAM backend. We present our results in a 25×30 m and 50×40 environment and robustly test the system by driving the robot a cumulative distance of over 1225 m in these two environments. We show an improvement of at least 6× compared odometry-only estimation and perform on par with one of the state-of-the-art Visual-based SLAM."
+  short-desc: "The first system deployed to show that Wi-Fi can be used as a standalone sensor for Simultaneous Localization And Mapping (SLAM) navigation algorithms."
   authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia 
   link:
     url: https://ieeexplore.ieee.org/abstract/document/9691786
@@ -114,6 +120,7 @@
 - title: "Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices"
   image: BLE_attack.gif
   description: "Mobile devices increasingly function as wireless tracking beacons. Using the Bluetooth Low Energy (BLE) protocol, mobile devices such as smartphones and smartwatches continuously transmit beacons to inform passive listeners about device locations for applications such as digital contact tracing for COVID-19, and even finding lost devices. These applications use cryptographic anonymity that limit an adversary’s ability to use these beacons to stalk a user. However, attackers can bypass these defenses by fingerprinting the unique physical-layer imperfections in the transmissions of specific devices. We empirically demonstrate that there are several key challenges that can limit an attacker’s ability to find a stable physical layer identifier to uniquely identify mobile devices using BLE, including variations in the hardware design of BLE chipsets, transmission power levels, differences in thermal conditions, and limitations of inexpensive radios that can be widely deployed to capture raw physical-layer signals. We evaluated how much each of these factors limits accurate fingerprinting in a large-scale field study of hundreds of uncontrolled BLE devices, revealing that physical-layer identification is a viable, although sometimes unreliable, way for an attacker to track mobile devices."
+  short-desc: ""
   authors: Hadi Givehchian, Nishant Bhaskar, Eliana Rodriguez Herrera, Héctor Rodrigo López Soto, Christian Dameff, Dinesh Bharadia, and Aaron Schulman 
   link:
     url: https://www.computer.org/csdl/proceedings-article/sp/2022/131600a507/1wKCeyVEZeo
@@ -133,6 +140,7 @@
 - title: "ULoc: a cm-accurate, low-latency and power-efficient UWB tag localization system"
   image: uloc-overview.jpg
   description: "A myriad of IoT applications demand centimeter-accurate localization that is robust to blockages from hands, furniture, or other occlusions in the environment. To address these needs, we developed ULoc, a scalable, low-power, and cm-accurate UWB localization and tracking system. ULoc's builds a multi-antenna UWB anchor and develops a novel 3D tracking algorithm to deliver a stationary localization accuracy of less than 5 cm and a tracking accuracy of 10 cm in mobile conditions."
+  short-desc: "ULoc's design uses 3D Angle of Arrival (AoA) to estimate low-power, low-latency, cm-accurate UWB tag location, a shift from traditional timing-based methods."
   authors: Minghui Zhao, Tyler Chang, Aditya Arun, Roshan Ayyalasomayajula, Chi Zhang, Dinesh Bharadia
   link:
     url: https://dl.acm.org/doi/10.1145/3478124
@@ -149,9 +157,59 @@
     display: "[paper]"
 
 
+- title: "Sslide: Sound source localization for indoors based on deep learning"
+  image: dloc.png
+  description: "This paper presents SSLIDE, Sound Source Localization for Indoors using DEep learning, which applies deep neural networks (DNNs) with encoder-decoder structure to localize sound sources with random positions in a continuous space. The spatial features of sound signals received by each microphone are extracted and represented as likelihood surfaces for the sound source locations in each point. Our DNN consists of an encoder network followed by two decoders. The encoder obtains a compressed representation of the input likelihoods. One decoder resolves the multipath caused by reverberation, and the other decoder estimates the source location. Experiments based on both the simulated and experimental data show that our method can not only outperform multiple signal classification (MUSIC), steered response power with phase transform (SRP-PHAT), sparse Bayesian learning (SBL), and a competing convolutional neural network (CNN) approach in the reverberant environment but also achieve a good generalization performance."
+  short-desc: "This work extends the ideas of DLoc to sound source localization."
+  authors: Yifan Wu, Roshan Ayyalasomayajula, Michael J. Bianco, Dinesh Bharadia, Peter Gerstoft
+  link:
+    url: https://doi.org/10.1109/ICASSP39728.2021.9415109
+    display:  "[ICASSP 2021]"
+  highlight: 0
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url:
+    display:
+  paper: 
+    url: https://arxiv.org/pdf/2010.14420.pdf
+    display: "[paper]"
+
+- title: "Sound source localization based on multi-task learning and image translation network"
+  image: dloc.png
+  description: "Supervised learning-based sound source localization (SSL) methods have been shown to achieve a promising localization accuracy in the past. In this paper, MTIT, SSL for indoors using Multi-Task learning and Image Translation
+network, an image translation-based deep neural networks (DNNs) framework for SSL is presented to predict the
+locations of sound sources with random positions in a continuous space. We extract and represent the spatial features
+of the sound signals as beam response at each direction which can indicate the chance of the source in each point of
+the room. We utilize the multi-task learning (MTL) based training framework. There are one encoder and two
+decoders in our DNN. The encoder aims to obtain a compressed representation of the input beamspectrum surfaces
+while the two decoders focus on two tasks in parallel. One decoder focuses on resolving the multipath caused by
+reverberation and the other decoder predicts the source location. Since these two decoders share the same encoder,
+by training these two decoders in parallel, the shared representations are refined. We comprehensively evaluate the
+localization performance of our method in the simulated data, measured impulse response and real recordings datasets and compare it with multiple signal classification, steered response power with phase transform, and a competing convolutional neural network approach. It turns out that MTIT can outperform all of the baseline methods in a
+dynamic environment and also can achieve a good generalization performance."
+  short-desc: "This work extends the ideas of DLoc to sound source localization."
+  authors: Yifan Wu, Roshan Ayyalasomayajula, Michael J. Bianco, Dinesh Bharadia, and Peter Gerstoft
+  link:
+    url: https://doi.org/10.1121/10.0007133
+    display:  "[JASA 2021]"
+  highlight: 0
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url:
+    display:
+  paper: 
+    url: https://www.researchgate.net/profile/Yifan-Wu-9/publication/355947556_Sound_source_localization_based_on_multi-task_learning_and_image_translation_network/links/61f43f6f4393577abef7a74a/Sound-source-localization-based-on-multi-task-learning-and-image-translation-network.pdf
+    display: "[paper]"
+
+
 - title: "Two beams are better than one: Towards Reliable and High Throughput mmWave Links"
   image: mmreliable.png
   description: "Millimeter-wave communication with high throughput and high reliability is poised to be a gamechanger for V2X and VR applications. However, mmWave links are notorious for low reliability since they suffer from frequent outages due to blockage and user mobility. We build mmReliable, a reliable mmWave system that implements multi-beamforming and user tracking to handle environmental vulnerabilities. It creates constructive multi-beam patterns and optimizes their angle, phase, and amplitude to maximize the signal strength at the receiver. Multi-beam links are reliable since they are resilient to occasional blockages of few constituent beams compared to a single-beam system. We implement mmReliable on a 28 GHz testbed with 400 MHz bandwidth, and a 64 element phased array supporting 5G NR waveforms. Rigorous indoor and outdoor experiments demonstrate that mmReliable achieves close to 100% reliability providing 2.3x improvement in the throughput-reliability product than single-beam systems."
+  short-desc: ""
   authors: Ish Kumar Jain, Raghav Subbaraman, and Dinesh Bharadia
   link:
     url: https://conferences.sigcomm.org/sigcomm/2021/
@@ -171,6 +229,7 @@
 - title: "SyncScatter: Enabling WiFi like synchronization and range for WiFi backscatter Communication"
   image: syncscatter.png
   description: "WiFi backscattering can enable direct connectivity of IoT devices with commodity WiFi hardware at low power. However, most existing work in this area has overlooked the importance of synchronization and have, as a result, accepted either limited range between the transmitter and the IoT device, reduced throughput via bit repetition, or both. In this paper, we present SyncScatter, which achieves accurate synchronization to incident signals at the IoT device level, while also achieving sensitivity commensurate with the maximum possible afforded by a backscattering link budget. SyncScatter creates a novel modeling framework, and derives the maximal optimal range and synchronization error that can be achieved without major performance compromises. Next, SyncScatter builds a novel hierarchical wake-up protocol, which together with a custom ASIC, achieves a range of 30+ meters at 2Mbps, with an average power consumption of 25.2µW."
+  short-desc: ""
   authors: Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, and Dinesh Bharadia
   link:
     url: https://www.usenix.org/conference/nsdi21/presentation/dunna
@@ -189,6 +248,7 @@
 - title: "WiForce: Wireless Sensing and Localization of Contact Forces on a Space Continuum"
   image: wiforce.png
   description: "Contact force is a natural way for humans to interact with the physical world around us. However, most of our interactions with the digital world are largely based on a simple binary sense of touch (contact or no contact). Similarly, when interacting with robots to perform complex tasks, such as surgery, richer force information that includes both magnitude and contact location is important for task performance. To address these challenges, we present the design and fabrication of WiForce which is a ‘wireless’ sensor, sentient to contact force magnitude and location. WiForce achieves this by transducing force magnitude and location, to phase changes of an incident RF signal of a backscattering tag. The phase changes are thus modulated into the backscattered RF signal, which enables measurement of force magnitude and contact location by inferring the phases of the reflected RF signal. WiForce’s sensor is designed to support wide-band frequencies all the way up to 3 GHz. We evaluate the force sensing wirelessly in different environments, including through phantom tissue, and achieve force accuracy of 0.3 N and contact location accuracy of 0.6 mm."
+  short-desc: ""
   authors: Agrim Gupta, Cédric Girerd, Manideep Dunna, Qiming Zhang, Raghav Subbaraman, Tania Morimoto, and Dinesh Bharadia
   link:
     url: https://www.usenix.org/conference/nsdi21/presentation/gupta
@@ -205,6 +265,7 @@
 - title: "DroneScale: Drone Load Estimation Via Remote Passive RF Sensing"
   image: dronescale.png
   description: "Drones have carried weapons, drugs, explosives and illegal packages in the recent past, raising strong concerns from public authorities. While existing drone monitoring systems only focus on detecting drone presence, localizing or fingerprinting the drone, there is a lack of a solution for estimating the additional load carried by a drone. In this paper, we present a novel passive RF system, namely DroneScale, to monitor the wireless signals transmitted by commercial drones and then confirm their models and loads. Our key technical contribution is a proposed technique to passively capture vibration at high resolution (i.e., 1Hz vibration) from afar, which was not possible before. We prototype DroneScale using COTS RF components and illustrate that it can monitor the body vibration of a drone at the targeted resolution. In addition, we develop learning algorithms to extract the physical vibration of the drone from the transmitted signal to infer the model of a drone and the load carried by it. We evaluate the DroneScale system using 5 different drone models, which carry external loads of up to 400g. The experimental results show that the system is able to estimate the external load of a drone with an average accuracy of 96.27%. We also analyze the sensitivity of the system with different load placements with respect to the drone’s body, flight modes, and distances up to 200 meters." 
+  short-desc: ""
   authors: "Phuc Nguyen (University of Texas at Arlington; University of Colorado Boulder); Vimal Kakaraparthi, Nam Bui, Nikshep Umamahesh (University of Colorado Boulder); Nhat Pham (University of Colorado Boulder; University of Oxford); Hoang Truong (University of Colorado Boulder); Yeswanth Guddeti, Dinesh Bharadia (University of California San Diego); Eric Frew, Richard Han, Daniel Massey (University of Colorado Boulder); Tam Vu (University of Colorado Boulder; University of Oxford)"
   link:
     url: http://sensys.acm.org/2020/program/
@@ -238,6 +299,7 @@ data distribution, to enable accurate 3D bounding box estimation.
 The spatial techniques designed and proposed in this paper are
 fundamental to radars point cloud distribution and would benefit
 other radar sensing applications."
+  short-desc: ""
   authors: Kshitiz Bansal, Keshav Rungta, Siyuan Zhu and Dinesh Bharadia
   link:
     url: http://sensys.acm.org/2020/program/
@@ -256,6 +318,7 @@ other radar sensing applications."
 - title: "mMobile: Building a mmWave testbed to evaluate and address mobility effects"
   image: mMobile.png
   description: "Beamforming methods need to be critically evaluated and improvedto achieve the promised performance of mmWave 5G-NR in highmobility applications like Vehicle-to-Everything (V2X) communi-cation. Conventional beam management methods developed forhigher frequency applications do not directly carry over to the 28GHz mmWave regime, where propagation and reflection character-istics are vastly different. Further, real system deployments and testsare required to verify these methods in a practical setting. In thiswork, we develop mMobile, a custom 5G-NR compliant mmWavetestbed to evaluate beam management algorithms. We describe thearchitecture and challenges in building such a testbed. We then cre-ate a novel, low-complexity beam tracking algorithm by exploitingthe 5G-NR waveform structure and evaluate its performance onthe testbed. The algorithm can sustain almost twice the averagethroughput compared to the baseline."
+  short-desc: ""
   authors: Ish Kumar Jain, Raghav Subbaraman, Tejas Harekrishna Sadarahalli, Xiangwei Shao, Hou-Wei Lin, Dinesh Bharadia
   link:
     url: https://mmnets.cse.sc.edu/program.html
@@ -274,6 +337,7 @@ other radar sensing applications."
 - title: "S3Net: Semantic-Aware Self-supervised Depth Estimation with Monocular Videos and Synthetic Data"
   image: s3net.png
   description: "Solving depth estimation with monocular cameras enables the possibility of widespread use of cameras as low-cost depth estimation sensors in applications such as autonomous driving and robotics. However, learning such a scalable depth estimation model would require a lot of labeled data which is expensive to collect. There are two popular existing approaches which do not require annotated depth maps: (i) using labeled synthetic and unlabeled real data in an adversarial framework to predict more accurate depth, and (ii) unsupervised models which exploit geometric structure across space and time in monocular video frames. Ideally, we would like to leverage features provided by both approaches as they complement each other; however, existing methods do not adequately exploit these additive benefits. We present S 3Net, a selfsupervised framework which combines these complementary features: we use synthetic and real-world images for training while exploiting geometric, temporal, as well as semantic constraints. Our novel consolidated architecture provides a new state-of-the-art in self-supervised depth estimation using monocular videos. We present a unique way to train this self-supervised framework, and achieve (i) more than 15% improvement over previous synthetic supervised approaches that use domain adaptation and (ii) more than 10% improvement over previous self-supervised approaches which exploit geometric constraints from the real data"
+  short-desc: ""
   authors: Bin Cheng, Inderjot Singh Saggu, Raunak Shah, Gaurav Bansal, Dinesh Bharadia
   link:
     url: https://arxiv.org/pdf/2007.14511.pdf
@@ -296,6 +360,7 @@ other radar sensing applications."
   image: isscc.jpg
   description: "More portable, fully wireless smart home setups. Lower power wearables. Batteryless smart devices. These could all be made possible thanks to a new ultra-low power Wi-Fi radio developed by electrical engineers at the University of California San Diego. 
 The device, which is housed in a chip smaller than a grain of rice, enables Internet of Things (IoT) devices to communicate with existing Wi-Fi networks using 5,000 times less power than today’s Wi-Fi radios. It consumes just 28 microwatts of power. And it does so while transmitting data at a rate of 2 megabits per second (a connection fast enough to stream music and most YouTube videos) over a range of up to 21 meters."
+  short-desc: ""
   authors: P-H. P. Wang, C. Zhang, H. Yang, D. Bharadia, P. P. Mercier
   link:
     url: https://www.newswise.com/articles/ticker/726844
@@ -337,6 +402,7 @@ random per-packet phase offsets during the measurement. Our
 evaluations show that with commercial off-the-shelf MIMO WiFi
 (11ac) AP and unmodified clients, ScatterMIMO provides a median
 throughput improvement of 2x over the active AP alone."
+  short-desc: ""
   authors: Manideep Dunna, Chi Zhang, Daniel Sievenpiper, Dinesh Bharadia
   link:
     url: https://sigmobile.org/mobicom/2020/accepted.php
@@ -356,6 +422,7 @@ throughput improvement of 2x over the active AP alone."
 - title: "Deep Learning based Wireless Localization for Indoor Navigation"
   image: dloc.png
   description: "Location services, fundamentally, rely on two components- a mapping system and a positioning system. The mapping system provides the physical map of the space, and the positioning system identifies the position within the map. Outdoor location services have thrived over the last couple of decades because of well-establishedplatforms for both these components (e.g. Google Maps for mapping, and GPS for positioning). In contrast, indoor location services haven’t caught up because of the lack of reliable mapping and positioning frameworks, as GPS is known not to work indoors. WiFi positioning lacks maps and is also prone to environmental errors. In this paper, we present DLoc, a Deep Learning based wireless localization algorithm that can overcome traditional limitations of RF-based localization approaches (like multipath, occlusions, etc.). DLoc uses data from the mapping platform we developed, MapFind, that can construct location-tagged maps of the environment. Together, they allow off-the-shelf WiFi devices like smartphones toaccess a map of the environment and to estimate their position withrespect to that map. During our evaluation, MapFind has collected location estimates of over 120 thousand points under 10 different scenarios across two different spaces covering 2000 sq. Ft. DLoc outperforms state-of-the-art methods in WiFi-based localizationby 80% (median and 90th percentile) across the 2000 sq. ft. spanningtwo different spaces."
+  short-desc: "Achieves robust decimeter Wi-Fi location accuracy using DLoc (a learning algorithm) and MapFind (a data collection platform)"
   authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Sanatan Sharma, Abhishek Sethi,  Deepak Vasisht, and Dinesh Bharadia
   link:
     url: https://sigmobile.org/mobicom/2020/accepted.php
@@ -379,6 +446,7 @@ throughput improvement of 2x over the active AP alone."
 - title: "LocAP: Accurate Localization of Existing WiFi Infrastructure"
   image: loc_ap.png
   description: "Indoor localization has been studied for nearly two decades fueled by wide interest in indoor navigation, achieving the necessary decimeter-level accuracy. However, there are no real-world deployments of WiFi-based user localization algorithms, primarily because these algorithms are triangulation based and therefore assume the location of the Access Points, their antenna geometries, and deployment orientations in the physical map. In the real world, such detailed knowledge of the location attributes of the Access Point is seldom available, thereby making WiFi localization hard to deploy. In this paper, for the first time, we establish the accuracy requirements for the location attributes of access points to achieve decimeter level user localization accuracy. Surprisingly, these requirements for antenna geometries and deployment orientation are very stringent, requiring millimeter level and sub-10 degree of accuracy respectively, which is hard to achieve with manual effort. To ease the deployment of real-world WiFi localization, we present LocAP, which is an autonomous system to physically map the environment and accurately locate the attributes of existing infrastructure AP in the physical space down to the required stringent accuracy of 3 mm antenna separation and 3degree deployment orientation median errors, whereas state-of-the-art report 150 mm and 25degrees respectively."
+  short-desc: "First work to explore and develop a system to solve for mapping antenna locations on a Wi-Fi access point accurate to a few-mm"
   authors: Shrivatsan Rajagopalan, Shreya Ganesaraman, Aravind Seetharaman, Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, and Dinesh Bharadia
   link:
     url: https://www.usenix.org/conference/nsdi20/presentation/rajagopalan
@@ -401,6 +469,7 @@ throughput improvement of 2x over the active AP alone."
 - title: "Capttery: Scalable Battery-like Room-level Wireless Power"
   image: capttery.png
   description: Internet-of-things (IoT) devices are becoming widely adopted, but they increasingly suffer from limited power, as power cords cannot reach the billions and batteries do not last forever. Existing systems address the issue with ultra-low-power designs and energy scavenging, which inevitably limit functionality. To unlock the full potential of ubiquitous computing and connectivity, our solution uses capacitive power transfer (CPT) to provide battery-like wireless power delivery, henceforth referred to as "Capttery". Capttery presents the first room-level (~5 m) CPT system, which delivers continuous milliwatt-level wireless power to multiple IoT devices concurrently. Unlike conventional one-to-one CPT systems that target kilowatt power in a controlled and potentially hazardous setup, Capttery is designed to be human-safe and invariant in a practical and dynamic environment. Our evaluation shows that Capttery can power end-to-end IoT applications across a typical room, where new receivers can be easily added in a plug-and-play manner.
+  short-desc: ""
   authors: Chi Zhang, Siddharth Kumar, and Dinesh Bharadia
   link:
     url: https://dl.acm.org/citation.cfm?id=3326077
@@ -413,6 +482,7 @@ throughput improvement of 2x over the active AP alone."
 - title: "SparSDR: Sparsity-proportional Backhaul and Compute for SDRs"
   image: sparSDR.png
   description: "We present SparSDR, a resource-efficient architecture for softwaredefined radios whose backhaul bandwidth and compute power requirements scale in inverse proportion to the sparsity (in time and frequency) of the signals received. SparSDR requires dramatically fewer resources than existing approaches to process many popular protocols while retaining both flexibility and fidelity. We demonstrate that our approach has negligible impact on signal quality, receiver sensitivity, and processing latency. The SparSDR architecture makes it possible to capture signals across bandwidths far wider than the capacity of a radio's backhaul through the addition of lightweight frontend processing and corresponding backend reconstruction to restore the signals to their original sample rate. We employ SparSDR to develop two wideband applications running on a USRP N210 and a Raspberry Pi 3+: an IoT sniffer that scans 100 MHz of bandwidth and decodes received BLE packets, and a wideband Cloud SDR receiver that requires only residential-class Internet uplink capacity. We show that our SparSDR implementation fits in the constrained resources of popular low-cost SDR platforms, such as the AD Pluto."
+  short-desc: ""
   authors: 	Moein Khazraee, 	Yeswanth Guddeti, 	Sam Crow, Alex C. Snoeren,	Kirill Levchenko, 	Dinesh Bharadia, and Aaron Schulman
   link:
     url: https://dl.acm.org/citation.cfm?id=3326088
@@ -431,6 +501,7 @@ throughput improvement of 2x over the active AP alone."
 - title: "SweepSense: Sensing 5 GHz in 5 Milliseconds with Low-cost Radios"
   image: sweepsense.png
   description: "Wireless transmissions occur intermittently across the entire spectrum. For example, WiFi and Bluetooth devices transmit frames across the 100 MHz-wide 2.4 GHz band, and LTE devices transmit frames between 700 MHz and 3.7 GHz). Today, only high-cost radios can sense across the spectrum with sufficient temporal resolution to observe these individual transmissions. We present “SweepSense”, a low-cost radio architecture that senses the entire spectrum with high-temporal resolution by rapidly sweeping across it. Sweeping introduces new challenges for spectrum sensing: SweepSense radios only capture a small number of distorted samples of transmissions. To overcome this challenge, we correct the distortion with self-generated calibration data, and classify the protocol that originated each transmission with only a fraction of the transmission’s samples. We demonstrate that SweepSense can accurately identify four protocols transmitting simultaneously in the 2.4 GHz unlicensed band. We also demonstrate that it can simultaneously monitor the load of several LTE base stations operating in disjoint bands."
+  short-desc: ""
   authors: Yeswanth Guddeti,  Raghav Subbaraman, Moein Khazraee, Aaron Schulman, and Dinesh Bharadia
   link:
     url: https://www.usenix.org/conference/nsdi19/presentation/guddeti
@@ -447,6 +518,7 @@ throughput improvement of 2x over the active AP alone."
 - title: "SIGNet: Semantic Instance Aided Unsupervised 3D Geometry Perception"
   image: signet.png
   description: "Unsupervised learning for geometric perception (depth, optical flow, etc.) is of great interest to autonomous systems. Recent works on unsupervised learning have made considerable progress on perceiving geometry; however, they usually ignore the coherence of objects and perform poorly under scenarios with dark and noisy environments. In contrast, supervised learning algorithms, which are robust, require large labeled geometric dataset. This paper introduces SIGNet, a novel framework that provides robust geometry perception without requiring geometrically informative labels. Specifically, SIGNet integrates semantic information to make depth and flow predictions consistent with objects and robust to low lighting conditions. SIGNet is shown to improve upon the state-of-the-art unsupervised learning for depth prediction by 30% (in squared relative error). In particular, SIGNet improves the dynamic object class performance by 39% in depth prediction and 29% in flow prediction. Our code will be made available <a href='https://github.com/mengyuest/SIGNet'>online</a>"
+  short-desc: ""
   authors: Yue Meng, Yongxi Lu, Aman Raj, Samuel Sunarjo, Rui Guo, Tara Javidi, Gaurav Bansal, Dinesh Bharadia
   link:
     url: http://openaccess.thecvf.com/content_CVPR_2019/html/Meng_SIGNet_Semantic_Instance_Aided_Unsupervised_3D_Geometry_Perception_CVPR_2019_paper.html
@@ -459,6 +531,7 @@ throughput improvement of 2x over the active AP alone."
 - title: "BLoc: CSI-based accurate localization for BLE tags"
   image: bloc.png
   description: Bluetooth Low Energy (BLE) tags have become very prevalent over the last decade for tracking applications in homes as well as businesses. These tags are used to track objects, navigate people, and deliver contextual advertisements. However, in spite of the wide interest in tracking BLE tags, the primary methods of tracking them are based on signal strength (RSSI) measurements. Past work has shown that such methods are inaccurate, and prone to multipath and dynamic environments. As a result, localization using Wi-Fi has moved to Channel State Information (CSI, includes both signal strength and signal phase) based localization methods. In this paper, we seek to investigate what are the challenges that prevent BLE from adopting CSI based localization methods. We identify fundamental differences at the PHY layer between BLE and Wi-Fi, that make it challenging to extend CSI based localization to BLE. We present our system, BLoc, that incorporates novel, BLE-compatible algorithms to overcome these challenges and enable an accurate, multipath-resistant localization system. Our empirical evaluation shows that BLoc can achieve a localization accuracy of 86 cm with BLE tags, a 3X improvement over a state-of-the-art baseline.
+  short-desc: "First system that enables robust channel estimation for BLE devices, and achieves sub-meter acuracy with these measured channels."
   authors: 	Roshan Ayyalasomayajula, 	Deepak Vasisht, and Dinesh Bharadia
   link:
     url: https://dl.acm.org/citation.cfm?id=3281428
@@ -480,6 +553,7 @@ throughput improvement of 2x over the active AP alone."
 - title: "FreeRider: Backscatter Communication Using Commodity Radios"
   image: freerider.png
   description: "We introduce the design and implementation of FreeRider, the first system that enables backscatter communication with multiple commodity radios, such as 802.11g/n WiFi, ZigBee, and Bluetooth, while these radios are simultaneously used for productive data communication."
+  short-desc: ""
   authors: 	Pengyu Zhang, Colleen Josephson, 	Dinesh Bharadia, 	Sachin Katti
   link:
     url: https://dl.acm.org/citation.cfm?id=3143374
@@ -510,6 +584,7 @@ system that allows mmWave links to sustain high data
 rates even in the presence of a blockage and mobility.
 MoVR does this by introducing a smart mmWave mirror and leveraging VR headset tracking information. We
 implement MoVR and empirically demonstrate its performance using an HTC VR headset."
+  short-desc: ""
   authors: Omid Abari, Dinesh Bharadia, Austin Duffield, Dina Katabi
   link:
     url: https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/abari
@@ -534,6 +609,7 @@ show experimentally that HitchHike can achieve an uplink
 throughput of up to 300Kbps at ranges of up to 34m and
 ranges of up to 54m where it achieves a throughput of around
 200Kbps"
+  short-desc: ""
   authors:
     Pengyu Zhang, Dinesh Bharadia, Kiran Joshi, Sachin Katti
   link:
@@ -554,6 +630,7 @@ challenge, however, is that mmWave signals can be easily
 blocked by the player’s hand or head motion. We describe
 a novel system design and algorithms that allow mmWave
 links to sustain high data rates even in the presence of blockage, enabling a high-quality untethered VR experience"
+  short-desc: ""
   authors:
     Omid Abari, Dinesh Bharadia, Austin Duffield, Dina Katabi
   link:
@@ -566,6 +643,7 @@ links to sustain high data rates even in the presence of blockage, enabling a hi
 - title: "Numfabric: Fast and flexible bandwidth allocation in datacenters"
   image: numfabric.png
   description: ""
+  short-desc: ""
   authors:
     Kanthi Nagaraj, Dinesh Bharadia, Hongzi Mao, Sandeep Chinchali, Mohammad Alizadeh, Sachin Katti
   link:
@@ -578,6 +656,7 @@ links to sustain high data rates even in the presence of blockage, enabling a hi
 
 - title: "Enabling backscatter communication among commodity wifi radios"
   image: enablingbackscatter.png
+  short-desc: ""
   description: "In this paper, we look at making backscatter practical for
 ultra-low power on-body sensors by leveraging radios on existing smartphones and wearables (e.g. WiFi and Bluetooth).
 The difficulty lies in the fact that in order to extract the weak
@@ -600,6 +679,7 @@ very low power backscatter IoT sensors and WiFi APs using
 ambient WiFi transmissions as the excitation signal. Specifically, we show that it is possible to design IoT sensors and
 WiFi APs such that the WiFi AP in the process of transmitting data to normal WiFi clients can decode backscatter
 signals which the IoT sensors generate by modulating information on to the ambient WiFi transmission"
+  short-desc: ""
   authors:
     Dinesh Bharadia, Kiran Raj Joshi, Manikanta Kotaru, Sachin Katti
   link:
@@ -625,6 +705,7 @@ even when the access point (AP) has only three antennas.
 Second, it incorporates novel filtering and estimation techniques to identify AoA of direct path between the localization target and AP by assigning values for each path depending on how likely the particular path is the direct path. Our
 experiments in a multipath rich indoor environment show
 that SpotFi achieves a median accuracy of 40 cm and is robust to indoor hindrances such as obstacles and multipath."
+  short-desc: "Ground breaking work towards developing the first accurate Wi-Fi device triangulation algorithm"
   authors:
     Manikanta Kotaru, Kiran Joshi, Dinesh Bharadia, Sachin Katti
   link:
@@ -641,6 +722,7 @@ that SpotFi achieves a median accuracy of 40 cm and is robust to indoor hindranc
 - title: "Fastforward: Fast and constructive full duplex relays"
   image: fastforward.png
   description: "This paper presents, FastForward (FF), a novel full duplex relay that constructively forwards signals such that wireless network throughput and coverage is significantly enhanced. FF is a Layer 1 in-band full duplex device, it receives and transmits signals directly and simultaneously on the same frequency. It cleanly integrates into existing networks (both WiFi and LTE) as a separate device and does not require changes to the clients. FF's key invention is a constructive filtering algorithm that transforms the signal at the relay such that when it reaches the destination, it constructively combines with the direct signals from the source and provides a significant throughput gain. We prototype FF using off-the-shelf software radios running a stock WiFi PHY and show experimentally that it provides a 3× median throughput increase and nearly a 4× gain at the edge of the coverage area."
+  short-desc: ""
   authors:
     Dinesh Bharadia, Sachin Katti
   link:
@@ -671,6 +753,7 @@ software radios and show that it accurately traces motion
 even when there are multiple independent human motions
 occurring concurrently (up to 5) with a median error in
 the traced path of less than 7cm."
+  short-desc: "Demonstrates the use of Wi-Fi backscatter for accurate motion tracking."
   authors:
     Kiran Joshi, Dinesh Bharadia, Manikanta Kotaru, Sachin Katti
   link:
@@ -701,6 +784,7 @@ We implemented SpotOn using commercial off-the-shelf
 Intel 5300 WiFi NICs. SpotOn achieves localization accuracy of 0.6 m when the target device has significant number
 of access points in line-of-sight. Over all the locations in our
 test runs, SpotOn achieves localization accuracy of 1.5 m"
+  short-desc: "Widely deployable Wi-F- device localization."
   authors:
     Manikanta Kotaru, Kiran Joshi, Dinesh Bharadia, Sachin Katti
   link:
@@ -714,6 +798,7 @@ test runs, SpotOn achieves localization accuracy of 1.5 m"
 - title: "Robust full duplex radio link"
   image: robustfd.png
   description: "This paper presents demonstration of a real-time full duplex point-to-point link, where transmission and reception occurs in the same spectrum band simultaneously between a pair of full-duplex radios. This demo first builds a full duplex radio by implementing self-interference cancellation technique on top of a traditional half duplex radio architecture. We then establish a point-to-point link using a pair of these radios that can transmit and receive OFDM packets. By changing the environmental conditions around the full-duplex radios we then demonstrate the robustness of the self-interference cancellation to adapt to the changing environment."
+  short-desc: ""
   authors:
     Dinesh Bharadia, Kiran Joshi, Sachin Katti
   link:
@@ -742,6 +827,7 @@ prototype our design by building our own analog circuit
 boards and integrating them with a WiFi-PHY compatible standard WARP software radio implementation. We
 show experimentally that our design works robustly in
 noisy indoor environments, and provides close to the expected theoretical doubling of throughput in practice."
+  short-desc: ""
   authors:
     Dinesh Bharadia,  Sachin Katti
   link:
@@ -755,6 +841,7 @@ noisy indoor environments, and provides close to the expected theoretical doubli
 - title: "QualComp: a new lossy compressor for quality scores based on rate distortion theory"
   image: qualcomp.png
   description: ""
+  short-desc: ""
   authors:
     Idoia Ochoa, Himanshu Asnani, Dinesh Bharadia, Mainak Chowdhury, Tsachy Weissman, Golan Yona
   link:
@@ -776,6 +863,7 @@ realized. In this paper we focus specifically on backscatter
 measurement, we describe novel circuits and algorithms that
 can be added to existing radios to enable them to accurately
 and concurrently receive and disentangle their own transmissions’ reflections and infer its properties."
+  short-desc: ""
   authors:
     Dinesh Bharadia, Kiran Raj Joshi, Sachin Katti
   link:
@@ -789,6 +877,7 @@ and concurrently receive and disentangle their own transmissions’ reflections 
 - title: "Full duplex radios"
   image: fullduplex.png
   description: "This paper presents the design and implementation of the first in-band full duplex WiFi radios that can simultaneously transmit and receive on the same channel using standard WiFi 802.11ac PHYs and achieves close to the theoretical doubling of throughput in all practical deployment scenarios. Our design uses a single antenna for simultaneous TX/RX (i.e., the same resources as a standard half duplex system). We also propose novel analog and digital cancellation techniques that cancel the self interference to the receiver noise floor, and therefore ensure that there is no degradation to the received signal. We prototype our design by building our own analog circuit boards and integrating them with a fully WiFi-PHY compatible software radio implementation. We show experimentally that our design works robustly in noisy indoor environments, and provides close to the expected theoretical doubling of throughput in practice."
+  short-desc: ""
   authors:
     Dinesh Bharadia, Emily McMilin, Sachin Katti
   link:
@@ -808,6 +897,7 @@ power. In practice, we find that the signal inversion technique alone
 can cancel at least 45dB across a 40MHz bandwidth. Further, combining signal inversion cancellation with cancellation in the digital
 domain can reduce self-interference by up to 73dB for a 10MHz
 OFDM signal."
+  short-desc: ""
   authors:
     Mayank Jain, Jung Il Choi, Taemin Kim, Dinesh Bharadia, Siddharth Seth, Kannan Srinivasan, Philip Levis, Sachin Katti, Prasun Sinha
   link:
