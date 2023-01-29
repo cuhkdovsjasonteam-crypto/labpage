@@ -1,11 +1,20 @@
 ---
 title: "Wireless Sensing"
-layout: research
+layout: research-new
 excerpt: "Wireless Sensing"
 sitemap: false
 permalink: wireless-sensing.html
 ---
 <!-- <a href="{{ site.url }}{{ site.baseurl }}/research"><img src="{{ site.url }}{{ site.baseurl }}/images/back.png" class="img-responsive" width="4%" /> </a> -->
+<div class="col-sm-24 clearfix">
+<div class="well">
+   <center>
+     <h4><a href="#proj">Projects</a>&emsp;<a href="#open">Open-Sourcing</a>&emsp;<a href="#pubs">Publications</a>&emsp;<a href="#demos">Demos and Posters</a>&emsp;<a href="#team">Team</a></h4>
+   </center>
+</div>
+</div>
+
+
 
 # Wireless Sensing
 <!-- ####  This page contains papers related to `Wireless Sensing and Localization`. 
@@ -30,14 +39,6 @@ permalink: wireless-sensing.html
 
 </div>
 
-</div>
-
-<hr>
-
-<div class="col-sm-24 clearfix">
-   <center>
-     <h4><a href="#proj">Projects</a>&emsp;<a href="#pubs">Publications</a>&emsp;<a href="#open">Open-Sourcing</a>&emsp;<a href="#demos">Demos and Posters</a>&emsp;<a href="#team">Team</a></h4>
-   </center>
 </div>
 
 <hr>
@@ -97,7 +98,7 @@ permalink: wireless-sensing.html
 
 
 <hr>
-<p> &nbsp; </p>
+<!-- <p> &nbsp; </p> -->
 
 <div id="open">
 ## Open-Source
@@ -231,7 +232,7 @@ permalink: wireless-sensing.html
 {% endif %}
 
 </div>
-<p> &nbsp; </p>
+<!-- <p> &nbsp; </p> -->
 
 
 <hr>
@@ -284,7 +285,9 @@ permalink: wireless-sensing.html
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-<p> &nbsp; </p>
+<!-- <p> &nbsp; </p> -->
+
+<hr>
 
 </div>
 <div id="pubs">
@@ -300,7 +303,7 @@ permalink: wireless-sensing.html
 
 <hr>
 
-<p> &nbsp; </p>
+<!-- <p> &nbsp; </p> -->
 <div id="team">
 
 ## Team
@@ -540,10 +543,10 @@ Undergraduate/ Masters students - <a href='https://www.ece.ucsd.edu/undergraduat
 
 <p> &nbsp; </p>
 
-<hr>
 <div class="col-sm-24 clearfix">
+<div class="well">
    <center>
-     <h4><a href="#top">Wireless Sensing Home (Go to top)</a>&emsp;<a href="#proj">Projects</a>&emsp;<a href="#pubs">Publications</a>&emsp;<a href="#open">Open-Sourcing</a>&emsp;<a href="#demos">Demos and Posters</a>&emsp;<a href="#team">Team</a></h4>
+     <h4><a href="#top">Wireless Sensing Home (Go to top)</a>&emsp;<a href="#proj">Projects</a>&emsp;<a href="#open">Open-Sourcing&emsp;<a href="#pubs">Publications</a></a>&emsp;<a href="#demos">Demos and Posters</a>&emsp;<a href="#team">Team</a></h4>
    </center>
 </div>
-<hr>
+</div>
