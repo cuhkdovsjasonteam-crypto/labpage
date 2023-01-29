@@ -38,6 +38,18 @@
   education3:
   education4:
 
+- name: <a href='https://deepakv.web.illinois.edu/'>Deepak Vasisht</a>
+  photo: deepak.png
+  info: Currently an Assistant Professor at University of Illinois, Urbana-Champagne.
+  email: deepakv [at] illinois.edu
+  number_educ: 2
+  research1: wireless-sensing
+  research2:
+  education1: Deepak has collaborated with memebers of WCSNG, while completing his Ph.D at MIT to develop accurate localization algorithms for Wi-Fi and BLE devices.
+  education2: "Highlights: Mobicom'20, CoNEXT'18"
+  education3: 
+  education4:
+
 - name: <a href='https://www-int.ist.osaka-u.ac.jp/user/saru/en/'>Shunsuke Saruwatari (saru)</a>
   photo: saru.jpg
   info: Visiting Scholar from Osaka University, Japan, started Jul 2022

@@ -46,7 +46,7 @@
   email: ikjain [at] eng.ucsd.edu
   number_educ: 2
   research1: communication
-  research2:
+  research2: wireless-sensing
   education1: Ish is working on millimeter wave communications to provide high reliability and low latency for applications such as virtual reality and vehicular communications.
   education2: "Highlights: NSDI'20, mmNets'20, Sigcomm'21, Hotcarbon'22, IEEE WPMC'22, Infocom'23, IEEE S&P'23"
   education3:
@@ -71,7 +71,7 @@
   number_educ: 3
   research1: privacy
   research2:
-  education1:  Hadi’s research interests include developing machine learning and data-driven algorithms to enhance networked systems (e.g. wireless communication and sensing, resource sharing and scheduling)
+  education1: Hadi’s research interests include developing machine learning and data-driven algorithms to enhance networked systems (e.g. wireless communication and sensing, resource sharing and scheduling)
   education2: Primary advisor - Prof. Aaron Schulman
   education3: "Highlights: IEEE S&P'22"
   education4:
