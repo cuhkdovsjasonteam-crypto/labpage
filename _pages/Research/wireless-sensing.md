@@ -238,7 +238,7 @@ permalink: wireless-sensing.html
 <hr>
 
 ## Posters and Demos
-<div id="demo">
+<div id="demos">
 {% assign number_printed = 0 %}
 {% for publi in site.data.demopost-list %}
 
