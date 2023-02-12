@@ -89,9 +89,9 @@
   number_educ: 0
   education1: "Highlights:"
 
-- name: Wenshuo Zang
+- name: Wenshuo Zang 
   photo: rock.jpg
-  info: Undergrad student 
+  info: Undergrad student (joined WCSNG in 2021) 
   project: Robotics
   research1: wireless-sensing
   research2:
@@ -101,7 +101,7 @@
 
 - name: Yucheng Huang 
   photo: rock.jpg
-  info: Undergrad student 
+  info: Undergrad student (joined WCSNG in 2021) 
   project: Radar
   research1:
   research2:
@@ -110,7 +110,7 @@
 
 - name: Ameya Mandale
   photo: rock.jpg
-  info: Undergrad student 
+  info: Undergrad student (joined WCSNG in 2022)
   project: Radar
   research1:
   research2:
@@ -132,4 +132,22 @@
 #   education1: "Highlights:"
 
 
+- name: Howard Fu 
+  photo: rock.jpg
+  info: Undergrad student (joined WCSNG in 2022)
+  project: 3D Video Compression
+  research1:
+  research2:
+  number_educ: 0
+  education1: "Highlights:"
 
+
+
+- name: Anuj Jain
+  photo: rock.jpg
+  info: Undergrad student (joined WCSNG in 2022)
+  project: Security and Privacy
+  research1:
+  research2:
+  number_educ: 0
+  education1: "Highlights:"
