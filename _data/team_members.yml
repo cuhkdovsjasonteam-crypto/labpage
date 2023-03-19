@@ -160,14 +160,14 @@
   education3: "Highlights: WPMC'22"
   education4:
 
-- name: <a href='https://sites.google.com/view/rohithreddyvennam/'>Rohith Reddy Vennam</a>
+- name: <a href='https://acsweb.ucsd.edu/~rvennam/'>Rohith Reddy Vennam</a>
   photo: rohith.jpg
   info: PhD Student, started 2021
   email: rvennam [at] ucsd.edu
   number_educ: 2
   research1: communication
   research2:
-  education1:  Research interests include millimeter-wave communications, multi-user MIMO, wireless sensing, ML in wireless communications, and building end-to-end systems.
+  education1:  Research interests include millimeter wave communications, satellite networks, wireless sensing, multi-user MIMO, and building end-to-end systems.
   education2: "Highlights: Infocom'23, IEEE S&P'23"
   education3:
   education4:
