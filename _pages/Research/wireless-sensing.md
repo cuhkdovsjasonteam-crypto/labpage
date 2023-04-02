@@ -546,7 +546,7 @@ Undergraduate/ Masters students - <a href='https://www.ece.ucsd.edu/undergraduat
 <div class="col-sm-24 clearfix">
 <div class="well">
    <center>
-     <h4><a href="#top">Wireless Sensing Home (Go to top)</a>&emsp;<a href="#proj">Projects</a>&emsp;<a href="#open">Open-Sourcing&emsp;<a href="#pubs">Publications</a></a>&emsp;<a href="#demos">Demos and Posters</a>&emsp;<a href="#team">Team</a></h4>
+     <h4><a href="#top">Wireless Sensing Home (Go to top)</a>&emsp;<a href="#proj">Projects</a>&emsp;<a href="#open">Open-Sourcing</a>&emsp;<a href="#pubs">Publications</a>&emsp;<a href="#demos">Demos and Posters</a>&emsp;<a href="#team">Team</a></h4>
    </center>
 </div>
 </div>

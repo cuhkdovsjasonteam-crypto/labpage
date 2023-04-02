@@ -34,6 +34,7 @@
     url: files/poster-p2slam-icra-22.pdf
     display: "[Poster]"
 
+
 - title: "Demo: Real-Time Low-Latency Tracking for UWB tags"
   image: demo-uloc-mobisys-22.jpg
   description: ""
@@ -70,3 +71,22 @@
   paper: 
     url: files/demo-wifislam-nsdi-20.pdf
     display: "[Poster]"
+
+
+- title: "Poster: BluBLE, space-time social distance to monitor the spread of COVID-19"
+  image: poster-bluble-sensys-22.png
+  description: ""
+  authors: Aditya Arun, Agrim Gupta, Shivani Bhakta, Saikiran Komatineni, Dinesh Bharadia
+  link:
+    url: http://sensys.acm.org/2022/demos/
+    display:  "[SenSys'22]"
+  highlight: 1
+  tag1: wireless-sensing
+  tag2: 
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/bluble
+    display: "[Webpage]"
+  paper: 
+    url: aarun/assets/files/Bluble-paper.pdf
+    display: "[Poster Abstract]"
