@@ -269,7 +269,7 @@ Publicly available information about the Velodyne Puck prices the it at $8000. A
 <h3 id="usage">Dataset Usage</h3>
 
 
-The CSI data is named as **channels.mat** and the rosbag is named as **data.bag** in the resepctive dataset folders. All the datasets can be downloaded [here (size: 19.6 GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EWxQW0ySSQ5Bp4siu4TcLQQBaKZ8Kk-tQHKD0lmzgnDa-g?e=1tRvVT). To access the dataset, you will need to fill out a brief <a href="https://forms.gle/UgUQ5XkhVLqE9FEj6" target="_blank">Google Form</a> to agree to the terms of usage. Upon form completion an email will be sent out with the download instructions. 
+The CSI data is named as **channels.mat** and the rosbag is named as **data.bag** in the resepctive dataset folders. All the datasets can be downloaded [here (size: 19.6 GB)](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/Ed8UkFdFa71AqorqwJM-ESkBPJaC8z18bSKXob4A29K14A). To access the dataset, you will need to fill out a brief <a href="https://forms.gle/UgUQ5XkhVLqE9FEj6" target="_blank">Google Form</a> to agree to the terms of usage. Upon form completion an email will be sent out with the download instructions. 
 
 The MATLAB files (channels.mat) are stored using **HDF5** file structure and contain the following variables:
 - **channels_cli**: *[ n_datapoints x n_frequency x n_ap x n_rx_ant X n_tx_ant]* 5D complex channel matrix recieved at the WiFi access points deployed in the environment.
