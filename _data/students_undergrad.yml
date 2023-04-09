@@ -42,6 +42,8 @@
   photo: rock.jpg
   info: Undergrad student since 2019 (joined WCSNG in 2021)
   project: Localization
+  research1: wireless-sensing
+  research2:
   number_educ: 1
   education1: "Highlights: Coauthor RAL'22"
 
@@ -64,6 +66,8 @@
   photo: rock.jpg
   info: Undergrad student since 2020 (joined WCSNG in 2021)
   project: Localization, Robotics
+  research1: wireless-sensing
+  research2:
   number_educ: 0
   education1: "Highlights:"
 
@@ -71,6 +75,8 @@
   photo: rock.jpg
   info: Undergrad student since 2019 (joined WCSNG in 2021)
   project: Simulating, and designing small antennas
+  research1:
+  research2:
   number_educ: 0
   education1: "Highlights:"
 
@@ -78,34 +84,36 @@
   photo: rock.jpg
   info: Undergrad student since 2019 (joined WCSNG in 2021)
   project: Backscatter
+  research1:
+  research2:
   number_educ: 0
   education1: "Highlights:"
 
-- name: Wenshuo Zang
+- name: Wenshuo Zang 
   photo: rock.jpg
-  info: Undergrad student 
+  info: Undergrad student (joined WCSNG in 2021) 
   project: Robotics
+  research1: wireless-sensing
+  research2:
   number_educ: 0
   education1: "Highlights:"
 
-- name: Yizheng Yu
-  photo: rock.jpg
-  info: Undergrad student 
-  project: Robotics
-  number_educ: 0
-  education1: "Highlights:"
 
 - name: Yucheng Huang 
   photo: rock.jpg
-  info: Undergrad student 
+  info: Undergrad student (joined WCSNG in 2021) 
   project: Radar
+  research1:
+  research2:
   number_educ: 0
   education1: "Highlights:"
 
 - name: Ameya Mandale
   photo: rock.jpg
-  info: Undergrad student 
+  info: Undergrad student (joined WCSNG in 2022)
   project: Radar
+  research1:
+  research2:
   number_educ: 0
   education1: "Highlights:"
 
@@ -125,3 +133,12 @@
 
 
 
+
+- name: Anuj Jain
+  photo: rock.jpg
+  info: Undergrad student (joined WCSNG in 2022)
+  project: Security and Privacy
+  research1:
+  research2:
+  number_educ: 0
+  education1: "Highlights:"

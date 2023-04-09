@@ -1,0 +1,161 @@
+- title: "MapFind: An autonomous labelled Wi-Fi data collection platform"
+  image: bot_data_collection_medium.gif
+  description: ""
+  short-desc: "We built an autonomous robot with a Wi-Fi client retrofitted to it for labelled Wi-Fi data collection."
+  authors: Roshan Ayyalasomayajula, Chenfeng Wu, Aditya Arun, Dinesh Bharadia
+  link:
+    url: 
+    display:  "[Mobicom'20]"
+  highlight: 1
+  type: platform
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/dloc/
+    display: "[Webpage]"
+  paper: 
+    url: https://wcsng.ucsd.edu/files/dloc.pdf
+    display: "[paper]"
+
+- title: "WILD: Wireless Indoor Localization Dataset"
+  image: dloc.png
+  description: ""
+  short-desc: "We have open-sourced one of the first largest labelled Wi-Fi data for indoor localization"
+  authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Dinesh Bharadia
+  link:
+    url: 
+    display:  
+  highlight: 1
+  type: data
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/wild/
+    display: "[Webpage]"
+  paper: 
+    url: https://wcsng.ucsd.edu/files/dloc.pdf
+    display: "[paper]"
+
+- title: "DLoc code"
+  image: dloc.png
+  description: ""
+  short-desc: "Pytorch code for the architecture implemented in Deep Learning based Wireless Localization for Indoor Navigation"
+  authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Sanatan Sharma, Abhishek Sethi, Deepak Vasisht, and Dinesh Bharadia
+  link:
+    url: 
+    display:  
+  highlight: 1
+  type: code
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://github.com/ucsdwcsng/DLoc_pt_code
+    display: "[Code]"
+  paper: 
+    url: https://wcsng.ucsd.edu/files/dloc.pdf
+    display: "[paper]"
+
+- title: "WILD-v2: Kaggle Compeition"
+  image: viwid.png
+  description: ""
+  short-desc: ""
+  authors: Roshan Ayyalasomayajula, Wenshuo Zhang, Kanishka Roy, Aditya Arun, Dinesh Bharadia
+  link:
+    url: https://www.kaggle.com/competitions/wildv2/data/
+    display:  "[Kaggle'23]"
+  highlight: 1
+  type: data
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://www.kaggle.com/competitions/wildv2
+    display: "[Webpage]"
+  paper: 
+    url:
+    display:
+
+- title: "P2SLAM Dataset"
+  image: p2slam.png
+  description: ""
+  short-desc: "Dataset that we used to demonstrate and open-sourced for "
+  authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia
+  link:
+    url:
+    display:  "[RA-L/ICRA'22]"
+  highlight: 1
+  type: data
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/p2slam
+    display: "[Webpage]"
+  paper: 
+    url: https://wcsng.ucsd.edu/files/p2slam.pdf
+    display: "[Paper]"
+
+
+- title: "P2SLAM Code"
+  image: p2slam.png
+  description: ""
+  short-desc: "Code base for the Wi-Fi integration into SLAM algorithm for P2SLAM deployments "
+  authors: Aditya Arun, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia
+  link:
+    url:
+    display:  "[RA-L/ICRA'22]"
+  highlight: 1
+  type: code
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/p2slam
+    display: "[Webpage]"
+  paper: 
+    url: https://wcsng.ucsd.edu/files/p2slam.pdf
+    display: "[Paper]"
+
+
+- title: "ULoc Hardware and Firmware"
+  image: p2slam.png
+  description: ""
+  short-desc: "Design files for ULoc anchor's hardware and binary files"
+  authors: Scott hao, Tyler Chang, Aditya Arun, Roshan Ayyalasomayajula, Dinesh Bharadia
+  link:
+    url:
+    display:  "[IMWUT/Ubicomp'21]"
+  highlight: 1
+  type: platform
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://forms.gle/8vv6ePDENtX7fuSBA
+    display: "[Design Files]"
+  paper: 
+    url: https://wcsng.ucsd.edu/files/uloc.pdf
+    display: "[Paper]"
+
+- title: "ULoc Data Processing Code"
+  image: p2slam.png
+  description: ""
+  short-desc: "Provides the code for post-processing the data collected by ULoc's anchors"
+  authors: Scott hao, Tyler Chang, Aditya Arun, Roshan Ayyalasomayajula, Dinesh Bharadia
+  link:
+    url:
+    display:  "[IMWUT/Ubicomp'21]"
+  highlight: 1
+  type: code
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://github.com/ucsdwcsng/ULoc-public
+    display: "[Code]"
+  paper: 
+    url: https://wcsng.ucsd.edu/files/uloc.pdf
+    display: "[Paper]"

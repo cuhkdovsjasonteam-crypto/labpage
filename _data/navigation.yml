@@ -5,8 +5,8 @@
 - title: Research
   url: /research/index.html
   sublinks:
-    - title: Localization
-      url: /localization.html
+    - title: Wireless Sensing
+      url: /wireless-sensing.html
     - title: Spectrum Sensing
       url: /spectrum_sensing.html
     - title: Full Duplex

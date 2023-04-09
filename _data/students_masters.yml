@@ -30,6 +30,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: WCSNG lab
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -37,6 +39,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: WCSNG lab
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -45,6 +49,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: WCSNG lab
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -52,6 +58,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Spectrum Sensing
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -59,6 +67,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Radar
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -66,6 +76,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Software Defined Radios
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -74,6 +86,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Radar
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -81,6 +95,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Radar, Security and Privacy
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -88,6 +104,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Radar, Security and Privacy
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -95,6 +113,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Software Defined Radios
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -102,6 +122,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: WCSNG lab
+  research1: wireless-sensing
+  research2:
   number_educ: 0
   education1: 
 
@@ -109,6 +131,8 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Smart surface project
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -116,13 +140,26 @@
   photo: rock.jpg
   info: Master student since 2021
   project: Wireless force sensor project
+  research1:
+  research2:
   number_educ: 0
   education1: 
+
+- name: Yizheng Yu
+  photo: rock.jpg
+  info: Master student 
+  project: Robotics
+  research1: wireless-sensing
+  research2:
+  number_educ: 0
+  education1: "Highlights:"
 
 - name: Rushabha Balaji
   photo: rock.jpg
   info: Master student since 2022
   project: Digital Twin Project
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
@@ -130,12 +167,25 @@
   photo: rock.jpg
   info: Master student since 2022
   project: MmWave testbed development
+  research1:
+  research2:
   number_educ: 0
   education1: 
 
-- name: Madhimitha Venkatesh 
+- name: Madhumitha Venkatesh 
   photo: rock.jpg
   info: Master student since 2022
   project: Smart Surface Project
+  research1:
+  research2:
   number_educ: 0
   education1: 
+
+- name: Zih-Hao Fu
+  photo: rock.jpg
+  info: Master student since 2022
+  project: 3D Video Compression
+  research1:
+  research2:
+  number_educ: 0
+  education1:

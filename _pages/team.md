@@ -30,9 +30,28 @@ Jump to [master's students](#masters-students), [undergrad students](#undergradu
 </ul>
 
 </div>
+<!-- </div> -->
+
+<!-- <div class="row"> -->
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/fred.jpg" class="img-responsive" width="32%" style="float: left" />
+  <!-- <div class="col-sm-7 clearfix"> -->
+  <h3>fred harris</h3>
+  Honorable member, WCSNG<br>
+  Adjunct Professor<br>
+  Department of Electrical and Computer Engineering <br>
+  University of California, San Diego
+<ul style="margin: 0; padding: 0; list-style-type:none; overflow: hidden">
+<li>Email: <b>fjharris [at] eng.ucsd.edu</b></li>
+<li>Office: Jacobs Hall</li>
+<li><a href="https://en.wikipedia.org/wiki/Fredric_J._Harris"> Wiki Page </a> | <a href="https://scholar.google.com/citations?user=6A5XoroAAAAJ&hl=en"> Google Scholar </a></li>
+</ul>
+
+</div>
 </div>
 
-
+<!-- <hr/> -->
+> "In union there is strength" - Aesop
 
 ## PhD Students
 {% assign number_printed = 0 %}

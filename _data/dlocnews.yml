@@ -2,7 +2,7 @@
   headline: The 1st international workshop for Wireless AI perception is happening at CVPR 2022. More details can be found at <a href= "https://wcsng.ucsd.edu/waip/" style="color:blue">[WAIP]</a>.
 
 - date: April 2022
-  headline: A 2nd iteration of <a href= "https://wcsng.ucsd.edu/wild/" style="color:green">[WILD]</a> has been released for a <a href="https://www.kaggle.com/competitions/wild-v2/data">Kaggle competition</a>. More details can be found at <a href= "https://wcsng.ucsd.edu/waip" style="color:blue">[WAIP]</a>.
+  headline: A 2nd iteration of <a href= "https://wcsng.ucsd.edu/wild/" style="color:green">[WILD]</a> has been released for a <a href="https://www.kaggle.com/competitions/wildv2/data">Kaggle competition</a>. More details can be found at <a href= "https://wcsng.ucsd.edu/waip" style="color:blue">[WAIP]</a>.
 
 - date: September 2021
   headline: PyTorch implementation for DLoc network architecture has been released and can be acccessed at <a href= "https://github.com/ucsdwcsng/DLoc_pt_code" style="color:blue">[Codes]</a>. The features we generate from the raw CSI nformation to train the network can be found at <a href= "https://wcsng.ucsd.edu/wild" style="color:green">[Datasets]</a>.
