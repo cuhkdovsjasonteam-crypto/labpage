@@ -36,26 +36,26 @@
     url: https://arxiv.org/pdf/2209.08091.pdf
     display: "[paper]"
 
-# - title: "WiROS: WiFi sensing toolbox for robotics"
-#   image: wiros.png
-#   description: "Many recent works have explored using WiFi-based sensing to improve SLAM, robot manipulation or exploration. Moreover, widespread availability makes WiFi the most advantageous RF signal to leverage. But WiFi sensors lack an accurate, tractable, and versatile toolbox, which hinders their widespread adoption with robot's sensor stacks. 
+- title: "WiROS: WiFi sensing toolbox for robotics"
+  image: wiros.png
+  description: "Many recent works have explored using WiFi-based sensing to improve SLAM, robot manipulation or exploration. Moreover, widespread availability makes WiFi the most advantageous RF signal to leverage. But WiFi sensors lack an accurate, tractable, and versatile toolbox, which hinders their widespread adoption with robot's sensor stacks. 
 
-#     We develop WiROS to address this immediate need, furnishing many WiFi-related measurements as easy-to-consume ROS topics. Specifically, WiROS is a plug-and-play WiFi sensing toolbox providing access to coarse-grained WiFi signal strength (RSSI), fine-grained WiFi channel state information (CSI), and other MAC-layer information (device address, packet id's or frequency-channel information). Additionally, WiROS open-sources state-of-art algorithms to calibrate and process WiFi measurements to furnish accurate bearing information for received WiFi signals. The open-sourced repository is https://github.com/ucsdwcsng/WiROS"
-#   short-desc: "Open-sourced ROS compatible WiFi sensing framework to easily integrate WiFi-based sensing into robot sensors stacks"
-#   authors: William Hunter*, Aditya Arun*, Dinesh Bharadia
-#   link:
-#     url: 
-#     display:  "[IPSN Demo 2023]"
-#   highlight: 1
-#   tag1: wireless-sensing
-#   tag2:
-#   news1: 
-#   website: 
-#     url: https://wcsng.ucsd.edu/wiros/
-#     display: "[Webpage]"
-#   paper: 
-#     url: 
-#     display: "[full paper]"
+    We develop WiROS to address this immediate need, furnishing many WiFi-related measurements as easy-to-consume ROS topics. Specifically, WiROS is a plug-and-play WiFi sensing toolbox providing access to coarse-grained WiFi signal strength (RSSI), fine-grained WiFi channel state information (CSI), and other MAC-layer information (device address, packet id's or frequency-channel information). Additionally, WiROS open-sources state-of-art algorithms to calibrate and process WiFi measurements to furnish accurate bearing information for received WiFi signals. The open-sourced repository is https://github.com/ucsdwcsng/WiROS"
+  short-desc: "Open-sourced ROS compatible WiFi sensing framework to easily integrate WiFi-based sensing into robot sensors stacks"
+  authors: William Hunter*, Aditya Arun*, Dinesh Bharadia
+  link:
+    url: 
+    display:  "[IPSN Demo 2023]"
+  highlight: 1
+  tag1: wireless-sensing
+  tag2:
+  news1: 
+  website: 
+    url: https://wcsng.ucsd.edu/wiros/
+    display: "[Webpage]"
+  paper: 
+    url: 
+    display: "[full paper]"
 
 
 - title: "mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks"

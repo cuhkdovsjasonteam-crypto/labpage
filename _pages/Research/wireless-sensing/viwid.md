@@ -35,7 +35,7 @@ Recent interest towards autonomous navigation and exploration robots for indoor 
 <div class="col-sm-7 clearfix">
 <h3 id="idea">High-level idea</h3>
 
-The core idea of ViWiD is to consider WiFi access points, deployed in the envrionment, as unique landmarks which can be leveraged to correct for drifts in the robot's trajectory. A visualization of AP's discovered in an envrionment, added to the map, and corrections made to the trajectory, is provided under the [Quick Results](#result). However, fusing new sensors in an existing SLAM system can be challenging, hence we provide a dual graph approach, where the inputs from any SLAM algorithm can be provided to the ViWiD ROS node for trajectory corrections. Consequently, ViWiD stands for Visual-WiFi dual graph and the above figure showcases a this process block diagram.
+The core idea of ViWiD is to consider WiFi access points, deployed in the envrionment, as unique landmarks which can be leveraged to correct for drifts in the robot's trajectory. A visualization of new AP's discovered and added in an envrionment and appropriate corrections made to the trajectory, is provided under [Quick Results](#result). However, fusing new sensors in an existing SLAM system can be challenging, hence we provide a dual graph approach, where the inputs from any SLAM algorithm can be provided to the ViWiD ROS node for trajectory corrections. Consequently, ViWiD stands for Visual-WiFi dual graph and the above figure showcases a this process block diagram.
 
 <a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/viwid.png"><center><img class="img-responsive"  src="{{ site.url }}{{ site.baseurl }}/images/pubpic/viwid.png" width="100%" style="float:center" ></center> </a>
 
@@ -70,6 +70,9 @@ The following videos provide high level results of running ViWiD on the P2SLAM d
 </div>
 
 <!-- Results table -->
+
+---
+
 <br>
 <h3 id="cite">Citation</h3>
 If you found our work useful, please cite the project as :
@@ -80,24 +83,3 @@ If you found our work useful, please cite the project as :
   journal={arXiv preprint arXiv:2209.08091}, <br>
   year={2022} <br>
 }
-
-<!-- ## Downloads ##
- -->
-
-<!-- ### Channel Downloads:
-
-
-Individual Downloads:
-- [channels_atk_ds1](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EZBHoXwnUGBBgx1X-2G0g-YBpJCzFOyaEhYuwL5SShRNJA?e=3oiN1A)
-- [channels_atk_ds2](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/Ef1ETWRODuxEj4RSAV-wlK4BfirvThNOviIqoYJxQalmyg?e=PBCH50)
-- [channels_atk_ds3](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/aarun_ucsd_edu/EVPUpb8DFuRBoKW8r7yS7nkBRWXWP9Z03eQcX7O4XydnEg?e=9j93j4)
- -->
-
-<!-- #### All the dataset downloads are **PASSWORD** protected. To get the password, please read and agree to the [terms and conditions](https://forms.gle/WWGymUFxhPWRc4zu7). You can then proceed to download datasets from the links above. -->
-
-<!-- 
-## CITATION ##
-
-- TBA -->
-
-  
