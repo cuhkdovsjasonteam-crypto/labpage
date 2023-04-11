@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aditya Arun">
     <!-- <meta name="author" content="Xiaoying Riley at 3rd Wave Media">     -->
-    <link rel="shortcut icon" href="assets/images/roshan.png">  
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- FontAwesome JS -->
@@ -92,6 +91,8 @@
             <section class="section projects-section">
                 <h2 class="section-title">Updates</h2>
                 <ul>
+                    <li>We are demoing our open sourced WiFi-sensing platform at IPSN 2023. More information about the project is <a href="https://wcsng.ucsd.edu/wiros">here</a>. <a href="https://github.com/ucsdwcsng/WiROS">[GitHub] </a>  </li>
+                    <li>I recently presented my work at University of Washington, Google Research and Microsoft Research. A recording of my talk is <a href="https://www.youtube.com/watch?v=gjLyDczL2rQ&feature=youtu.be&ab_channel=PaulG.AllenSchool" target="_blank">here</a> 
                     <li>We are demoing extensions on our UWB-tracking project at Mobisys 2022. Stay tuned for more information! </li>
                     <li>I will be presenting my work, <a href="https://wcsng.ucsd.edu/p2slam/"> P2SLAM, </a> at ICRA during the Tuesday morning, 05/24/22, Sensor fusion track. It was recently accepted jointly with RAL-2022 </li>
                     <li>Our WiFi sensor fusion work, P2SLAM, was covered by <a href="https://www.sciencedaily.com/releases/2022/05/220519150136.htm">Science Daily</a>, <a href="https://cosmosmagazine.com/technology/wifi-robots-navigate-more-accurately/"> Cosmos </a>, <a href="https://www.eurekalert.org/news-releases/953372">EurekaAlert</a> and <a href="https://ucsdnews.ucsd.edu/pressrelease/using-everyday-wifi-to-help-robots-see-and-navigate-better-indoors">UCSD News</a>. The featured video can be found <a href="https://www.youtube.com/watch?v=JjalvBHqC94&ab_channel=JacobsSchoolNews">here</a>.</li>
@@ -104,18 +105,31 @@
 
                 <!-- P2SLAM -->
                 <div class="item">
-                    <h4> <a href="wcsng.ucsd.edu/p2slam/"> WiFi radios as extrinsic sensors for Robot SLAM </a> </h4>
+                    <h4> WiFi radios as extrinsic sensors for Robot SLAM </h4>
 
                     <a href="assets/images/p2slam.jpg" target="_self"><img class="profile" style="padding: 0 15px;" src="assets/images/p2slam.jpg" alt="" align="left" width=100%/></a>
 
                     <p> Extrinsic sensors, like cameras and LiDAR’s, employed for fusion can correct the the drifts accumulated by wheel odometry or inertial measurement units (IMU’s) for robot localization and mapping. However, these exteroceptive sensors are deficient in highly structured environments and dynamic lighting conditions. We present WiFi as a robust and straightforward sensing modality capable of circumventing these issues. </p>
                     <ul>
                         <li>
-                        <b>P2SLAM: Bearing based WiFi SLAM for Indoor Robots</b><br>
-                        <u> Aditya Arun</u>, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia <br>
-                        <i> RAL 2022 </i><br>
-                        <i> Presented at ICRA 2022</i><br>
-                        [<a href="https://wcsng.ucsd.edu/files/p2slam.pdf" target="_blank">Paper</a>]-[<a href="https://youtu.be/qAvAYtKDH5o">4-min video </a>]</li><br>
+                            <b><a href="https://wcsng.ucsd.edu/p2slam/" target="_blank">P2SLAM: Bearing based WiFi SLAM for Indoor Robots </a></b><br>
+                            <u> Aditya Arun</u>, Roshan Ayyalasomayajula, William Hunter, Dinesh Bharadia <br>
+                            <i> RAL 2022 </i><br>
+                            <i> Presented at ICRA 2022</i><br>
+                            [<a href="https://wcsng.ucsd.edu/files/p2slam.pdf" target="_blank">Paper</a>]-[<a href="https://youtu.be/qAvAYtKDH5o">4-min video </a>]
+                        </li>
+                        <li>
+                            <b><a href="https://wcsng.ucsd.edu/viwid/" target="_blank"> ViWiD: Leveraging WiFi for Robust and Resource-Efficient SLAM </a></b><br>
+                            <u> Aditya Arun</u>, William Hunter, Roshan Ayyalasomayajula, Dinesh Bharadia <br>
+                            <i> Arxiv 2022 </i><br>
+                            [<a href="https://wcsng.ucsd.edu/files/viwid.pdf" target="_blank">Paper</a>]
+                        </li>
+                        <li>
+                            <b><a href="wcsng.ucsd.edu/wiros/" target="_blank"> WiROS: WiFi sensing toolbox for robotics </a></b><br>
+                            <u> Aditya Arun*</u>, William Hunter*,  Dinesh Bharadia <br>
+                            <i> *Equal contribution </i><br>
+                            <i> Arxiv 2023 </i><br>
+                            [<a href="https://wcsng.ucsd.edu/files/wiros.pdf" target="_blank">Paper</a>]-[<a href="https://github.com/ucsdwcsng/WiROS" target="_blank">Code</a>]-[<a href="https://youtu.be/zYAshWFn75k" target="_blank">Demo</a>]
                         </li>
                     </ul> 
                 </div>
@@ -123,29 +137,48 @@
                 <hr>
                 <!-- ULOC -->
                 <div class="item">
-                    <h4> <a href="https://wcsng.ucsd.edu/uloc/"> cm-Accurate, Real time, and scalable UWB based Indoor 3D Localization </a></h4>
+                    <h4>  cm-Accurate, Real time, and scalable UWB based Indoor 3D Localization </h4>
 
                     <a href="assets/images/uloc.jpg" target="_self"><img class="profile" style="padding: 0 15px;" src="assets/images/uloc.jpg" alt="" align="left" width=50%/></a>
                     <a href="assets/images/uloc.jpg" target="_self"><img class="profile" style="padding: 0 15px;" src="assets/images/uloc-tag.png" alt="" align="left" width=50%/></a>
 
                     <p>Since UWB has been developed as localization specific protocol, there has been a need for infrastructure based, low-power and real-time indoor localization while providing cm-Accurate 3D UWB tag locations. We solve these problems by novel hardware, firmware and algorithm designs. We are designing our custom UWB anchor hardware and firmware that enables accurate 3D AoA measurement to get cm-accurate 3D locations using our novel algorithms.</p>
                     <ul>
-                        <li><b> ULoc: Low-Power, Scalable and cm-Accurate UWB-Tag Localization and Tracking for Indoor Applications</b><br>
+                        <li><b> <a href="https://wcsng.ucsd.edu/uloc/" target="_blank"> ULoc: Low-Power, Scalable and cm-Accurate UWB-Tag Localization and Tracking for Indoor Applications </a> </b><br>
                         Minghui Zhao, Tyler Chang, <u> Aditya Arun </u>, Roshan Ayyalasomayajula, Chi Zhang, Dinesh Bharadia<br>
                             <i> IMWUT, 2021 </i><br>
                             <i> Presented at Ubicomp, 2021 </i><br>
                             [<a href="https://wcsng.ucsd.edu/files/uloc.pdf" target="_blank">Paper</a>]-[<a href="https://youtu.be/wQE5CA4K5Kw">20-min video</a>]-[<a href="https://youtu.be/i4WKW57hmog">6-min video</a>]-[<a href="https://youtu.be/-g2nTatJDQk">Demo 1</a>]-[<a href="https://youtu.be/8EU1JmH-dto">Demo 2</a>]-[<a href="https://github.com/ucsdwcsng/ULoc-public">Source</a>]</li><br>
                         <li><b> Demo: Real-Time Low-Latency Tracking for UWB tags. In Proceedings of the 20th Annual International Conference on Mobile Systems, Applications, and Services </b><br>
                             <u>Aditya Arun</u>, Tyler Chang, Yizheng Yu, Roshan Ayyalasomayajula, Dinesh Bharadia<br>
-                            <i> Mobisys, 2022 (to be presented) </i><br>
+                            <i> Mobisys, 2022 </i><br>
+                            <i> Presented at Mobisys, 2022 </i><br>
+
                             [<a href="assets/files/Uloc_demo_paper" target="_blank">Paper</a>]-[<a href="https://youtu.be/PJ6rDCRtPWI">Video</a>]
                     </ul>
                 </div>
 
                 <hr>
+                <!-- Mirage -->
+                <div class="item">
+                    <h4> Physical-layer Privacy from WiFi localization </h4>
+                    <a href="assets/images/mirage.jpg" target="_self"><img class="profile" style="padding: 0 15px;" src="assets/images/mirage.png" alt="" align="center" width=65%/></a>
+
+                    <p>RF sensor data can pose serious security and privacy risks if compromised by attackers in XR and autonomous applications. To address this issue, we developed MIRAGE, the first RF-privacy tool that allows users to distort RF-sensor data without leaving any traces of distortion.</p>
+                    <ul>
+                        <li><b> <a href="https://wcsng.ucsd.edu/mirage/" target="_blank"> Users are Closer than they Appear: Protecting User Location from WiFi APs </a> </b><br>
+                        Roshan Ayyalasomayajula, <u> Aditya Arun </u>, Wei Sun, Dinesh Bharadia<br>
+                            <i> HotMobile, 2023 </i><br>
+                            <i> Presented at Hotmobile, 2023 </i><br>
+                            [<a href="https://wcsng.ucsd.edu/files/mirage.pdf" target="_blank">Paper</a>]-[<a href="https://wcsng.ucsd.edu/files/poster-mirage-hotmobile-23.pdf" target="_blank">Poster</a>]</li><br>
+                    </ul>
+                </div>
+
+
+                <hr>
                 <!-- DLOC -->
                 <div class="item">
-                    <h4> <a href="https://wcsng.ucsd.edu/dloc/"> Deep-Learning and Context assisted Indoor Wireless localization </a> </h4>
+                    <h4> <a href="https://wcsng.ucsd.edu/dloc/" target="_blank"> Deep-Learning and Context assisted Indoor Wireless localization </a> </h4>
                     
                     <a href="assets/images/deeploc.png" target="_self"><img class="profile" style="padding: 0 15px;" src="assets/images/deeploc.png" alt="" align="left" width=100%/></a>
                     <p>There has been a lot of work in Indoor WiFi localization in the past decade, with none of them being deployed in real-world. With this project we intend to bridge the gap between the real-world maps and the WiFi maps and enable deep-learning based solution by allowing large scale data-collection.</p>
@@ -167,7 +200,7 @@
                 <hr>
                 <!-- LOCAP -->
                 <div class="item">
-                    <h4> <a href="https://wcsng.ucsd.edu/locap/"> Accurate Wi-Fi Anchor Localization </a> </h4>
+                    <h4> <a href="https://wcsng.ucsd.edu/locap/" target="_blank"> Accurate Wi-Fi Anchor Localization </a> </h4>
                     
                     <a href="assets/images/revloc.png" target="_self"><img class="profile" style="padding: 0 15px;" src="assets/images/revloc.png" alt="" align="left" width=50%/></a>
                     <p>With the advent of CSI based WiFi localization, the indoor localization paradigm has come down to decimeter level accurate location estimates. While this remains the case, accuracy of anchor location, hitherto unsolved but an important parameter, is analyzed and solved in this research work.</p><br><br>
@@ -182,7 +215,7 @@
                 <hr>
                 <!-- BLUBLE -->
                 <div class="item">
-                    <h4> <a href="https://wcsng.ucsd.edu/bluble/"> BLE-based people interaction monitoring </a> </h4>
+                    <h4> <a href="https://wcsng.ucsd.edu/bluble/" target="_blank"> BLE-based people interaction monitoring </a> </h4>
 
                     <a href="assets/images/bluble.png" target="_self"><img class="profile" style="padding: 0 15px;" src="assets/images/bluble.png" alt="" align="left" width=100%/></a>
 

@@ -15,7 +15,7 @@ Authors: William Hunter*, Aditya Arun*, Dinesh Bharadia
 
 <div class="well">
  <center>
- <h4><A href="#demo"> Demo Video</A>&emsp;<A href="https://github.com/ucsdwcsng/WiROS" target="_blank">GitHub</A>&emsp;<A href="#cite">Citation</A> &emsp;<a href="TODO" target="_blank"> Paper download [PDF] </a> </h4>
+ <h4><A href="#demo"> Demo Video</A>&emsp;<A href="#working"> Process block-diagram </A>&emsp;<A href="https://github.com/ucsdwcsng/WiROS" target="_blank">GitHub</A>&emsp;<A href="#cite">Citation</A> &emsp;<a href="TODO" target="_blank"> Paper download [PDF] </a> </h4>
  </center>
 </div>
 
@@ -48,16 +48,27 @@ WiROS makes three concrete contributions, in order to deliver an accurate, versa
 ---
 <h3 id="demo">Demo Video of WiROS in action</h3>
 
-<iframe width="100%" height="640" src="https://www.youtube.com/embed/zYAshWFn75k" title="IPSN 2023 Demo:  Accessible WiFi sensing leveraging Robot Operating System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 <br>
 <p align="justify"> 
- 
-
+  The following video provides a  visualization of WiROS in action and a simple case-study of a robot deployed with WiROS sensor discovering and localizing IoT devices in an environment.  
 </p>
 <br>
 
+<iframe width="100%" height="640" src="https://www.youtube.com/embed/zYAshWFn75k" title="IPSN 2023 Demo: Accessible WiFi sensing leveraging Robot Operating System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
+
+<h3 id="working">WiROS Process Block Diagram</h3>
+
+<br>
+<p align="justify"> 
+The following figure showcases the two main blocks - CSI Node and Feature-extraction Node to extract raw WiFi measurements and to calibrate and process these measurements. The blue text indicates the control plane parameters, whereas the red text indicates the exposed measurements. WiROS extends the functionality of the underlying black box `CSI Extraction Toolkit.</p>
+<br>
+
+<a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/wiros-block.png"><center><img class="img-responsive"  src="{{ site.url }}{{ site.baseurl }}/images/pubpic/wiros-block.png" width="100%" style="float:center" ></center> </a>
+
+---
+
 <br>
 <h3 id="cite">Citation</h3>
 If you found our work useful, please cite the project as :
