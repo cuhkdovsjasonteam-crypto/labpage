@@ -43,7 +43,7 @@ The core idea of ViWiD is to consider WiFi access points, deployed in the envrio
 </div>
 
 ---
-<h3 id="env">New Envrionment Added!</h3>
+<h3 id="env">New Envrionment Added to [P2SLAM]({{ site.url }}{{ site.baseurl }}/p2slam/#env) datasets!</h3>
 
 <br>
 <p align="justify"> 
@@ -54,19 +54,26 @@ The core idea of ViWiD is to consider WiFi access points, deployed in the envrio
 <br>
 
 ---
-
 <h3 id="result">Quick Results</h3>
-
-The following videos provide high level results of running ViWiD on the P2SLAM datasets and the above new dataset (ViWiD dataset). 
-
 <div class="row">
-<div class="col-sm-6 clearfix">
-  <iframe width="100%" height="267" src="https://www.youtube.com/embed/xL3AP-ne_NQ" title="Viwid: Leveraging WiFi for Robust and Resource-Efficient SLAM - Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-<div class="col-sm-6 clearfix">
-<iframe width="100%" height="267" src="https://www.youtube.com/embed/M6ZDygSaq5M" title="ViWiD: Leveraging WiFi for Robust and Resource-Efficient SLAM - Part 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+  <div class="col-sm-6 clearfix">
+  <h4>Real-time operation</h4>
+  The following videos provide high level results of running ViWiD on the P2SLAM datasets and the above new dataset (ViWiD dataset). 
 
+  <iframe width="100%" height="267" src="https://www.youtube.com/embed/xL3AP-ne_NQ" title="Viwid: Leveraging WiFi for Robust and Resource-Efficient SLAM - Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="100%" height="267" src="https://www.youtube.com/embed/M6ZDygSaq5M" title="ViWiD: Leveraging WiFi for Robust and Resource-Efficient SLAM - Part 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+  <h4>Memory and compute efficiency</h4>
+
+  The primary deliverable of ViWiD is to reduce the memory and compute consumption of SLAM algorithms. By leveraging WiFi landmarks, we observe that we can remove the need for a loop-closure module. This provides over 3x improvement in memory and 1.5x improvement in compute when relying on Visual SLAM systems. More details are available in the paper, however, the key memory and compute improvement result is showcased below. 
+  <a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/viwid-mem-cpu .png"><center><img class="hiddenImage" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/viwid-mem-cpu.png" width="100%" style="float:center" ></center> </a> <br>
+  Timeseries of memory (left) and CPU consumption (right) of VIO, Kimera and ViWiD + VIO are shown. The resource consumption of the ViWiD’s WiFi graph is also analysed (Wifi only) 
+  
+
+
+  </div>
 </div>
 
 <!-- Results table -->
