@@ -78,6 +78,15 @@ We design our WiForce sensor by augmenting a microstrip line with a soft polymer
 
 <div class = "row">
 <div class="container">
+<a style="background-color: white; color: red;" >Latest Paper-></a> 
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/ForceSticker.pdf"> ForceSticker: Wireless, Batteryless, Thin & Flexible Force Sensors</a> <br>
+    Agrim Gupta, Daegue Park, Shayaun Bashar, Cedric Girerd, Nagarjun Bhat, Siddhi Mundhra, Tania K. Morimoto, Dinesh Bharadia<br>
+    IMWUT/Ubicomp'23 (to appear)<br>
+</div>
+</div>
+
+<div class = "row">
+<div class="container">
 <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Wiforce.pdf">WiForce: Wireless Sensing and Localization of Contact Forces on a Space Continuum</a> <a style="background-color: white; color: blue;" href="{{ site.url }}{{ site.baseurl }}/files/WiforceSlides.pdf">[Slides]</a><br>
     Agrim Gupta, Cedric Girerd, Manideep Dunna, Qiming Zhang, Raghav Subbaraman, Tania K. Morimoto, Dinesh Bharadia<br>
     NSDI 2021<br>
