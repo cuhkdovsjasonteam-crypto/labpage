@@ -3,7 +3,7 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-{% include mmNets-2023-web/_includes/head.html %}
+{% include mmnets23_head.html %}
 <body data-spy="scroll" data-target="#site-nav">
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
@@ -30,7 +30,7 @@
                     <li><a data-scroll onclick="hidealldivs('alarm'); about.style.display='block';" href="#">Home</a></li>
                     <li><a data-scroll onclick="hidealldivs('speakers'); speakers.style.display='block';" href="#">Call for Papers</a></li>
                     <li><a data-scroll onclick="hidealldivs('registration'); registration.style.display='block';" href="#">Submission</a></li>
-                    <li><a data-scroll onclick="hidealldivs('schedule'); schedule.style.display='block';" href="#program">Program</a></li>
+                    <li><a data-scroll onclick="hidealldivs('schedule'); schedule.style.display='block';" href="#">Program</a></li>
                     <li><a data-scroll onclick="hidealldivs('faq'); faq.style.display='block';" href="#">Committee</a></li>
                     <li><a data-scroll onclick="hidealldivs('keynote'); keynote.style.display='block';" href="#">Keynote</a></li>
                     <!-- <li><a data-scroll onclick="hidealldivs('demo'); demo.style.display='block';" href="#">Sponsors</a></li>     -->
@@ -57,23 +57,23 @@
         </div>
     </header>
  
-    {% include_relative mmNets-2023-web/_pages/about.html %}
+    {% include_relative _pages/about.html %}
 
-    {% include_relative mmNets-2023-web/_pages/call_papers.html %}
+    {% include_relative _pages/call_papers.html %}
 
-    {% include_relative mmNets-2023-web/_pages/organizers.html %}
+    {% include_relative _pages/organizers.html %}
 
-    {% include_relative mmNets-2023-web/_pages/submission.html %}
+    {% include_relative _pages/submission.html %}
 
     <!-- {% include_relative _pages/sponsors.html %} -->
 
-    {% include_relative mmNets-2023-web/_pages/program.html %}
+    {% include_relative _pages/program.html %}
 
-    {% include_relative mmNets-2023-web/_pages/keynote.html %}
+    {% include_relative _pages/keynote.html %}
 
-    {% include_relative mmNets-2023-web/_pages/registration.html %}
+    {% include_relative _pages/registration.html %}
     
-    {% include_relative mmNets-2023-web/_pages/past_events.html %}
+    {% include_relative _pages/past_events.html %}
 
     <hr>
     
