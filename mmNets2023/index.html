@@ -27,15 +27,13 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <!-- navigation menu -->
-                    <li><a data-scroll onclick="hidealldivs('alarm'); about.style.display='block';" href="#">Home</a></li>
+                    <li><a data-scroll onclick="hidealldivs('about'); about.style.display='block';" href="#">Home</a></li>
                     <li><a data-scroll onclick="hidealldivs('speakers'); speakers.style.display='block';" href="#">Call for Papers</a></li>
-                    <li><a data-scroll onclick="hidealldivs('registration'); registration.style.display='block';" href="#">Submission</a></li>
-                    <li><a data-scroll onclick="hidealldivs('schedule'); schedule.style.display='block';" href="#">Program</a></li>
                     <li><a data-scroll onclick="hidealldivs('faq'); faq.style.display='block';" href="#">Committee</a></li>
+                    <li><a data-scroll onclick="hidealldivs('submission'); submission.style.display='block';" href="#">Submission</a></li>
+                    <li><a data-scroll onclick="hidealldivs('schedule'); schedule.style.display='block';" href="#">Program</a></li>
                     <li><a data-scroll onclick="hidealldivs('keynote'); keynote.style.display='block';" href="#">Keynote</a></li>
-                    <!-- <li><a data-scroll onclick="hidealldivs('demo'); demo.style.display='block';" href="#">Sponsors</a></li>     -->
-                    <li><a data-scroll onclick="hidealldivs('keynote'); keynote.style.display='block';" href="#">Registration</a></li>           
-                    <!-- <li><a data-scroll onclick="hidealldivs('awards'); awards.style.display='block';" href="#">Awards</a></li> -->
+                    <li><a data-scroll onclick="hidealldivs('registration'); registration.style.display='block';" href="#">Registration</a></li>
                     <li><a data-scroll onclick="hidealldivs('past_events'); past_events.style.display='block';" href="#">Past Events</a></li>
                 
                 </ul>
@@ -64,8 +62,6 @@
     {% include_relative _pages/organizers.html %}
 
     {% include_relative _pages/submission.html %}
-
-    <!-- {% include_relative _pages/sponsors.html %} -->
 
     {% include_relative _pages/program.html %}
 
@@ -110,9 +106,8 @@
       	registration.style.display='none';
       	schedule.style.display='none';
       	faq.style.display='none';
-      	demo.style.display='none';
+      	submission.style.display='none';
       	keynote.style.display='none';
-        awards.style.display='none';
         past_events.style.display='none';
         document.getElementById(section_name).style.display='block';
       }
@@ -131,21 +126,20 @@
         }
       }
       about.style.display = 'none';
-    	speakers.style.display='none';
-    	registration.style.display='none';
-    	schedule.style.display='none';
-    	faq.style.display='none';
-    	demo.style.display='none';
-    	keynote.style.display='none';
-      awards.style.display='none';
+      speakers.style.display='none';
+      registration.style.display='none';
+      schedule.style.display='none';
+      faq.style.display='none';
+      submission.style.display='none';
+      keynote.style.display='none';
       past_events.style.display='none';
     }
     
     </script>
     
-    <script src="mmNets-2023-web/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="mmNets-2023-web/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="mmNets-2023-web/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script src="mmNets-2023-web/assets/js/main.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
