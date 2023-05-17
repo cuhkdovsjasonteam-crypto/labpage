@@ -16,8 +16,7 @@ permalink: /dpa/
 ```
 Authors: Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, Dinesh Bharadia
 ```
-#### <a href="{{ site.url }}{{ site.baseurl }}/files/mmflexible.pdf" style="background-color: white; color: #BA4A00;">[mmFlexible Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/dpa_hotmobile.pdf" style="background-color: white; color: #BA4A00;">[Hotmobile Poster]</a>  [slides - coming] [code - coming]
-<!-- <a href="{{ site.url }}{{ site.baseurl }}/files/mmreliable_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/watch?v=w2ZUX00-p_A">[Video]</a> <a href="https://github.com/ucsdwcsng/mMobile" style="background-color: white; color: green;">[Datasets]</a> <a href="https://github.com/ucsdwcsng/mmReliable" style="background-color: white; color: green;">[Artifact Code]</a> -->
+#### <a href="{{ site.url }}{{ site.baseurl }}/files/mmflexible.pdf" style="background-color: white; color: #BA4A00;">[mmFlexible Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/dpa_hotmobile.pdf" style="background-color: white; color: #BA4A00;">[Hotmobile Poster]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/mmflexible_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://youtu.be/Xo1JbZHfBCY">[Video]</a> <a href="https://github.com/ucsdwcsng/mMobile" style="background-color: white; color: green;">[Datasets]</a> <a href="https://github.com/ucsdwcsng/dpa" style="background-color: white; color: green;">[Artifact Code]</a> 
 
 
 <!-- ##### A shorter 3 minute video <a href="https://youtu.be/E58bszwQmBE">is available here</a>.
