@@ -7,22 +7,19 @@ permalink: /mmspoof/
 ---
 
 # mmSpoof 
-#### Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array
-[IEEE Security and Privacy S&P 2023]
+### Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array
+[[IEEE Security and Privacy S&P 2023]](https://sp2023.ieee-security.org/program.html)
 ---
 
 ```
 Authors: Rohith Reddy Vennam, Ish Kumar Jain, Kshitiz Bansal, Joshua Orozco, Puja Shukla, Aanjhan Ranganathan, and Dinesh Bharadia
 ```
 #### <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a>  [slides - coming] [code - coming]
-<!-- <a href="{{ site.url }}{{ site.baseurl }}/files/mmreliable_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/watch?v=w2ZUX00-p_A">[Video]</a> <a href="https://github.com/ucsdwcsng/mMobile" style="background-color: white; color: green;">[Datasets]</a> <a href="https://github.com/ucsdwcsng/mmReliable" style="background-color: white; color: green;">[Artifact Code]</a> -->
+ <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/embed/Lx6Hn4g7ItQ">[Video]</a> 
 
 
-<!-- ##### A shorter 3 minute video <a href="https://youtu.be/E58bszwQmBE">is available here</a>.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lx6Hn4g7ItQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w2ZUX00-p_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
- -->
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/5vfE90wR03Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 
@@ -60,19 +57,50 @@ FMCW radars are integral to automotive driving for robust and weather-resistant 
 <br>
 <br>
 <br>
+<div class="col-sm-9 clearfix">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png" width="45%" style="float: center" > </a>
+</div>
 
-
-
-<!-- <div class="well">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="col-sm-9 clearfix">
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png" width="45%" style="float: center" > </a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <div class="well">
 <h3> <font color="red">Press cover:</font>  </h3>
-<h4> 23/08/2021:  <a style="display: inline-block;" href="https://jacobsschool.ucsd.edu/news/release/3322">This technology could bring the fastest version of 5G to your home and workplace</a> </h4>
-News shared by <a href="https://www.newswise.com/articles/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace">Newswise</a>, <a href="https://techxplore.com/news/2021-08-technology-fastest-version-5g-home.html">TechXplore</a>, <a href="https://www.newsbreak.com/news/2349225572432/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace">Newsbreak</a>, <a href="https://thehackposts.com/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/">Thehackposts</a>, <a href="https://flipboard.com/topic/electricalengineering/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/a-HRq2uDvxR1uBeQW0U4LrSg%3Aa%3A24799410-9d9299c9ce%2Ftechxplore.com">Flibboard</a>, <a href="https://news8plus.com/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/">News8plus</a>, and more
+<h4> May 24 2023:  <a style="display: inline-block;" href="https://today.ucsd.edu/story/team-develops-new-attacker-device-to-improve-autonomous-car-safety">Team Develops New “Attacker” Device to Improve Autonomous Car Safety</a> </h4>
+<!-- News shared by <a href="https://www.newswise.com/articles/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace">Newswise</a>, <a href="https://techxplore.com/news/2021-08-technology-fastest-version-5g-home.html">TechXplore</a>, <a href="https://www.newsbreak.com/news/2349225572432/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace">Newsbreak</a>, <a href="https://thehackposts.com/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/">Thehackposts</a>, <a href="https://flipboard.com/topic/electricalengineering/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/a-HRq2uDvxR1uBeQW0U4LrSg%3Aa%3A24799410-9d9299c9ce%2Ftechxplore.com">Flibboard</a>, <a href="https://news8plus.com/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/">News8plus</a>, and more
 <h6> Interesting Engineering - <a style="display: inline-block;" href="https://interestingengineering.com/a-new-laser-like-system-could-put-5g-in-your-home">A New Laser-Like System Could Put 5G in Your Home</a> </h6>
-<h6> Daily Times - <a style="display: inline-block;" href="https://dailytimes.com.pk/808141/new-tech-provides-fast-reliable-5g-connections/">New tech provides fast, reliable 5G connections</a> </h6>
-</div>  -->
+<h6> Daily Times - <a style="display: inline-block;" href="https://dailytimes.com.pk/808141/new-tech-provides-fast-reliable-5g-connections/">New tech provides fast, reliable 5G connections</a> </h6> -->
+</div>  
 
 ### Other relevant papers
-Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia. 2021. Two beamsare better than one: Towards Reliable and High Throughput mmWave Links.InACM SIGCOMM 2021 Conference (SIGCOMM ’21), August 23–27, 2021,Virtual Event, USA.ACM, New York, NY, USA, 15 pages. [https://doi.org/10.1145/3452296.3472924](https://doi.org/10.1145/3452296.3472924) 
+- Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, and Dinesh Bharadia. 2023 "[mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks](https://wcsng.ucsd.edu/dpa/)." Infocom 2023.
+- Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia. 2021. [Two beamsare better than one: Towards Reliable and High Throughput mmWave Links](https://wcsng.ucsd.edu/mmreliable/) .In ACM SIGCOMM 2021 Conference (SIGCOMM ’21), August 23–27, 2021 [https://doi.org/10.1145/3452296.3472924](https://doi.org/10.1145/3452296.3472924) 
 
 
 
