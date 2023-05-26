@@ -9,13 +9,12 @@ permalink: /mmspoof/
 # mmSpoof 
 ### Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array
 [[IEEE Security and Privacy S&P 2023]](https://sp2023.ieee-security.org/program.html)
----
+
 
 ```
 Authors: Rohith Reddy Vennam, Ish Kumar Jain, Kshitiz Bansal, Joshua Orozco, Puja Shukla, Aanjhan Ranganathan, and Dinesh Bharadia
 ```
-#### <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a>  [slides - coming] [code - coming]
- <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/embed/Lx6Hn4g7ItQ">[Video]</a> 
+#### <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/embed/Lx6Hn4g7ItQ">[Video]</a> 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lx6Hn4g7ItQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -36,7 +35,7 @@ FMCW radars are integral to automotive driving for robust and weather-resistant 
 
 
 <div class="col-sm-9 clearfix">
-  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof.png" width="45%" style="float: center" > </a>
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof.png" width="60%" style="float: center" > </a>
 </div>
 <!-- <div class="col-sm-9 clearfix">
   <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable_building_block.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/dpa_architecture.png" width="50%" style="float: center" > </a>
@@ -58,7 +57,7 @@ FMCW radars are integral to automotive driving for robust and weather-resistant 
 <br>
 <br>
 <div class="col-sm-9 clearfix">
-  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png" width="45%" style="float: center" > </a>
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png" width="60%" style="float: center" > </a>
 </div>
 
 <br>
@@ -75,7 +74,7 @@ FMCW radars are integral to automotive driving for robust and weather-resistant 
 <br>
 <br>
 <div class="col-sm-9 clearfix">
-  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png" width="45%" style="float: center" > </a>
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png" width="60%" style="float: center" > </a>
 </div>
 <br>
 <br>
@@ -99,8 +98,8 @@ FMCW radars are integral to automotive driving for robust and weather-resistant 
 </div>  
 
 ### Other relevant papers
-- Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, and Dinesh Bharadia. 2023 "[mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks](https://wcsng.ucsd.edu/dpa/)." Infocom 2023.
-- Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia. 2021. [Two beamsare better than one: Towards Reliable and High Throughput mmWave Links](https://wcsng.ucsd.edu/mmreliable/) .In ACM SIGCOMM 2021 Conference (SIGCOMM ’21), August 23–27, 2021 [https://doi.org/10.1145/3452296.3472924](https://doi.org/10.1145/3452296.3472924) 
+- [mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks](https://wcsng.ucsd.edu/dpa/)." Infocom 2023.
+- [Two beamsare better than one: Towards Reliable and High Throughput mmWave Links](https://wcsng.ucsd.edu/mmreliable/) .In ACM SIGCOMM 2021 Conference (SIGCOMM ’21), August 23–27, 2021 [https://doi.org/10.1145/3452296.3472924](https://doi.org/10.1145/3452296.3472924) 
 
 
 
