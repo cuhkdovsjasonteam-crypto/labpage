@@ -76,7 +76,7 @@ Millimeter-wave communication with high throughput and high reliability is poise
 
 <div class="well">
 <h3> <font color="red">Press cover:</font>  </h3>
-<h4> 23/08/2021:  <a style="display: inline-block;" href="https://jacobsschool.ucsd.edu/news/release/3322">This technology could bring the fastest version of 5G to your home and workplace</a> </h4>
+<h4> Aug 23 2021:  <a style="display: inline-block;" href="https://jacobsschool.ucsd.edu/news/release/3322">This technology could bring the fastest version of 5G to your home and workplace</a> </h4>
 News shared by <a href="https://www.newswise.com/articles/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace">Newswise</a>, <a href="https://techxplore.com/news/2021-08-technology-fastest-version-5g-home.html">TechXplore</a>, <a href="https://www.newsbreak.com/news/2349225572432/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace">Newsbreak</a>, <a href="https://thehackposts.com/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/">Thehackposts</a>, <a href="https://flipboard.com/topic/electricalengineering/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/a-HRq2uDvxR1uBeQW0U4LrSg%3Aa%3A24799410-9d9299c9ce%2Ftechxplore.com">Flibboard</a>, <a href="https://news8plus.com/new-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace/">News8plus</a>, and more
 <h6> Interesting Engineering - <a style="display: inline-block;" href="https://interestingengineering.com/a-new-laser-like-system-could-put-5g-in-your-home">A New Laser-Like System Could Put 5G in Your Home</a> </h6>
 <h6> Daily Times - <a style="display: inline-block;" href="https://dailytimes.com.pk/808141/new-tech-provides-fast-reliable-5g-connections/">New tech provides fast, reliable 5G connections</a> </h6>
@@ -86,5 +86,7 @@ News shared by <a href="https://www.newswise.com/articles/this-technology-could-
 Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia. 2021. Two beamsare better than one: Towards Reliable and High Throughput mmWave Links.InACM SIGCOMM 2021 Conference (SIGCOMM ’21), August 23–27, 2021,Virtual Event, USA.ACM, New York, NY, USA, 15 pages.https://doi.org/10.1145/3452296.3472924
 
 
-
+### Other relevant papers
+- [mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks](https://wcsng.ucsd.edu/dpa/)." Infocom 2023.
+- [mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array](https://wcsng.ucsd.edu/mmspoof). In 2023 IEEE Symposium on Security and Privacy (SP), pp. 1971-1985. IEEE Computer Society, 2022.
 
