@@ -3,32 +3,37 @@
 ### Updates
 
 #### July 21
+
 1. Fix research and publication pages. It looks asthetically better now. Some links are fixed. Added paper pdf from the server.
-2. Update news- ECCV paper, mmNets paper, and Blubble 
+2. Update news- ECCV paper, mmNets paper, and Blubble
 3. Team members- alumni page, New SRIP students
 
-
 ### Document
+
 Note: one time change in `_config.yml`, when you want to host the webpage at `wcsng.github.io/wcsng`.
+
 ```
 baseurl: "/wcsng"
 ```
 
 Clone the repository. Install Jekyll. Run webpage on local server.
+
 ```
 bundle exec jekyll serve
 ```
 
 This command builds the webpage in the `_site` folder with all the html, CSS, and files for your localserver. Use:
+
 ```
 bundle exec jekyll build
 ```
-to build the webpage in the `_site` that can be used for your webserver. Just add, commit, and push the content to Github OR copy it to your webserver.
 
+to build the webpage in the `_site` that can be used for your webserver. Just add, commit, and push the content to Github OR copy it to your webserver.
 
 How to edit the contents:
 
-Directory `_Data` 
+Directory `_Data`
+
 * `publist.yml` to add new paper index (title, abstract, authors, link).
 * `research_list` six research categories details
 * `students.yml` for masters students, `colaborations` and `alumni`
@@ -38,6 +43,7 @@ Directory `_Data`
 
 Directory `_pages`:
 A standard template for all pages
+
 ```
 title: "WCSNG - Research"
 layout: gridlay
@@ -45,6 +51,7 @@ excerpt: "WCSNG -- Research"
 sitemap: false
 permalink: /research/
 ```
+
 * Dir `Research`: One page each for each research topics (6 of them)
 * `team.md`: ALumni and interns
 * `home`: Logo and first page items. Slider photos.
@@ -70,7 +77,7 @@ Now check the `Gemfile.lock` file for the correct version number of the bundler 
 
 ```
 gem i bundler -v 2.0.2
-``` 
+```
 
 Install all required gems:
 
@@ -78,6 +85,19 @@ Install all required gems:
 bundle install
 ```
 
+## Using docker
+
+```bash
+docker compose up local
+```
+
+Verify content
+
+```bash
+docker compose up remote
+```
+
+Will build production version.
 
 ## Copyright and Source
 
