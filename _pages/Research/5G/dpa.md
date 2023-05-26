@@ -7,7 +7,7 @@ permalink: /dpa/
 ---
 
 # Delay Phased Array 
-#### Towards programmable beam-bandwidth for 5G/6G networks
+#### A programmable antenna arrays for 5G/6G networks
 
 ---
 #### [Infocom 2023] mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks
@@ -42,7 +42,7 @@ Modern mmWave systems have limited scalability due to inflexibility in performin
   <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/dpa_architecture.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/dpa_architecture.png" width="50%" style="float: center" > </a>
 </div>
 <div class="col-sm-9 clearfix">
-  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/dpa_hotmobile_poster.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/dpa_hotmobile_poster.png" width="60%" style="float: center" > </a>
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/dpa_hotmobile_poster.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/dpa_hotmobile_poster.png" width="80%" style="float: center" > </a>
 </div>
 <!-- <div class="col-sm-9 clearfix">
   <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable_overview.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmreliable_overview.png" width="50%" style="float: center" > </a>
@@ -86,19 +86,20 @@ Modern mmWave systems have limited scalability due to inflexibility in performin
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
 
 <div class="well">
 <h3> <font color="red">Press cover:</font>  </h3>
 <h4> June 15, 2023:  <a style="display: inline-block;" href="https://today.ucsd.edu/story/uc-san-diego-researchers-present-new-wireless-system-for-greater-5g-access">UC San Diego Researchers Present New Wireless System for Greater 5G Access</a> </h4>
-News shared by <a href="https://news8plus.com/researchers-present-new-wireless-system-for-greater-5g-access/">News8plus</a>, <a href="https://techxplore.com/news/2023-05-wireless-greater-5g-access.html">TechXplore</a>, <a href="https://www.sciencedaily.com/releases/2023/05/230518120909.htm">ScienceGrid</a>, <a href="https://www.inceptivemind.com/researchers-introduce-new-wireless-system-greater-5g-access/30839/">InceptiveMind</a>, <a href="https://techandsciencepost.com/news/tech/researchers-present-new-wireless-system-for-greater-5g-access/">TechandSciencePost</a>, and more
-<!-- <h6> Interesting Engineering - <a style="display: inline-block;" href="https://interestingengineering.com/a-new-laser-like-system-could-put-5g-in-your-home">A New Laser-Like System Could Put 5G in Your Home</a> </h6>
-<h6> Daily Times - <a style="display: inline-block;" href="https://dailytimes.com.pk/808141/new-tech-provides-fast-reliable-5g-connections/">New tech provides fast, reliable 5G connections</a> </h6> -->
+News shared by <a href="https://news8plus.com/researchers-present-new-wireless-system-for-greater-5g-access/">News8plus</a>, <a href="https://techxplore.com/news/2023-05-wireless-greater-5g-access.html">TechXplore</a>, <a href="https://www.sciencedaily.com/releases/2023/05/230518120909.htm">ScienceGrid</a>, <a href="https://www.inceptivemind.com/researchers-introduce-new-wireless-system-greater-5g-access/30839/">InceptiveMind</a>, <a href="https://techandsciencepost.com/news/tech/researchers-present-new-wireless-system-for-greater-5g-access/">TechandSciencePost</a>, and more.
 </div> 
 
 ### Other relevant papers
-- Rohith Reddy Vennam, Ish Kumar Jain, Kshitiz Bansal, Joshua Orozco, Puja Shukla, Aanjhan Ranganathan, and Dinesh Bharadia. [mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array](https://wcsng.ucsd.edu/mmspoof). In 2023 IEEE Symposium on Security and Privacy (SP), pp. 1971-1985. IEEE Computer Society, 2022.
-- Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia. 2021. [Two beamsare better than one: Towards Reliable and High Throughput mmWave Links](https://wcsng.ucsd.edu/mmreliable/). In ACM SIGCOMM 2021 Conference (SIGCOMM ’21), August 23–27, 2021 [https://doi.org/10.1145/3452296.3472924](https://doi.org/10.1145/3452296.3472924) 
+- [mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array](https://wcsng.ucsd.edu/mmspoof). In 2023 IEEE Symposium on Security and Privacy (SP), pp. 1971-1985. IEEE Computer Society, 2022.
+- [mmReliable: Two beamsare better than one: Towards Reliable and High Throughput mmWave Links](https://wcsng.ucsd.edu/mmreliable/). In ACM SIGCOMM 2021 Conference (SIGCOMM ’21), August 23–27, 2021 [https://doi.org/10.1145/3452296.3472924](https://doi.org/10.1145/3452296.3472924) 
 
 
 
