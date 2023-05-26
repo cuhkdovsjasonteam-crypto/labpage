@@ -56,8 +56,9 @@ FMCW radars are integral to automotive driving for robust and weather-resistant 
 <br>
 <br>
 <br>
+Use case 1:
 <div class="col-sm-9 clearfix">
-  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png" width="60%" style="float: center" > </a>
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png" width="70%" style="float: center" > </a>
 </div>
 
 <br>
@@ -73,8 +74,9 @@ FMCW radars are integral to automotive driving for robust and weather-resistant 
 <br>
 <br>
 <br>
+Use case 2:
 <div class="col-sm-9 clearfix">
-  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png" width="60%" style="float: center" > </a>
+  <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png" width="70%" style="float: center" > </a>
 </div>
 <br>
 <br>
