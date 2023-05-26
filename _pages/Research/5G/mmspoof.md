@@ -7,14 +7,14 @@ permalink: /mmspoof/
 ---
 
 # mmSpoof 
-### Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array
+## Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array
 [[IEEE Security and Privacy S&P 2023]](https://sp2023.ieee-security.org/program.html)
 
 
 ```
 Authors: Rohith Reddy Vennam, Ish Kumar Jain, Kshitiz Bansal, Joshua Orozco, Puja Shukla, Aanjhan Ranganathan, and Dinesh Bharadia
 ```
-#### <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/embed/Lx6Hn4g7ItQ">[Video]</a> 
+### <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof.pdf" style="background-color: white; color: #BA4A00;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/mmspoof_slides.pdf" style=" color: purple;">[Slides]</a> <a href="https://www.youtube.com/embed/Lx6Hn4g7ItQ">[Video]</a> 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lx6Hn4g7ItQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -56,7 +56,7 @@ FMCW radars are integral to automotive driving for robust and weather-resistant 
 <br>
 <br>
 <br>
-Use case 1:
+
 <div class="col-sm-9 clearfix">
   <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario1.png" width="70%" style="float: center" > </a>
 </div>
@@ -74,7 +74,7 @@ Use case 1:
 <br>
 <br>
 <br>
-Use case 2:
+
 <div class="col-sm-9 clearfix">
   <a href="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/5G/mmspoof_scenario2.png" width="70%" style="float: center" > </a>
 </div>
