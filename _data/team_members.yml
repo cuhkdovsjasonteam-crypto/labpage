@@ -22,14 +22,6 @@
   education3: 
   education4: 
 
-# - name: Yeswanth Reddy G.
-#   photo: yeswanth.jpeg
-#   info: PhD student, started 2017
-#   email: yguddeti [at] eng.ucsd.edu
-#   number_educ: 2
-#   education1: Yeswanth is developing systems which explore new paradigms to interact with the RF spectrum for applications such as spectrum sensing and RF fingerprinting. Future projects include indoor AP synchronization for localization and distributed MIMO.
-#   education2: "Highlights: NSDI'19, Mobisys'19, Sensys'20"
-
 - name: <a href='https://www.linkedin.com/in/manideep-dunna/'>Manideep Dunna</a>
   photo: manideep.jpg
   info: PhD Student, started 2018
@@ -88,8 +80,8 @@
   education3:
   education4:
 
-- name: <a href='https://www.linkedin.com/in/rsubbaraman/'>Raghav Subbaraman</a>
-  photo: raghav.png
+- name: <a href='https://rsubbaraman.github.io'>Raghav Subbaraman</a>
+  photo: raghav.jpg
   info: PhD Student, started 2019
   email: rsubbaraman [at] eng.ucsd.edu
   number_educ: 2
