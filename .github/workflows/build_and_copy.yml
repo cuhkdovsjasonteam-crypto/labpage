@@ -20,6 +20,7 @@ jobs:
         ${{ secrets.COPY_TO_SERVER }}
 
     - name: Clean up
+      if: ${{ always() }}
       run: |
         docker compose up cleanup
         docker compose down
