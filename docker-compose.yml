@@ -17,3 +17,13 @@ services:
       - .:/website
     ports:
       - "4000:4000"
+
+  cleanup:
+    build: .
+    environment:
+      - JEKYLL_ENV=production
+    command: rm -rf _site && rm -rf .sass-cache/
+    volumes:
+      - .:/website
+    ports:
+      - "4000:4000"

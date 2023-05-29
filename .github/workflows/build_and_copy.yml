@@ -18,3 +18,8 @@ jobs:
     - name: Copy to Server
       run: |
         ${{ secrets.COPY_TO_SERVER }}
+
+    - name: Clean up
+      run: |
+        docker compose up cleanup
+        docker compose down
