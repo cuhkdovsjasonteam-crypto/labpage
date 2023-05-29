@@ -20,9 +20,7 @@ services:
 
   cleanup:
     build: .
-    environment:
-      - JEKYLL_ENV=production
-    command: rm -rf _site && rm -rf .sass-cache/
+    command: rm -rf _site .sass-cache
     volumes:
       - .:/website
     ports:

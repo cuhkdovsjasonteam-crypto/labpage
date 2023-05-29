@@ -21,4 +21,4 @@ ADD . /website
 EXPOSE 4000
 
 # Define the command to start the app. This will start Jekyll and watch the site
-RUN JEKYLL_ENV=production bundle exec jekyll build
+# RUN JEKYLL_ENV=production bundle exec jekyll build
