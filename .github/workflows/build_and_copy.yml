@@ -14,3 +14,7 @@ jobs:
 
     - name: Build with Docker Compose
       run: docker compose up remote
+
+    - name: Copy to Server
+      run: |
+        ${{ secrets.COPY_TO_SERVER }}
