@@ -8,7 +8,7 @@ name: Deploy Jekyll site to self hosted website
 
 on:
   push:
-    branches: ["deploy/cloudrunner"]
+    branches: ["gh-pages-main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
