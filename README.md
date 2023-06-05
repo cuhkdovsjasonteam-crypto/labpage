@@ -1,4 +1,7 @@
-# WCSNG UCSD Group Webpage
+# WCSNG UCSD Group Webpage (Archived)
+
+# 🔴 ARCHIVED 🔴 - please contact rsubbaraman@eng.ucsd.edu
+
 
 ### Updates
 
