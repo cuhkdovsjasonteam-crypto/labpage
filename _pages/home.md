@@ -1,36 +1,14 @@
 ---
-title: "WCSNG - Home"
+title: "YamLab - Home"
 layout: homelay
-excerpt: "WCSNG at UC San Diego."
+excerpt: "Yam at CUHK."
 sitemap: false
 permalink: /
 ---
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_black_full_long.png" class="img-responsive" width="75%" style="clear: right; padding-right: 30px;" />
-
 ### About
 
-Our group works at the intersection of Wireless Communication, Sensing and Networking (hence WCSNG). We develop theory and algorithms with special focus on
-implementation and protyping of solutions in our impact areas. Our current impact areas include: **wireless localization, sensing for autonomous driving, sensing for healthcare, spectrum sensing for next-generation networks, and wireless systems for VR/AR applications**.
-
-We have a multi-discplinary team with collaborative efforts across ECE, CSE and MAE departments. The group has a strong foundation in signal processing, system design and modeling. We use a wide repertoire of software to verify our theory and approach. We routinely work with wireless radios, both off-the-shelf and those designed in house. Our members are also experienced in data gathering and use popular machine learning techniques to expose cross-layer solutions to problems.
-
-<!-- 
-We are proud members of **Wireless Communication Sensing and Networking Group (WCSNG)**. We believe that progress is a result of unconventional thinking and dedicated work to improve the current state of technology. Our research areas span modern wireless communication systems, sensor networks, and machine learning.  Some of our impact areas are Medical Diagnosis, Telecommunications, V2X, VR/AR and Safety.
-
-We work with software radios such as USRP, WARP board, GPS, Quantenna WiFi. We also develop customized testbed for full duplex and millimeter wave research. Our group targets top system conferences such as NSDI, Mobicom, Siggcom, Mobisys among others. -->
-
-<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/dinesh.jpg" class="img-responsive" width="25%" style="float: left; padding-right: 30px;" />
-
-### [Dinesh Bharadia](https://web.eng.ucsd.edu/~dineshb/)
-Assistant Professor\\
-Department of Electrical Engineering\\
-University of California, San Diego
-
-
-Office: Atkinson Hall, 4308\\
-Email: dineshb [at] eng.ucsd.edu -->
-
+Prof Jason Yam is Professor & Undergraduate Division Head at Department of Ophthalmology and Visual Sciences of CUHK, Dean of General Education at Chung Chi College, CUHK, Head of Pediatric Ophthalmology and Strabismus service at Hong Kong Eye Hospital, and Head of Ophthalmology Service at Hong Kong Children′s Hospital. He is also Director of CUHK Jockey Club Myopia Prevention Programme. Prof Jason Yam graduated as Bachelor of Medicine and Bachelor of Surgery from the University of Hong Kong in 2005, and received his Doctor of Medicine with Merit from the Chinese University of Hong Kong in 2023. He received overseas training on Pediatric Ophthalmology and Strabismus in Great Ormond Street Hospital (2011); with Dr David Guyton of Johns Hopkins Hospital (2011); and with Dr Kenneth Wright in Los Angeles (2012); ocular genetics with Dr Janey Wiggs of Harvard Medical School (2016); with Dr Alex Levin of Wills Eye Hospital (2017); and Baylor College of Medicine at Texas Children Hospital (2017); ocular oncology and retinoblastoma with Dr Jerry Shields and Dr Carol Shields of Wills Eye Hospital (2017).
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
