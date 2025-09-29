@@ -24,9 +24,6 @@ Yam Lab is dedicated to research on myopia, children eye diseases, and retinobla
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
 
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/图片1.jpg" alt="Slide 1" />
-        </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/图片2.jpg" alt="Slide 2" />
         </div>
