@@ -8,7 +8,7 @@ permalink: /
 
 ### About
 
-Prof Jason Yam is Professor & Undergraduate Division Head at Department of Ophthalmology and Visual Sciences of CUHK, Dean of General Education at Chung Chi College, CUHK, Head of Pediatric Ophthalmology and Strabismus service at Hong Kong Eye Hospital, and Head of Ophthalmology Service at Hong Kong Children′s Hospital. He is also Director of CUHK Jockey Club Myopia Prevention Programme. Prof Jason Yam graduated as Bachelor of Medicine and Bachelor of Surgery from the University of Hong Kong in 2005, and received his Doctor of Medicine with Merit from the Chinese University of Hong Kong in 2023. He received overseas training on Pediatric Ophthalmology and Strabismus in Great Ormond Street Hospital (2011); with Dr David Guyton of Johns Hopkins Hospital (2011); and with Dr Kenneth Wright in Los Angeles (2012); ocular genetics with Dr Janey Wiggs of Harvard Medical School (2016); with Dr Alex Levin of Wills Eye Hospital (2017); and Baylor College of Medicine at Texas Children Hospital (2017); ocular oncology and retinoblastoma with Dr Jerry Shields and Dr Carol Shields of Wills Eye Hospital (2017).
+Yam Lab is dedicated to research on myopia, children eye diseases, and retinoblastoma, involving basic, translational, and clinical research. The primary research objectives include the discovery of disease’s mechanism, development of new treatment/diagnostic methods, and implementation of novel interventions. The motivation of our research is to protect children’s vision, allowing them to see the world clearly and to develop a bright future.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -25,22 +25,19 @@ Prof Jason Yam is Professor & Undergraduate Division Head at Department of Ophth
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/low-power-WiFi-chip-4.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/图片1.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/beargroup.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/图片2.jpg" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/dineshmani.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/图片3.jpg" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/birthday.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/图片4.jpg" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/groupevent.jpg" alt="Slide 5" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/dinner1.jpg" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/图片5.jpg" alt="Slide 5" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -96,12 +93,3 @@ Prof Jason Yam is Professor & Undergraduate Division Head at Department of Ophth
 
  **We are  looking for passionate new PhD students, Postdocs, and Master's students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies.html) **!**
 
-
-<!--We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
-
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
-</figure>-->
