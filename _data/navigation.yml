@@ -5,35 +5,22 @@
 - title: Research
   url: /research/index.html
   sublinks:
-    - title: Wireless Sensing
+    - title: Hong Kong Children Eye Study
       url: /wireless-sensing.html
-    - title: Spectrum Sensing
+    - title: Low-concentration Atropine for Myopia Progression/Prevention Study (LAMP1&2)
       url: /spectrum_sensing.html
-    - title: Full Duplex
+    - title: Retinoblastoma
       url: /fullduplex.html
-    - title: Backscatter
+    - title: Microbiome
       url: /backscatter.html
-    - title: Privacy
+    - title: Big data and AI
       url: /privacy.html
-    - title: Vehicular Sensing
+    - title: Bioinformatics and multiomics 
       url: /vehicular.html
-    - title: Virtual Reality
-      url: /vr.html
-    - title: Wireless Communication
-      url: /communication.html
-    - title: Miscellaneous Research
-      url: /misc-research.html
+
 - title: Publications
   url: /publications/index.html
 - title: Opportunities
   url: /vacancies.html
-- title: BluBLE
-  url: /bluble/
-- title: WAIP
-  url: /waip/
-- title: Life@WCSNG
-  sublinks:
-    - title: Pics!
-      url: /pictures/index.html
-    - title: Tutorials
-      url: /tutorials/index.html
+- title: Pics!
+  url: /pictures/index.html
