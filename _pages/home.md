@@ -46,7 +46,7 @@ Yam Lab is dedicated to research on myopia, children eye diseases, and retinobla
 </div>
 
 
- **We are  looking for passionate new PhD students, Postdocs, and Master's students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies.html) **!**
+ **We are  looking for passionate new PhD students, Postdocs, and RA to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies.html) **!**
 # Research
 
 
