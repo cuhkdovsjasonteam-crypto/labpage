@@ -26,13 +26,6 @@ If you are interested in working with us as a PhD student or postdoctoral schola
 
 <!--There are  postdoc scholarship available.  I'd be happy to support you after you apply to our group. Take a look at the [veni fellowship](http://www.nwo.nl/en/funding/our-funding-instruments/nwo/innovational-research-incentives-scheme/veni/index.html) or the [Marie Curie fellowship](http://ec.europa.eu/research/mariecurieactions/about-msca/actions/if/index_en.htm).-->
 
-### UCSD Students
-If you are a student at UCSD looking for a project, contact me (or any group member) through email or stop by my office. We routinely work with graduate and undergraduate students
-on all our projects.
-
-### Bachelor's / Master's students from elsewhere
-If you are interested in pursuing a Master's degree at UCSD, see [https://apply.grad.ucsd.edu/home](https://apply.grad.ucsd.edu/home). Sometimes, we work with students on summer internships if we get exceptional applicants (this usually means good academic standing and a personal recommendation).
-
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/bear.jpg" width="95%">
 </figure>
